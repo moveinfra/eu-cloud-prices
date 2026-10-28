@@ -65,7 +65,7 @@
       "region": "fsn1",
       "location": "Falkenstein",
       "sourceCurrency": "EUR",
-      "serverSource": "",
+      "serverSource": "https://www.hetzner.com/cloud/cost-optimized/",
       "serversFetched": "manual",
       "note": "Plan list checked by hand on the Hetzner website (no API token in this run). A primary IPv4 address is billed separately."
     },

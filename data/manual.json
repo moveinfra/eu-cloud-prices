@@ -704,7 +704,8 @@
         "primaryIPv4Hourly": 0.0008,
         "primaryIPv4Source": "https://docs.hetzner.com/cloud/servers/primary-ips/overview",
         "priceApiSource": "https://www.hetzner.com/_resources/app/data/app/live_data_prices.json",
-        "note": "Cost-Optimized (CX/CAX) shown as 'not available' (limited stock) on 2026-10-28; website lists CX plans in NBG1/HEL1, API also has FSN1 prices. Snapshots €0.0143/GB-mo; backups +20% of server price."
+        "note": "Cost-Optimized (CX/CAX) shown as 'not available' (limited stock) on 2026-10-28; website lists CX plans in NBG1/HEL1, API also has FSN1 prices. Snapshots €0.0143/GB-mo; backups +20% of server price.",
+        "source": "https://www.hetzner.com/cloud/cost-optimized/"
       }
     },
     "scaleway": {
