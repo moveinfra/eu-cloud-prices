@@ -22,12 +22,12 @@ _EUR per month, excluding VAT. Server prices fetched 2026-10-28, other prices ch
 | Server, 16 vCPU, 64 GB | €543 | €534 | €453 | €384 | **€276** | €280 | €299 | 
 | Block storage, 1 TB SSD | €85.50 | €85.20 | €108 | €220 | **€44.00** | €94.90 | €86.00 | 
 | Object storage, 1 TB | €22.00 | €17.60 | €20.70 | €20.00 | **€6.40** | €16.10 | €14.00 | 
-| Internet egress, 1 TB from one server | €72.72 | €62.48 | €108 | **included** | **included** | **included** | **included** | 
-| Internet egress, 10 TB from one server | €800 | €765 | €997 | **included** | **included** | **included** | **included** | 
+| Internet egress, 1 TB from one server | €72.72 | €70.29 | €108 | **included** | **included** | **included** | **included** | 
+| Internet egress, 10 TB from one server | €800 | €773 | €997 | **included** | **included** | **included** | **included** | 
 | Managed load balancer | €17.70 | €16.39 | €16.39 | €30.00 | €7.49 | €16.79 | **€6.00** | 
 | Managed Kubernetes control plane | €65.57 | €65.57 | €65.57 | **€60.00** | – | €80.30 | €65.70 | 
 | Managed PostgreSQL, 2 vCPU, 8 GB | €131 | €139 | €109 | **€60.00** | – | €80.30 | €143 | 
-| **Example stack**¹ | €774 | €757 | €747 | €496 | **€337** | €364 | €430 | 
+| **Example stack**¹ | €774 | €765 | €747 | €496 | **€337** | €364 | €430 | 
 
 ¹ 3 servers with 4 vCPU and 16 GB, 500 GB block storage, 1 TB object storage, 2 TB internet egress, one load balancer and managed PostgreSQL with 2 vCPU and 8 GB. Where a provider has no managed PostgreSQL, the stack runs it on one more server.
 

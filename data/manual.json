@@ -126,32 +126,27 @@
         "tiers": [
           {
             "fromGB": 0,
-            "toGB": 100,
-            "perGB": 0.0
-          },
-          {
-            "fromGB": 100,
-            "toGB": 10335,
+            "toGB": 10235,
             "perGB": 0.087
           },
           {
-            "fromGB": 10335,
-            "toGB": 51295,
+            "fromGB": 10235,
+            "toGB": 51195,
             "perGB": 0.083
           },
           {
-            "fromGB": 51295,
-            "toGB": 153695,
+            "fromGB": 51195,
+            "toGB": 153595,
             "perGB": 0.07
           },
           {
-            "fromGB": 153695,
+            "fromGB": 153595,
             "toGB": null,
             "perGB": 0.05
           }
         ],
         "source": "https://prices.azure.com/api/retail/prices?$filter=serviceName eq 'Bandwidth' and armRegionName eq 'germanywestcentral'",
-        "note": "Default routing via Microsoft Premium Global Network ('Rtn Preference: MGN', 'Standard Data Transfer Out'). Tier boundaries are the API's tierMinimumUnits; the pricing page states First 100 GB / Next 10 TB / Next 40 TB / Next 100 TB / Next 350 TB (1 TB = 1,000 GB), contact sales over 500 TB. Routing preference 'Internet' is cheaper: 0.08/0.065/0.06/0.04. Pricing page: https://azure.microsoft.com/en-us/pricing/details/bandwidth/"
+        "note": "Tiers apply above the 100 GB free allowance (API tier boundaries minus 100 GB). Default routing via Microsoft Premium Global Network ('Rtn Preference: MGN', 'Standard Data Transfer Out'). Tier boundaries are the API's tierMinimumUnits; the pricing page states First 100 GB / Next 10 TB / Next 40 TB / Next 100 TB / Next 350 TB (1 TB = 1,000 GB), contact sales over 500 TB. Routing preference 'Internet' is cheaper: 0.08/0.065/0.06/0.04. Pricing page: https://azure.microsoft.com/en-us/pricing/details/bandwidth/"
       },
       "objectStorageEgress": {
         "currency": "USD",
