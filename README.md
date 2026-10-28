@@ -79,7 +79,7 @@ The JSON has four parts:
 | `servers` | every on-demand Linux server type per provider: vCPU, memory, monthly EUR, category, architecture |
 
 The [cloud bill analyzer](https://github.com/moveinfra/cloud-bill-analyzer) and the
-[cloud exit fee calculator](https://moveinfra.eu/) use this file.
+[cloud exit fee calculator](https://moveinfra.eu/cloud-exit-fees/) use this file.
 
 ## Refreshing
 
