@@ -1,0 +1,850 @@
+{
+  "provider": "upcloud",
+  "region": "de-fra1",
+  "currency": "EUR",
+  "generated": "2026-10-28",
+  "source": "https://api.upcloud.com/1.3/price",
+  "note": "Monthly price is 672 hours, UpCloud's monthly cap.",
+  "servers": [
+    {
+      "name": "DEV-1xCPU-1GB-10GB",
+      "vcpu": 1,
+      "memoryGiB": 1.0,
+      "monthly": 3,
+      "category": "shared",
+      "arch": "x86"
+    },
+    {
+      "name": "DEV-1xCPU-1GB",
+      "vcpu": 1,
+      "memoryGiB": 1.0,
+      "monthly": 4.5,
+      "category": "shared",
+      "arch": "x86"
+    },
+    {
+      "name": "PREMIUM-1xCPU-1GB",
+      "vcpu": 1,
+      "memoryGiB": 1.0,
+      "monthly": 5,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "1xCPU-1GB",
+      "vcpu": 1,
+      "memoryGiB": 1.0,
+      "monthly": 7.6,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "DEV-1xCPU-2GB",
+      "vcpu": 1,
+      "memoryGiB": 2.0,
+      "monthly": 8,
+      "category": "shared",
+      "arch": "x86"
+    },
+    {
+      "name": "CLOUDNATIVE-1xCPU-4GB",
+      "vcpu": 1,
+      "memoryGiB": 4.0,
+      "monthly": 12,
+      "category": "other",
+      "arch": "x86"
+    },
+    {
+      "name": "PREMIUM-1xCPU-2GB",
+      "vcpu": 1,
+      "memoryGiB": 2.0,
+      "monthly": 12,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "1xCPU-2GB",
+      "vcpu": 1,
+      "memoryGiB": 2.0,
+      "monthly": 14.2,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "CLOUDNATIVE-2xCPU-4GB",
+      "vcpu": 2,
+      "memoryGiB": 4.0,
+      "monthly": 15,
+      "category": "other",
+      "arch": "x86"
+    },
+    {
+      "name": "DEV-1xCPU-4GB",
+      "vcpu": 1,
+      "memoryGiB": 4.0,
+      "monthly": 15,
+      "category": "shared",
+      "arch": "x86"
+    },
+    {
+      "name": "PREMIUM-2xCPU-2GB",
+      "vcpu": 2,
+      "memoryGiB": 2.0,
+      "monthly": 16,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "DEV-2xCPU-4GB",
+      "vcpu": 2,
+      "memoryGiB": 4.0,
+      "monthly": 18,
+      "category": "shared",
+      "arch": "x86"
+    },
+    {
+      "name": "2xCPU-2GB",
+      "vcpu": 2,
+      "memoryGiB": 2.0,
+      "monthly": 19.5,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "CLOUDNATIVE-1xCPU-8GB",
+      "vcpu": 1,
+      "memoryGiB": 8.0,
+      "monthly": 20,
+      "category": "other",
+      "arch": "x86"
+    },
+    {
+      "name": "CLOUDNATIVE-2xCPU-8GB",
+      "vcpu": 2,
+      "memoryGiB": 8.0,
+      "monthly": 24,
+      "category": "other",
+      "arch": "x86"
+    },
+    {
+      "name": "DEV-2xCPU-8GB",
+      "vcpu": 2,
+      "memoryGiB": 8.0,
+      "monthly": 25,
+      "category": "shared",
+      "arch": "x86"
+    },
+    {
+      "name": "PREMIUM-2xCPU-4GB",
+      "vcpu": 2,
+      "memoryGiB": 4.0,
+      "monthly": 26,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "2xCPU-4GB",
+      "vcpu": 2,
+      "memoryGiB": 4.0,
+      "monthly": 28.5,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "CLOUDNATIVE-4xCPU-8GB",
+      "vcpu": 4,
+      "memoryGiB": 8.0,
+      "monthly": 32,
+      "category": "other",
+      "arch": "x86"
+    },
+    {
+      "name": "CLOUDNATIVE-2xCPU-16GB",
+      "vcpu": 2,
+      "memoryGiB": 16.0,
+      "monthly": 34,
+      "category": "other",
+      "arch": "x86"
+    },
+    {
+      "name": "DEV-2xCPU-16GB",
+      "vcpu": 2,
+      "memoryGiB": 16.0,
+      "monthly": 35,
+      "category": "shared",
+      "arch": "x86"
+    },
+    {
+      "name": "PREMIUM-2xCPU-8GB",
+      "vcpu": 2,
+      "memoryGiB": 8.0,
+      "monthly": 38,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "HIMEM-2xCPU-8GB",
+      "vcpu": 2,
+      "memoryGiB": 8.0,
+      "monthly": 43.5,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "PREMIUM-4xCPU-8GB",
+      "vcpu": 4,
+      "memoryGiB": 8.0,
+      "monthly": 52,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "4xCPU-8GB",
+      "vcpu": 4,
+      "memoryGiB": 8.0,
+      "monthly": 56.5,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "CLOUDNATIVE-4xCPU-16GB",
+      "vcpu": 4,
+      "memoryGiB": 16.0,
+      "monthly": 68,
+      "category": "other",
+      "arch": "x86"
+    },
+    {
+      "name": "HIMEM-2xCPU-16GB",
+      "vcpu": 2,
+      "memoryGiB": 16.0,
+      "monthly": 70.5,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "CLOUDNATIVE-4xCPU-24GB",
+      "vcpu": 4,
+      "memoryGiB": 24.0,
+      "monthly": 72,
+      "category": "other",
+      "arch": "x86"
+    },
+    {
+      "name": "PREMIUM-2xCPU-16GB",
+      "vcpu": 2,
+      "memoryGiB": 16.0,
+      "monthly": 72,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "CLOUDNATIVE-6xCPU-16GB",
+      "vcpu": 6,
+      "memoryGiB": 16.0,
+      "monthly": 74,
+      "category": "other",
+      "arch": "x86"
+    },
+    {
+      "name": "CLOUDNATIVE-6xCPU-24GB",
+      "vcpu": 6,
+      "memoryGiB": 24.0,
+      "monthly": 78,
+      "category": "other",
+      "arch": "x86"
+    },
+    {
+      "name": "CLOUDNATIVE-8xCPU-16GB",
+      "vcpu": 8,
+      "memoryGiB": 16.0,
+      "monthly": 80,
+      "category": "other",
+      "arch": "x86"
+    },
+    {
+      "name": "CLOUDNATIVE-8xCPU-24GB",
+      "vcpu": 8,
+      "memoryGiB": 24.0,
+      "monthly": 84,
+      "category": "other",
+      "arch": "x86"
+    },
+    {
+      "name": "CLOUDNATIVE-12xCPU-24GB",
+      "vcpu": 12,
+      "memoryGiB": 24.0,
+      "monthly": 90,
+      "category": "other",
+      "arch": "x86"
+    },
+    {
+      "name": "CLOUDNATIVE-4xCPU-32GB",
+      "vcpu": 4,
+      "memoryGiB": 32.0,
+      "monthly": 90,
+      "category": "other",
+      "arch": "x86"
+    },
+    {
+      "name": "PREMIUM-4xCPU-16GB",
+      "vcpu": 4,
+      "memoryGiB": 16.0,
+      "monthly": 92,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "6xCPU-16GB",
+      "vcpu": 6,
+      "memoryGiB": 16.0,
+      "monthly": 104,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "CLOUDNATIVE-8xCPU-32GB",
+      "vcpu": 8,
+      "memoryGiB": 32.0,
+      "monthly": 130,
+      "category": "other",
+      "arch": "x86"
+    },
+    {
+      "name": "HICPU-8xCPU-12GB",
+      "vcpu": 8,
+      "memoryGiB": 12.0,
+      "monthly": 140.5,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "PREMIUM-4xCPU-32GB",
+      "vcpu": 4,
+      "memoryGiB": 32.0,
+      "monthly": 142,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "HIMEM-4xCPU-32GB",
+      "vcpu": 4,
+      "memoryGiB": 32.0,
+      "monthly": 144,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "CLOUDNATIVE-12xCPU-32GB",
+      "vcpu": 12,
+      "memoryGiB": 32.0,
+      "monthly": 145,
+      "category": "other",
+      "arch": "x86"
+    },
+    {
+      "name": "PREMIUM-8xCPU-16GB",
+      "vcpu": 8,
+      "memoryGiB": 16.0,
+      "monthly": 148,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "CLOUDNATIVE-16xCPU-32GB",
+      "vcpu": 16,
+      "memoryGiB": 32.0,
+      "monthly": 160,
+      "category": "other",
+      "arch": "x86"
+    },
+    {
+      "name": "CLOUDNATIVE-4xCPU-48GB",
+      "vcpu": 4,
+      "memoryGiB": 48.0,
+      "monthly": 160,
+      "category": "other",
+      "arch": "x86"
+    },
+    {
+      "name": "HICPU-8xCPU-16GB",
+      "vcpu": 8,
+      "memoryGiB": 16.0,
+      "monthly": 174,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "CLOUDNATIVE-8xCPU-48GB",
+      "vcpu": 8,
+      "memoryGiB": 48.0,
+      "monthly": 190,
+      "category": "other",
+      "arch": "x86"
+    },
+    {
+      "name": "PREMIUM-8xCPU-32GB",
+      "vcpu": 8,
+      "memoryGiB": 32.0,
+      "monthly": 192,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "8xCPU-32GB",
+      "vcpu": 8,
+      "memoryGiB": 32.0,
+      "monthly": 208,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "CLOUDNATIVE-8xCPU-64GB",
+      "vcpu": 8,
+      "memoryGiB": 64.0,
+      "monthly": 220,
+      "category": "other",
+      "arch": "x86"
+    },
+    {
+      "name": "CLOUDNATIVE-16xCPU-48GB",
+      "vcpu": 16,
+      "memoryGiB": 48.0,
+      "monthly": 230,
+      "category": "other",
+      "arch": "x86"
+    },
+    {
+      "name": "CLOUDNATIVE-8xCPU-96GB",
+      "vcpu": 8,
+      "memoryGiB": 96.0,
+      "monthly": 240,
+      "category": "other",
+      "arch": "x86"
+    },
+    {
+      "name": "HIMEM-4xCPU-64GB",
+      "vcpu": 4,
+      "memoryGiB": 64.0,
+      "monthly": 260,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "PREMIUM-8xCPU-64GB",
+      "vcpu": 8,
+      "memoryGiB": 64.0,
+      "monthly": 268,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "CLOUDNATIVE-16xCPU-64GB",
+      "vcpu": 16,
+      "memoryGiB": 64.0,
+      "monthly": 270,
+      "category": "other",
+      "arch": "x86"
+    },
+    {
+      "name": "HICPU-16xCPU-24GB",
+      "vcpu": 16,
+      "memoryGiB": 24.0,
+      "monthly": 282,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "CLOUDNATIVE-20xCPU-64GB",
+      "vcpu": 20,
+      "memoryGiB": 64.0,
+      "monthly": 285,
+      "category": "other",
+      "arch": "x86"
+    },
+    {
+      "name": "CLOUDNATIVE-32xCPU-64GB",
+      "vcpu": 32,
+      "memoryGiB": 64.0,
+      "monthly": 300,
+      "category": "other",
+      "arch": "x86"
+    },
+    {
+      "name": "PREMIUM-16xCPU-32GB",
+      "vcpu": 16,
+      "memoryGiB": 32.0,
+      "monthly": 310,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "12xCPU-48GB",
+      "vcpu": 12,
+      "memoryGiB": 48.0,
+      "monthly": 312,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "HICPU-16xCPU-32GB",
+      "vcpu": 16,
+      "memoryGiB": 32.0,
+      "monthly": 336,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "CLOUDNATIVE-16xCPU-96GB",
+      "vcpu": 16,
+      "memoryGiB": 96.0,
+      "monthly": 340,
+      "category": "other",
+      "arch": "x86"
+    },
+    {
+      "name": "CLOUDNATIVE-8xCPU-128GB",
+      "vcpu": 8,
+      "memoryGiB": 128.0,
+      "monthly": 340,
+      "category": "other",
+      "arch": "x86"
+    },
+    {
+      "name": "CLOUDNATIVE-16xCPU-128GB",
+      "vcpu": 16,
+      "memoryGiB": 128.0,
+      "monthly": 370,
+      "category": "other",
+      "arch": "x86"
+    },
+    {
+      "name": "CLOUDNATIVE-20xCPU-96GB",
+      "vcpu": 20,
+      "memoryGiB": 96.0,
+      "monthly": 380,
+      "category": "other",
+      "arch": "x86"
+    },
+    {
+      "name": "PREMIUM-16xCPU-64GB",
+      "vcpu": 16,
+      "memoryGiB": 64.0,
+      "monthly": 384,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "16xCPU-64GB",
+      "vcpu": 16,
+      "memoryGiB": 64.0,
+      "monthly": 416,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "CLOUDNATIVE-32xCPU-128GB",
+      "vcpu": 32,
+      "memoryGiB": 128.0,
+      "monthly": 460,
+      "category": "other",
+      "arch": "x86"
+    },
+    {
+      "name": "PREMIUM-8xCPU-128GB",
+      "vcpu": 8,
+      "memoryGiB": 128.0,
+      "monthly": 480,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "HIMEM-6xCPU-128GB",
+      "vcpu": 6,
+      "memoryGiB": 128.0,
+      "monthly": 520,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "CLOUDNATIVE-16xCPU-192GB",
+      "vcpu": 16,
+      "memoryGiB": 192.0,
+      "monthly": 560,
+      "category": "other",
+      "arch": "x86"
+    },
+    {
+      "name": "HICPU-32xCPU-48GB",
+      "vcpu": 32,
+      "memoryGiB": 48.0,
+      "monthly": 574,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "PREMIUM-24xCPU-96GB",
+      "vcpu": 24,
+      "memoryGiB": 96.0,
+      "monthly": 576,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "PREMIUM-32xCPU-64GB",
+      "vcpu": 32,
+      "memoryGiB": 64.0,
+      "monthly": 620,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "24xCPU-96GB",
+      "vcpu": 24,
+      "memoryGiB": 96.0,
+      "monthly": 622,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "CLOUDNATIVE-32xCPU-192GB",
+      "vcpu": 32,
+      "memoryGiB": 192.0,
+      "monthly": 670,
+      "category": "other",
+      "arch": "x86"
+    },
+    {
+      "name": "HICPU-32xCPU-64GB",
+      "vcpu": 32,
+      "memoryGiB": 64.0,
+      "monthly": 670,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "CLOUDNATIVE-64xCPU-192GB",
+      "vcpu": 64,
+      "memoryGiB": 192.0,
+      "monthly": 700,
+      "category": "other",
+      "arch": "x86"
+    },
+    {
+      "name": "CLOUDNATIVE-24xCPU-256GB",
+      "vcpu": 24,
+      "memoryGiB": 256.0,
+      "monthly": 720,
+      "category": "other",
+      "arch": "x86"
+    },
+    {
+      "name": "CLOUDNATIVE-32xCPU-256GB",
+      "vcpu": 32,
+      "memoryGiB": 256.0,
+      "monthly": 740,
+      "category": "other",
+      "arch": "x86"
+    },
+    {
+      "name": "PREMIUM-32xCPU-128GB",
+      "vcpu": 32,
+      "memoryGiB": 128.0,
+      "monthly": 768,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "CLOUDNATIVE-64xCPU-256GB",
+      "vcpu": 64,
+      "memoryGiB": 256.0,
+      "monthly": 820,
+      "category": "other",
+      "arch": "x86"
+    },
+    {
+      "name": "32xCPU-128GB",
+      "vcpu": 32,
+      "memoryGiB": 128.0,
+      "monthly": 830,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "CLOUDNATIVE-32xCPU-384GB",
+      "vcpu": 32,
+      "memoryGiB": 384.0,
+      "monthly": 880,
+      "category": "other",
+      "arch": "x86"
+    },
+    {
+      "name": "HIMEM-8xCPU-192GB",
+      "vcpu": 8,
+      "memoryGiB": 192.0,
+      "monthly": 908,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "CLOUDNATIVE-48xCPU-384GB",
+      "vcpu": 48,
+      "memoryGiB": 384.0,
+      "monthly": 920,
+      "category": "other",
+      "arch": "x86"
+    },
+    {
+      "name": "CLOUDNATIVE-64xCPU-384GB",
+      "vcpu": 64,
+      "memoryGiB": 384.0,
+      "monthly": 980,
+      "category": "other",
+      "arch": "x86"
+    },
+    {
+      "name": "PREMIUM-38xCPU-192GB",
+      "vcpu": 38,
+      "memoryGiB": 192.0,
+      "monthly": 1024,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "PREMIUM-48xCPU-96GB",
+      "vcpu": 48,
+      "memoryGiB": 96.0,
+      "monthly": 1056,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "38xCPU-192GB",
+      "vcpu": 38,
+      "memoryGiB": 192.0,
+      "monthly": 1106,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "HICPU-64xCPU-96GB",
+      "vcpu": 64,
+      "memoryGiB": 96.0,
+      "monthly": 1140,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "HIMEM-12xCPU-256GB",
+      "vcpu": 12,
+      "memoryGiB": 256.0,
+      "monthly": 1166,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "CLOUDNATIVE-48xCPU-512GB",
+      "vcpu": 48,
+      "memoryGiB": 512.0,
+      "monthly": 1200,
+      "category": "other",
+      "arch": "x86"
+    },
+    {
+      "name": "PREMIUM-64xCPU-128GB",
+      "vcpu": 64,
+      "memoryGiB": 128.0,
+      "monthly": 1248,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "HICPU-64xCPU-128GB",
+      "vcpu": 64,
+      "memoryGiB": 128.0,
+      "monthly": 1348,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "PREMIUM-48xCPU-256GB",
+      "vcpu": 48,
+      "memoryGiB": 256.0,
+      "monthly": 1364,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "CLOUDNATIVE-64xCPU-512GB",
+      "vcpu": 64,
+      "memoryGiB": 512.0,
+      "monthly": 1400,
+      "category": "other",
+      "arch": "x86"
+    },
+    {
+      "name": "48xCPU-256GB",
+      "vcpu": 48,
+      "memoryGiB": 256.0,
+      "monthly": 1473,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "CLOUDNATIVE-80xCPU-512GB",
+      "vcpu": 80,
+      "memoryGiB": 512.0,
+      "monthly": 1800,
+      "category": "other",
+      "arch": "x86"
+    },
+    {
+      "name": "HIMEM-16xCPU-384GB",
+      "vcpu": 16,
+      "memoryGiB": 384.0,
+      "monthly": 1814,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "PREMIUM-64xCPU-384GB",
+      "vcpu": 64,
+      "memoryGiB": 384.0,
+      "monthly": 1992,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "64xCPU-384GB",
+      "vcpu": 64,
+      "memoryGiB": 384.0,
+      "monthly": 2152,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "HIMEM-24xCPU-512GB",
+      "vcpu": 24,
+      "memoryGiB": 512.0,
+      "monthly": 2332,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "PREMIUM-80xCPU-512GB",
+      "vcpu": 80,
+      "memoryGiB": 512.0,
+      "monthly": 2552,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "80xCPU-512GB",
+      "vcpu": 80,
+      "memoryGiB": 512.0,
+      "monthly": 2756,
+      "category": "general",
+      "arch": "x86"
+    }
+  ]
+}

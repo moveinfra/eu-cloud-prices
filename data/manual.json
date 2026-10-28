@@ -1,0 +1,864 @@
+{
+  "checked": "2026-10-28",
+  "notes": "All prices excl. VAT/local taxes unless noted. Monthly = hourly x 730 where the provider gives hourly prices (computed here), otherwise the provider's own monthly figure. GB vs GiB as the provider states it.",
+  "providers": {
+    "aws": {
+      "region": "eu-central-1 (Frankfurt)",
+      "egress": {
+        "currency": "USD",
+        "freeGBPerMonth": 100,
+        "freeScope": "per account, aggregated across all AWS services and regions (except China and GovCloud)",
+        "tiers": [
+          {
+            "fromGB": 0,
+            "toGB": 10240,
+            "perGB": 0.09
+          },
+          {
+            "fromGB": 10240,
+            "toGB": 51200,
+            "perGB": 0.085
+          },
+          {
+            "fromGB": 51200,
+            "toGB": 153600,
+            "perGB": 0.07
+          },
+          {
+            "fromGB": 153600,
+            "toGB": null,
+            "perGB": 0.05
+          }
+        ],
+        "source": "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AWSDataTransfer/current/eu-central-1/index.json",
+        "note": "Tiers from AWS price list API (EU (Frankfurt) -> External, usagetype EUC1-DataTransfer-Out-Bytes); first tier described as 'beyond the global free tier'. 100 GB free tier quoted on https://aws.amazon.com/ec2/pricing/on-demand/. Excl. tax."
+      },
+      "objectStorageEgress": {
+        "currency": "USD",
+        "freeGBPerMonth": null,
+        "perGB": null,
+        "source": "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AWSDataTransfer/current/eu-central-1/index.json",
+        "note": "S3 internet egress is billed at the same Data Transfer Out tiers as EC2 (shared 100 GB/month free tier)."
+      },
+      "objectStorage": {
+        "product": "S3 Standard",
+        "currency": "USD",
+        "perGBMonth": 0.0245,
+        "tiers": [
+          {
+            "fromGB": 0,
+            "toGB": 51200,
+            "perGBMonth": 0.0245
+          },
+          {
+            "fromGB": 51200,
+            "toGB": 512000,
+            "perGBMonth": 0.0235
+          },
+          {
+            "fromGB": 512000,
+            "toGB": null,
+            "perGBMonth": 0.0225
+          }
+        ],
+        "minimumMonthly": null,
+        "source": "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonS3/current/eu-central-1/index.json",
+        "note": "usagetype EUC1-TimedStorage-ByteHrs. Requests billed separately."
+      },
+      "blockStorage": {
+        "product": "EBS gp3",
+        "currency": "USD",
+        "perGBMonth": 0.0952,
+        "source": "https://b0.p.awsstatic.com/pricing/2.0/meteredUnitMaps/ec2/USD/current/ebs.json",
+        "note": "'Storage General Purpose gp3 GB Mo', EU (Frankfurt). Extra IOPS $0.006/IOPS-mo and throughput $48.7424/GiBps-mo above baseline."
+      },
+      "exitWaiver": {
+        "summary": "Free data transfer out to the internet for customers moving all their data off AWS (or all data of one service), granted as credits after a request to AWS Support. No need to close the account.",
+        "conditions": [
+          "\"you can contact AWS Support to ask for free DTO rates under this program\"",
+          "\"Eligible customers outside of the EU have 180 days to complete their move off of AWS.\" (update dated 10/8/26; originally 60 days)",
+          "\"move all of their data off of AWS from all Eligible Accounts or all of their data off of a particular AWS service\"",
+          "\"We don't require you to close your account or change your relationship with AWS in any way.\"",
+          "Eligible Account = payer account \"in good standing\"; repeat requests get \"additional scrutiny\".",
+          "EU customers switching under the EU Data Act follow the AWS EU Data Act Addendum (Section 2.3); UK customers the UK Customer Switching and Portability Addendum.",
+          "9/30/25 update removed the >100 GB/month requirement to contact support."
+        ],
+        "euDataAct": "EC2 pricing page: \"EU customers may request reduced data transfer rates for eligible use cases under the European Data Act.\"",
+        "source": "https://aws.amazon.com/blogs/aws/free-data-transfer-out-to-internet-when-moving-out-of-aws/"
+      },
+      "managedPostgres": {
+        "plan": "db.m7g.large",
+        "engine": "RDS for PostgreSQL, Single-AZ, On-Demand",
+        "vcpu": 2,
+        "memoryGB": 8,
+        "hourly": 0.2,
+        "monthly": 146.0,
+        "currency": "USD",
+        "storagePerGBMonth": 0.137,
+        "storageProduct": "gp3 (Single-AZ)",
+        "source": "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonRDS/current/eu-central-1/index.csv",
+        "note": "db.m8g.large also $0.20/h; db.m6i/m7i.large $0.212/h. Multi-AZ gp3 storage $0.274/GB-mo. Memory 8 GiB per AWS instance spec (not in the price row)."
+      },
+      "loadBalancer": {
+        "product": "Application Load Balancer",
+        "currency": "USD",
+        "hourly": 0.027,
+        "monthly": 19.71,
+        "variable": "$0.008 per LCU-hour",
+        "source": "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AWSELB/current/eu-central-1/index.json",
+        "note": "NLB also $0.027/h + $0.006 per NLCU-hour; Classic LB $0.030/h."
+      },
+      "kubernetesControlPlane": {
+        "product": "Amazon EKS cluster (standard support)",
+        "currency": "USD",
+        "hourly": 0.1,
+        "monthly": 73.0,
+        "source": "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonEKS/current/eu-central-1/index.json",
+        "note": "No free control-plane tier in the price list. Extended support meter: $0.50/h (EUC1-AmazonEKS-Hours:extendedSupport). Provisioned control plane tiers (XL..8XL) also listed."
+      }
+    },
+    "azure": {
+      "region": "Germany West Central",
+      "egress": {
+        "currency": "USD",
+        "freeGBPerMonth": 100,
+        "freeScope": "page: 'first 100 GB/month of egressed data for free to all customers in all Azure regions'",
+        "tiers": [
+          {
+            "fromGB": 0,
+            "toGB": 100,
+            "perGB": 0.0
+          },
+          {
+            "fromGB": 100,
+            "toGB": 10335,
+            "perGB": 0.087
+          },
+          {
+            "fromGB": 10335,
+            "toGB": 51295,
+            "perGB": 0.083
+          },
+          {
+            "fromGB": 51295,
+            "toGB": 153695,
+            "perGB": 0.07
+          },
+          {
+            "fromGB": 153695,
+            "toGB": null,
+            "perGB": 0.05
+          }
+        ],
+        "source": "https://prices.azure.com/api/retail/prices?$filter=serviceName eq 'Bandwidth' and armRegionName eq 'germanywestcentral'",
+        "note": "Default routing via Microsoft Premium Global Network ('Rtn Preference: MGN', 'Standard Data Transfer Out'). Tier boundaries are the API's tierMinimumUnits; the pricing page states First 100 GB / Next 10 TB / Next 40 TB / Next 100 TB / Next 350 TB (1 TB = 1,000 GB), contact sales over 500 TB. Routing preference 'Internet' is cheaper: 0.08/0.065/0.06/0.04. Pricing page: https://azure.microsoft.com/en-us/pricing/details/bandwidth/"
+      },
+      "objectStorageEgress": {
+        "currency": "USD",
+        "freeGBPerMonth": null,
+        "perGB": null,
+        "source": "https://azure.microsoft.com/en-us/pricing/details/bandwidth/",
+        "note": "Blob internet egress uses the same bandwidth tiers as above."
+      },
+      "objectStorage": {
+        "product": "Blob Storage, General Block Blob v2, Hot LRS",
+        "currency": "USD",
+        "perGBMonth": 0.0196,
+        "tiers": [
+          {
+            "fromGB": 0,
+            "toGB": 51200,
+            "perGBMonth": 0.0196
+          },
+          {
+            "fromGB": 51200,
+            "toGB": 512000,
+            "perGBMonth": 0.0188
+          },
+          {
+            "fromGB": 512000,
+            "toGB": null,
+            "perGBMonth": 0.018
+          }
+        ],
+        "minimumMonthly": null,
+        "source": "https://prices.azure.com/api/retail/prices?$filter=armRegionName eq 'germanywestcentral' and productName eq 'General Block Blob v2' and skuName eq 'Hot LRS'"
+      },
+      "blockStorage": {
+        "product": "Premium SSD v2 (Premium LRS provisioned capacity)",
+        "currency": "USD",
+        "perGBMonth": 0.0949,
+        "perGiBHour": 0.00013,
+        "source": "https://prices.azure.com/api/retail/prices?$filter=armRegionName eq 'germanywestcentral' and contains(productName,'Premium SSD v2')",
+        "note": "Computed 0.00013/GiB-h x 730. Baseline 3,000 IOPS and 125 MBps free; extra IOPS/throughput billed separately."
+      },
+      "exitWaiver": {
+        "summary": "Free egress via the internet for customers leaving Azure for another cloud or on-premises; charges are credited at invoice level after you cancel all subscriptions.",
+        "conditions": [
+          "Create an Azure Support request with Subscription/Enrollment ID, planned start date and estimated data volume.",
+          "\"you have 60 days from the date you indicate as your start data transfer date to egress your data\"",
+          "\"If you need more than 60 days ... include an overview of your migration timeline in your initial Azure support request.\"",
+          "\"You must cancel all Azure subscriptions associated with your account after your data is transferred out before you can request your invoice-level credit.\"",
+          "\"You receive credit for a maximum of 60 calendar days of egress charges\" (from the start date).",
+          "UK billing address + UK datacenters: 180 days, and single services can be exited."
+        ],
+        "euDataAct": null,
+        "source": "https://learn.microsoft.com/en-us/azure/cost-management-billing/manage/cancel-azure-subscription#what-data-transfer-fees-are-applied-when-moving-all-data-off-azure",
+        "note": "No EU Data Act specific program found on the fetched pages. Announcement: https://azure.microsoft.com/updates/now-available-free-data-transfer-out-to-internet-when-leaving-azure/ (page body did not render in fetch)."
+      },
+      "managedPostgres": {
+        "plan": "D2ds_v5 (General Purpose)",
+        "engine": "Azure Database for PostgreSQL flexible server, single server no HA",
+        "vcpu": 2,
+        "memoryGB": 8,
+        "hourly": 0.212,
+        "monthly": 154.76,
+        "currency": "USD",
+        "storagePerGBMonth": 0.137,
+        "storageProduct": "Flex Server Storage (Premium SSD); Premium SSD v2 also $0.137/GiB-mo",
+        "source": "https://prices.azure.com/api/retail/prices?$filter=armRegionName eq 'germanywestcentral' and serviceName eq 'Azure Database for PostgreSQL'",
+        "note": "vCore/memory from https://learn.microsoft.com/en-us/azure/postgresql/compute-storage/concepts-compute. Burstable B2ms (2 vCore, 8 GiB) is $0.1592/h (~$116.22/mo)."
+      },
+      "loadBalancer": {
+        "product": "Standard Load Balancer",
+        "currency": "USD",
+        "hourly": 0.025,
+        "monthly": 18.25,
+        "variable": "$0.005 per GB data processed; $0.01/h per rule beyond the first 5",
+        "source": "https://prices.azure.com/api/retail/prices?$filter=serviceName eq 'Load Balancer' and skuName eq 'Standard'",
+        "note": "Price is listed under region 'Global' in the API (no germanywestcentral rows). Fixed part covers first 5 LB/outbound rules."
+      },
+      "kubernetesControlPlane": {
+        "product": "AKS Standard tier (Uptime SLA)",
+        "currency": "USD",
+        "hourly": 0.1,
+        "monthly": 73.0,
+        "source": "https://prices.azure.com/api/retail/prices?$filter=armRegionName eq 'germanywestcentral' and serviceName eq 'Azure Kubernetes Service'",
+        "note": "Free tier exists; the API also lists a 'FreeTierInfrastructureCost Uptime SLA' meter at $0.05/h whose meaning was not verified. Long Term Support $0.60/h. AKS Automatic hosted control plane $0.16/h."
+      }
+    },
+    "gcp": {
+      "region": "europe-west3 (Frankfurt)",
+      "egress": {
+        "currency": "USD",
+        "unit": "GiB",
+        "freeGBPerMonth": 0,
+        "freeScope": "Premium Tier from europe-west3 has no free tier row (the 1 GiB free row appears only for North American source regions); Standard Tier: first 200 GiB/month free per account across all regions",
+        "tiers": [
+          {
+            "fromGB": 0,
+            "toGB": 1024,
+            "perGB": 0.12
+          },
+          {
+            "fromGB": 1024,
+            "toGB": 10240,
+            "perGB": 0.11
+          },
+          {
+            "fromGB": 10240,
+            "toGB": null,
+            "perGB": 0.08
+          }
+        ],
+        "tiersStandardTier": [
+          {
+            "fromGB": 0,
+            "toGB": 200,
+            "perGB": 0.0
+          },
+          {
+            "fromGB": 200,
+            "toGB": 10240,
+            "perGB": 0.085
+          },
+          {
+            "fromGB": 10240,
+            "toGB": 153600,
+            "perGB": 0.065
+          },
+          {
+            "fromGB": 153600,
+            "toGB": null,
+            "perGB": 0.045
+          }
+        ],
+        "source": "https://cloud.google.com/vpc/network-pricing",
+        "note": "Premium Tier (default), destination Europe. Destination North America/Asia: 0.12/0.11/0.085; Australia, Indonesia, Korea, South America, Saudi Arabia: 0.19/0.18/0.15; Middle East/Africa: 0.15/0.13/0.11; China: 0.23/0.22/0.20. Read from the Frankfurt table embedded in the page."
+      },
+      "objectStorageEgress": {
+        "currency": "USD",
+        "freeGBPerMonth": null,
+        "perGB": null,
+        "source": "https://cloud.google.com/storage/pricing",
+        "note": "Cloud Storage 'General network usage' to the internet follows the network data transfer rates; not separately verified per region."
+      },
+      "objectStorage": {
+        "product": "Cloud Storage Standard, regional europe-west3",
+        "currency": "USD",
+        "unit": "GiB",
+        "perGBMonth": 0.023,
+        "minimumMonthly": null,
+        "source": "https://cloud.google.com/storage/pricing",
+        "note": "The page has a second europe-west3 table at $0.0253/GiB-mo whose heading I could not attribute (likely another bucket/location type); $0.023 is the first regional table."
+      },
+      "blockStorage": {
+        "product": "Persistent Disk Balanced (pd-balanced), zonal",
+        "currency": "USD",
+        "unit": "GiB",
+        "perGBMonth": 0.12,
+        "source": "https://cloud.google.com/compute/disks-image-pricing",
+        "note": "Regional pd-balanced $0.24."
+      },
+      "exitWaiver": {
+        "summary": "Free network data transfer when migrating all workloads and data of a Google Cloud service to another provider or on-premises, via an Exit Notice; the agreement for that service is then terminated.",
+        "conditions": [
+          "Submit an Exit Notice form; within 14 days a Billing Support agent is assigned.",
+          "After that, a 30-day Initiation Period to start migrating, then a Migration Period of at least 30 days (extendable).",
+          "\"You are not eligible for the free data transfer program if you are not terminating your agreement for the relevant Google Cloud services.\"",
+          "\"customers are not permitted to migrate only a portion of a given Google Cloud service under the program.\"",
+          "Submit a Completion Notice after the Migration Period (max 180 days after it ends); termination follows after at least 30 days."
+        ],
+        "euDataAct": "For partial moves, European customers may use Data Transfer Essentials (multicloud traffic), \"initially offered at no charge\" (https://cloud.google.com/data-transfer-essentials/docs/overview).",
+        "source": "https://cloud.google.com/exit-cloud"
+      },
+      "managedPostgres": {
+        "plan": "db-custom-2-8192 (Cloud SQL Enterprise edition, General Purpose)",
+        "engine": "Cloud SQL for PostgreSQL, single zone, no HA",
+        "vcpu": 2,
+        "memoryGB": 8,
+        "hourly": 0.1664,
+        "monthly": 121.47,
+        "currency": "USD",
+        "storagePerGBMonth": 0.204,
+        "storageProduct": "SSD storage capacity (zonal), per GiB",
+        "source": "https://cloud.google.com/sql/pricing",
+        "note": "Frankfurt: $36.208 per vCPU-month + $6.132 per GiB RAM-month (page monthly figures); hourly $0.0496/vCPU + $0.0084/GiB. Tier naming db-custom-<vCPU>-<MB> per Cloud SQL docs."
+      },
+      "loadBalancer": {
+        "product": "Cloud Load Balancing forwarding rule (first 5 rules)",
+        "currency": "USD",
+        "hourly": 0.025,
+        "monthly": 18.25,
+        "variable": "$0.01 per GiB inbound and $0.01 per GiB outbound data processed (europe-west3)",
+        "source": "https://cloud.google.com/load-balancing/pricing",
+        "note": "Forwarding-rule price shown in the global table; regional forwarding-rule charge for europe-west3 not shown separately. Internal Application LB: proxy instances $0.025/h each."
+      },
+      "kubernetesControlPlane": {
+        "product": "GKE cluster management fee",
+        "currency": "USD",
+        "hourly": 0.1,
+        "monthly": 73.0,
+        "source": "https://cloud.google.com/kubernetes-engine/pricing",
+        "note": "Free tier: $74.40 monthly credit per billing account (= one zonal Standard or Autopilot cluster). Extended channel adds a fee during extended support."
+      }
+    },
+    "upcloud": {
+      "region": "de-fra1 (Frankfurt), 'Global price'",
+      "egress": {
+        "currency": "EUR",
+        "freeGBPerMonth": null,
+        "freeScope": "per server: zero-cost egress under the Fair Transfer Policy; monthly transfer share scales with each Cloud Server plan",
+        "tiers": [],
+        "includedPerServerExamples": {
+          "STARTER-2xCPU-8GB": "1.5 TB",
+          "PREMIUM-2xCPU-8GB": "4 TB",
+          "General Purpose 4xCPU-8GB": "5 TB"
+        },
+        "overagePerGB": 0.01,
+        "source": "https://upcloud.com/fair-transfer-policy/",
+        "note": "No excess fees by default: above the share UpCloud may limit bandwidth to 100 Mbps for the rest of the month, or you can opt into a paid transfer model at €0.01/GB for the excess."
+      },
+      "objectStorageEgress": {
+        "currency": "EUR",
+        "freeGBPerMonth": null,
+        "perGB": 0.0,
+        "source": "https://upcloud.com/pricing/",
+        "note": "'Managed Object Storage includes zero-cost egress, Fair Transfer Policy applies.'"
+      },
+      "objectStorage": {
+        "product": "Managed Object Storage",
+        "currency": "EUR",
+        "perGBMonth": 0.02,
+        "minimumMonthly": 5.0,
+        "source": "https://upcloud.com/pricing/",
+        "note": "€5/mo per 250 GB (transfer included), +€5/mo for each 250 GB upscale; perGBMonth is derived (5/250). Monthly prices are estimates based on a 30-day month."
+      },
+      "blockStorage": {
+        "product": "MaxIOPS",
+        "currency": "EUR",
+        "perGBMonth": 0.22,
+        "source": "https://upcloud.com/pricing/",
+        "note": "Standard tier €0.085/GB/mo, Archive €0.056. Page announces price changes for Standard and Archive Block Storage effective November 16th."
+      },
+      "managedPostgres": {
+        "plan": "rdb.standard.2CPU-8GB (Standard, 1 node)",
+        "vcpu": 2,
+        "memoryGB": 8,
+        "monthly": 60.0,
+        "currency": "EUR",
+        "storagePerGBMonth": 0.1,
+        "storageProduct": "Additional storage, MaxIOPS",
+        "source": "https://upcloud.com/pricing/",
+        "note": "Identifier from https://upcloud.com/docs/products/managed-postgresql/configurations/ (storage selectable 10-2,500 GiB). Whether any storage is included in €60 is not stated. 15-day PITR backups included. Monthly = 30-day estimate. Excl. local taxes."
+      },
+      "loadBalancer": {
+        "product": "Managed Load Balancer Production S (2 nodes, 50,000 sessions/node)",
+        "currency": "EUR",
+        "monthly": 30.0,
+        "variable": "none (zero data transfer fees)",
+        "source": "https://upcloud.com/pricing/",
+        "note": "Essentials (1 node) €0/mo, Development (1 node) €10/mo, Production M (5 nodes) €75/mo."
+      },
+      "kubernetesControlPlane": {
+        "product": "Managed Kubernetes Production control plane (up to 120 nodes)",
+        "currency": "EUR",
+        "monthly": 60.0,
+        "source": "https://upcloud.com/pricing/",
+        "note": "Development control plane (up to 30 nodes) is €0/mo."
+      }
+    },
+    "hetzner": {
+      "region": "Germany (FSN1/NBG1)",
+      "egress": {
+        "currency": "EUR",
+        "freeGBPerMonth": 20000,
+        "freeScope": "per server (EU locations): at least 20 TB included, more on larger CCX plans",
+        "tiers": [
+          {
+            "fromGB": 0,
+            "toGB": null,
+            "perGB": 0.001
+          }
+        ],
+        "overagePerTB": 1.0,
+        "source": "https://www.hetzner.com/cloud/general-purpose/",
+        "note": "Page: 'For each additional TB at EU-Central locations we charge € 1.00' (the page labels it 'per hour', an apparent template glitch; price API item CLOUD_66 = €1.00). TB->GB conversion assumes 1 TB = 1,000 GB. Tiers apply to traffic above the included 20 TB."
+      },
+      "objectStorageEgress": {
+        "currency": "EUR",
+        "freeGBPerMonth": 1000,
+        "freeScope": "included in Object Storage base price (per account)",
+        "perGB": 0.001,
+        "perTB": 1.0,
+        "source": "https://www.hetzner.com/storage/object-storage/",
+        "note": "Ingress and internal eu-central traffic free."
+      },
+      "objectStorage": {
+        "product": "Object Storage",
+        "currency": "EUR",
+        "baseMonthly": 6.49,
+        "baseIncludes": "1 TB storage (up to 744 TB-hours) and 1 TB egress",
+        "perGBMonth": 0.00635,
+        "perTBHour": 0.0087,
+        "minimumMonthly": 6.49,
+        "source": "https://www.hetzner.com/storage/object-storage/",
+        "note": "Base billed €0.0104/h capped at €6.49/mo while at least one bucket exists. Overage €0.0087 per TB-hour; perGBMonth derived as x730/1000."
+      },
+      "blockStorage": {
+        "product": "Volumes",
+        "currency": "EUR",
+        "perGBMonth": 0.044,
+        "source": "https://www.hetzner.com/cloud/block-storage/",
+        "note": "Page: '€ 0.044, excl. VAT GB / per month', billed hourly."
+      },
+      "managedPostgres": null,
+      "managedPostgresNote": "Hetzner Cloud has no managed PostgreSQL service.",
+      "loadBalancer": {
+        "product": "LB11",
+        "currency": "EUR",
+        "hourly": 0.012,
+        "monthly": 7.49,
+        "variable": "none; 20 TB traffic included in Germany",
+        "source": "https://www.hetzner.com/cloud/load-balancer/",
+        "note": "LB21 €21.49, LB31 €42.99 (Germany)."
+      },
+      "kubernetesControlPlane": null,
+      "kubernetesControlPlaneNote": "No managed Kubernetes offering on Hetzner Cloud pages fetched.",
+      "hetznerServers": {
+        "currency": "EUR",
+        "vatNote": "excl. VAT",
+        "monthlyNote": "'monthly' = server only from Hetzner's price API (NBG1/FSN1/HEL1 identical); the website shows 'monthlyInclIPv4' (+€0.50 Primary IPv4, product keys CLOUD_xxx+CLOUD_21). Billed hourly, capped at monthly price.",
+        "plans": [
+          {
+            "name": "CX23",
+            "line": "Cost-Optimized (shared vCPU, Intel/AMD)",
+            "vcpu": 2,
+            "memoryGB": 4,
+            "diskGB": 40,
+            "monthly": 5.49,
+            "monthlyInclIPv4": 5.99,
+            "hourly": 0.0088,
+            "currency": "EUR",
+            "includedTrafficTB": 20,
+            "source": "https://www.hetzner.com/cloud/cost-optimized/"
+          },
+          {
+            "name": "CX33",
+            "line": "Cost-Optimized (shared vCPU, Intel/AMD)",
+            "vcpu": 4,
+            "memoryGB": 8,
+            "diskGB": 80,
+            "monthly": 8.49,
+            "monthlyInclIPv4": 8.99,
+            "hourly": 0.0136,
+            "currency": "EUR",
+            "includedTrafficTB": 20,
+            "source": "https://www.hetzner.com/cloud/cost-optimized/"
+          },
+          {
+            "name": "CX43",
+            "line": "Cost-Optimized (shared vCPU, Intel/AMD)",
+            "vcpu": 8,
+            "memoryGB": 16,
+            "diskGB": 160,
+            "monthly": 15.99,
+            "monthlyInclIPv4": 16.49,
+            "hourly": 0.0256,
+            "currency": "EUR",
+            "includedTrafficTB": 20,
+            "source": "https://www.hetzner.com/cloud/cost-optimized/"
+          },
+          {
+            "name": "CX53",
+            "line": "Cost-Optimized (shared vCPU, Intel/AMD)",
+            "vcpu": 16,
+            "memoryGB": 32,
+            "diskGB": 320,
+            "monthly": 29.49,
+            "monthlyInclIPv4": 29.99,
+            "hourly": 0.0473,
+            "currency": "EUR",
+            "includedTrafficTB": 20,
+            "source": "https://www.hetzner.com/cloud/cost-optimized/"
+          },
+          {
+            "name": "CPX02",
+            "line": "Regular Performance (shared vCPU, AMD)",
+            "vcpu": 1,
+            "memoryGB": 1,
+            "diskGB": 20,
+            "monthly": 5.99,
+            "monthlyInclIPv4": 6.49,
+            "hourly": 0.0096,
+            "currency": "EUR",
+            "includedTrafficTB": null,
+            "source": "https://www.hetzner.com/cloud/regular-performance/",
+            "note": "Website lists 1 vCPU / 1 GB / 20 GB NVMe, marked New; included traffic for this plan not captured"
+          },
+          {
+            "name": "CPX12",
+            "line": "Regular Performance (shared vCPU, AMD)",
+            "vcpu": 1,
+            "memoryGB": 2,
+            "diskGB": 40,
+            "monthly": 11.49,
+            "monthlyInclIPv4": 11.99,
+            "hourly": 0.0184,
+            "currency": "EUR",
+            "includedTrafficTB": 20,
+            "source": "https://www.hetzner.com/cloud/regular-performance/"
+          },
+          {
+            "name": "CPX22",
+            "line": "Regular Performance (shared vCPU, AMD)",
+            "vcpu": 2,
+            "memoryGB": 4,
+            "diskGB": 80,
+            "monthly": 19.49,
+            "monthlyInclIPv4": 19.99,
+            "hourly": 0.0312,
+            "currency": "EUR",
+            "includedTrafficTB": 20,
+            "source": "https://www.hetzner.com/cloud/regular-performance/"
+          },
+          {
+            "name": "CPX32",
+            "line": "Regular Performance (shared vCPU, AMD)",
+            "vcpu": 4,
+            "memoryGB": 8,
+            "diskGB": 160,
+            "monthly": 35.49,
+            "monthlyInclIPv4": 35.99,
+            "hourly": 0.0569,
+            "currency": "EUR",
+            "includedTrafficTB": 20,
+            "source": "https://www.hetzner.com/cloud/regular-performance/"
+          },
+          {
+            "name": "CPX42",
+            "line": "Regular Performance (shared vCPU, AMD)",
+            "vcpu": 8,
+            "memoryGB": 16,
+            "diskGB": 320,
+            "monthly": 69.49,
+            "monthlyInclIPv4": 69.99,
+            "hourly": 0.1114,
+            "currency": "EUR",
+            "includedTrafficTB": 20,
+            "source": "https://www.hetzner.com/cloud/regular-performance/"
+          },
+          {
+            "name": "CPX52",
+            "line": "Regular Performance (shared vCPU, AMD)",
+            "vcpu": 12,
+            "memoryGB": 24,
+            "diskGB": 480,
+            "monthly": 100.49,
+            "monthlyInclIPv4": 100.99,
+            "hourly": 0.161,
+            "currency": "EUR",
+            "includedTrafficTB": 20,
+            "source": "https://www.hetzner.com/cloud/regular-performance/"
+          },
+          {
+            "name": "CPX62",
+            "line": "Regular Performance (shared vCPU, AMD)",
+            "vcpu": 16,
+            "memoryGB": 32,
+            "diskGB": 640,
+            "monthly": 129.99,
+            "monthlyInclIPv4": 130.49,
+            "hourly": 0.2083,
+            "currency": "EUR",
+            "includedTrafficTB": 20,
+            "source": "https://www.hetzner.com/cloud/regular-performance/"
+          },
+          {
+            "name": "CCX13",
+            "line": "General Purpose (dedicated vCPU, AMD)",
+            "vcpu": 2,
+            "memoryGB": 8,
+            "diskGB": 80,
+            "monthly": 42.99,
+            "monthlyInclIPv4": 43.49,
+            "hourly": 0.0689,
+            "currency": "EUR",
+            "includedTrafficTB": 20,
+            "source": "https://www.hetzner.com/cloud/general-purpose/"
+          },
+          {
+            "name": "CCX23",
+            "line": "General Purpose (dedicated vCPU, AMD)",
+            "vcpu": 4,
+            "memoryGB": 16,
+            "diskGB": 160,
+            "monthly": 85.99,
+            "monthlyInclIPv4": 86.49,
+            "hourly": 0.1378,
+            "currency": "EUR",
+            "includedTrafficTB": 20,
+            "source": "https://www.hetzner.com/cloud/general-purpose/"
+          },
+          {
+            "name": "CCX33",
+            "line": "General Purpose (dedicated vCPU, AMD)",
+            "vcpu": 8,
+            "memoryGB": 32,
+            "diskGB": 240,
+            "monthly": 138.49,
+            "monthlyInclIPv4": 138.99,
+            "hourly": 0.2219,
+            "currency": "EUR",
+            "includedTrafficTB": 30,
+            "source": "https://www.hetzner.com/cloud/general-purpose/"
+          },
+          {
+            "name": "CCX43",
+            "line": "General Purpose (dedicated vCPU, AMD)",
+            "vcpu": 16,
+            "memoryGB": 64,
+            "diskGB": 360,
+            "monthly": 275.99,
+            "monthlyInclIPv4": 276.49,
+            "hourly": 0.4423,
+            "currency": "EUR",
+            "includedTrafficTB": 40,
+            "source": "https://www.hetzner.com/cloud/general-purpose/"
+          },
+          {
+            "name": "CCX53",
+            "line": "General Purpose (dedicated vCPU, AMD)",
+            "vcpu": 32,
+            "memoryGB": 128,
+            "diskGB": 600,
+            "monthly": 533.49,
+            "monthlyInclIPv4": 533.99,
+            "hourly": 0.855,
+            "currency": "EUR",
+            "includedTrafficTB": 50,
+            "source": "https://www.hetzner.com/cloud/general-purpose/"
+          },
+          {
+            "name": "CCX63",
+            "line": "General Purpose (dedicated vCPU, AMD)",
+            "vcpu": 48,
+            "memoryGB": 192,
+            "diskGB": 960,
+            "monthly": 853.49,
+            "monthlyInclIPv4": 853.99,
+            "hourly": 1.3678,
+            "currency": "EUR",
+            "includedTrafficTB": 60,
+            "source": "https://www.hetzner.com/cloud/general-purpose/"
+          }
+        ],
+        "volumePerGBMonth": null,
+        "volumeNote": "see blockStorage",
+        "primaryIPv4Monthly": 0.5,
+        "primaryIPv4Hourly": 0.0008,
+        "primaryIPv4Source": "https://docs.hetzner.com/cloud/servers/primary-ips/overview",
+        "priceApiSource": "https://www.hetzner.com/_resources/app/data/app/live_data_prices.json",
+        "note": "Cost-Optimized (CX/CAX) shown as 'not available' (limited stock) on 2026-10-28; website lists CX plans in NBG1/HEL1, API also has FSN1 prices. Snapshots €0.0143/GB-mo; backups +20% of server price."
+      }
+    },
+    "scaleway": {
+      "region": "fr-par (Paris)",
+      "egress": {
+        "currency": "EUR",
+        "freeGBPerMonth": null,
+        "freeScope": "Instances: no egress fees ('List prices include egress')",
+        "tiers": [],
+        "source": "https://www.scaleway.com/en/pricing/virtual-instances/",
+        "note": "Public IPv4 and storage are extra. Per-instance bandwidth limits not captured."
+      },
+      "objectStorageEgress": {
+        "currency": "EUR",
+        "freeGBPerMonth": 75,
+        "freeScope": "per account per month",
+        "perGB": 0.01,
+        "source": "https://www.scaleway.com/en/pricing/storage/",
+        "note": "Catalog SKU /storage/obj/bandwidth/to-external/fr-par = €0.01/GB (https://api.scaleway.com/product-catalog/v2alpha1/public-catalog/products)."
+      },
+      "objectStorage": {
+        "product": "Object Storage Standard Multi-AZ",
+        "currency": "EUR",
+        "perGBMonth": 0.01606,
+        "perGBHour": 2.2e-05,
+        "minimumMonthly": null,
+        "source": "https://www.scaleway.com/en/pricing/storage/",
+        "note": "Standard One Zone €0.00803/GB-mo; Glacier €0.00254. Requests and ingress included."
+      },
+      "blockStorage": {
+        "product": "Block Storage 5K",
+        "currency": "EUR",
+        "perGBMonth": 0.0949,
+        "perGBHour": 0.00013,
+        "source": "https://www.scaleway.com/en/pricing/storage/",
+        "note": "Computed x730. 15K: €0.000177/GB-h. Managed Database page lists Block 5K at €0.0993/GB/month."
+      },
+      "managedPostgres": {
+        "plan": "DB-PRO2-XXS",
+        "engine": "Managed PostgreSQL/MySQL, Cost Optimized, single node",
+        "vcpu": 2,
+        "memoryGB": 8,
+        "hourly": 0.11,
+        "monthly": 80.3,
+        "currency": "EUR",
+        "storagePerGBMonth": 0.0993,
+        "storageProduct": "Block Storage 5K",
+        "source": "https://www.scaleway.com/en/pricing/managed-databases/",
+        "note": "Production Optimized DB-POP2-2C-8G €0.1434/h (~€104.68/mo). Backups €0.03/GB-mo."
+      },
+      "loadBalancer": {
+        "product": "LB-S",
+        "currency": "EUR",
+        "hourly": 0.023,
+        "monthly": 16.79,
+        "variable": "none (traffic unlimited, 200 Mbps)",
+        "source": "https://www.scaleway.com/en/pricing/network/"
+      },
+      "kubernetesControlPlane": {
+        "product": "Kapsule Dedicated-4",
+        "currency": "EUR",
+        "hourly": 0.11,
+        "monthly": 80.3,
+        "source": "https://www.scaleway.com/en/pricing/containers/",
+        "note": "Kapsule Mutualized control plane is free (no SLA)."
+      },
+      "vatNote": "VAT treatment not stated on the fetched pricing pages."
+    },
+    "ovhcloud": {
+      "region": "Public Cloud Europe (catalog prices are region-generic; '.3AZ' variants for 3-AZ regions)",
+      "egress": {
+        "currency": "EUR",
+        "freeGBPerMonth": null,
+        "freeScope": "Instances: outbound public traffic priced at €0 in the catalog (bandwidth_instance_out)",
+        "tiers": [],
+        "source": "https://eu.api.ovh.com/v1/order/catalog/public/cloud?ovhSubsidiary=DE",
+        "note": "Catalog for subsidiary DE (taxRate 19, prices excl. VAT). Bandwidth caps per instance not captured."
+      },
+      "objectStorageEgress": {
+        "currency": "EUR",
+        "freeGBPerMonth": null,
+        "perGB": 0.0,
+        "source": "https://eu.api.ovh.com/v1/order/catalog/public/cloud?ovhSubsidiary=DE",
+        "note": "bandwidth_storage-standard_out and -3AZ_out priced €0 in the catalog."
+      },
+      "objectStorage": {
+        "product": "Object Storage Standard (S3 API), 3-AZ",
+        "currency": "EUR",
+        "perGBMonth": 0.014,
+        "perGBHour": 1.917e-05,
+        "tiers": [
+          {
+            "fromGB": 0,
+            "toGB": 51200,
+            "perGBMonth": 0.014
+          },
+          {
+            "fromGB": 51200,
+            "toGB": 512000,
+            "perGBMonth": 0.0125
+          },
+          {
+            "fromGB": 512000,
+            "toGB": null,
+            "perGBMonth": 0.011
+          }
+        ],
+        "minimumMonthly": null,
+        "source": "https://eu.api.ovh.com/v1/order/catalog/public/cloud?ovhSubsidiary=DE",
+        "note": "Catalog tiers are in GB-hours (37,376,000 and 373,760,000 = 51,200 and 512,000 GB x 730). 1-AZ Standard: €0.00000972/GB-h (~€0.0071/GB-mo; monthly plan €0.007)."
+      },
+      "blockStorage": {
+        "product": "Block Storage high-speed",
+        "currency": "EUR",
+        "perGBMonth": 0.086,
+        "perGBHour": 0.000119,
+        "source": "https://eu.api.ovh.com/v1/order/catalog/public/cloud?ovhSubsidiary=DE",
+        "note": "volume.high-speed.monthly.postpaid; high-speed-gen2 same price."
+      },
+      "managedPostgres": {
+        "plan": "Essential B3-8",
+        "engine": "Public Cloud Databases for PostgreSQL, 1 node",
+        "vcpu": 2,
+        "memoryGB": 8,
+        "hourly": 0.1961,
+        "monthly": 143.15,
+        "currency": "EUR",
+        "storageIncludedGB": 160,
+        "storagePerGBMonth": 0.25,
+        "storageProduct": "additional storage (Essential)",
+        "source": "https://eu.api.ovh.com/v1/order/catalog/public/cloud?ovhSubsidiary=DE",
+        "note": "Monthly from catalog plan databases.postgresql-essential-b3-8.month.consumption (= 0.1961 x 730). 160 GB included, max 800. Note: storage is included, unlike the hyperscaler figures. Production B3-8 (2 nodes) €162.79/mo."
+      },
+      "loadBalancer": {
+        "product": "Octavia Load Balancer Small",
+        "currency": "EUR",
+        "hourly": 0.0083,
+        "monthly": 6.0,
+        "source": "https://eu.api.ovh.com/v1/order/catalog/public/cloud?ovhSubsidiary=DE",
+        "note": "Monthly plan €6.00; hourly x730 = €6.06."
+      },
+      "kubernetesControlPlane": {
+        "product": "Managed Kubernetes Service Standard",
+        "currency": "EUR",
+        "hourly": 0.09,
+        "monthly": 65.7,
+        "source": "https://eu.api.ovh.com/v1/order/catalog/public/cloud?ovhSubsidiary=DE",
+        "note": "MKS Free plan €0/h; Standard multi-zones also €0.09/h."
+      }
+    }
+  }
+}

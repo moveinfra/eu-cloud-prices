@@ -1,0 +1,362 @@
+{
+  "provider": "ovhcloud",
+  "region": "DE",
+  "currency": "EUR",
+  "generated": "2026-10-28",
+  "source": "https://eu.api.ovh.com/v1/order/catalog/public/cloud?ovhSubsidiary=DE",
+  "note": "Hourly price x 730. OVHcloud also offers cheaper monthly billing for some ranges.",
+  "servers": [
+    {
+      "name": "d2-2",
+      "vcpu": 1,
+      "memoryGiB": 2,
+      "monthly": 7.59,
+      "category": "shared",
+      "arch": "x86"
+    },
+    {
+      "name": "d2-4",
+      "vcpu": 2,
+      "memoryGiB": 4,
+      "monthly": 15.04,
+      "category": "shared",
+      "arch": "x86"
+    },
+    {
+      "name": "d2-8",
+      "vcpu": 4,
+      "memoryGiB": 8,
+      "monthly": 27.16,
+      "category": "shared",
+      "arch": "x86"
+    },
+    {
+      "name": "c3-4",
+      "vcpu": 2,
+      "memoryGiB": 4,
+      "monthly": 33.36,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "b3-8",
+      "vcpu": 2,
+      "memoryGiB": 8,
+      "monthly": 37.38,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "r3-16",
+      "vcpu": 2,
+      "memoryGiB": 16,
+      "monthly": 48.4,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "b2-7",
+      "vcpu": 2,
+      "memoryGiB": 7,
+      "monthly": 51.76,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "c3-8",
+      "vcpu": 4,
+      "memoryGiB": 8,
+      "monthly": 66.65,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c2-7",
+      "vcpu": 2,
+      "memoryGiB": 7,
+      "monthly": 74.31,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "r2-15",
+      "vcpu": 2,
+      "memoryGiB": 15,
+      "monthly": 74.31,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "b3-16",
+      "vcpu": 4,
+      "memoryGiB": 16,
+      "monthly": 74.68,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "r2-30",
+      "vcpu": 2,
+      "memoryGiB": 30,
+      "monthly": 85.85,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "r3-32",
+      "vcpu": 4,
+      "memoryGiB": 32,
+      "monthly": 96.65,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "b2-15",
+      "vcpu": 4,
+      "memoryGiB": 15,
+      "monthly": 97.97,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "c3-16",
+      "vcpu": 8,
+      "memoryGiB": 16,
+      "monthly": 133.23,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c2-15",
+      "vcpu": 4,
+      "memoryGiB": 15,
+      "monthly": 144.25,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "b3-32",
+      "vcpu": 8,
+      "memoryGiB": 32,
+      "monthly": 149.36,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "r2-60",
+      "vcpu": 4,
+      "memoryGiB": 60,
+      "monthly": 167.02,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "r3-64",
+      "vcpu": 8,
+      "memoryGiB": 64,
+      "monthly": 193.3,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "b2-30",
+      "vcpu": 8,
+      "memoryGiB": 30,
+      "monthly": 198.2,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "c3-32",
+      "vcpu": 16,
+      "memoryGiB": 32,
+      "monthly": 266.45,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c2-30",
+      "vcpu": 8,
+      "memoryGiB": 30,
+      "monthly": 290.83,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "b3-64",
+      "vcpu": 16,
+      "memoryGiB": 64,
+      "monthly": 298.72,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "i1-45",
+      "vcpu": 8,
+      "memoryGiB": 45,
+      "monthly": 320.47,
+      "category": "storage",
+      "arch": "x86"
+    },
+    {
+      "name": "r2-120",
+      "vcpu": 8,
+      "memoryGiB": 120,
+      "monthly": 336.53,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "b2-60",
+      "vcpu": 16,
+      "memoryGiB": 60,
+      "monthly": 383.98,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "r3-128",
+      "vcpu": 16,
+      "memoryGiB": 128,
+      "monthly": 386.9,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "c3-64",
+      "vcpu": 32,
+      "memoryGiB": 64,
+      "monthly": 532.97,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c2-60",
+      "vcpu": 16,
+      "memoryGiB": 60,
+      "monthly": 568.67,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "b3-128",
+      "vcpu": 32,
+      "memoryGiB": 128,
+      "monthly": 597.87,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "i1-90",
+      "vcpu": 16,
+      "memoryGiB": 90,
+      "monthly": 641.67,
+      "category": "storage",
+      "arch": "x86"
+    },
+    {
+      "name": "r2-240",
+      "vcpu": 16,
+      "memoryGiB": 240,
+      "monthly": 661.38,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "b2-120",
+      "vcpu": 32,
+      "memoryGiB": 120,
+      "monthly": 754.09,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "r3-256",
+      "vcpu": 32,
+      "memoryGiB": 256,
+      "monthly": 773.07,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "c3-128",
+      "vcpu": 64,
+      "memoryGiB": 128,
+      "monthly": 1066.53,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c2-120",
+      "vcpu": 32,
+      "memoryGiB": 120,
+      "monthly": 1124.2,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "b3-256",
+      "vcpu": 64,
+      "memoryGiB": 256,
+      "monthly": 1195.01,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "i1-180",
+      "vcpu": 32,
+      "memoryGiB": 180,
+      "monthly": 1284.8,
+      "category": "storage",
+      "arch": "x86"
+    },
+    {
+      "name": "r3-512",
+      "vcpu": 64,
+      "memoryGiB": 512,
+      "monthly": 1546.14,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "c3-256",
+      "vcpu": 128,
+      "memoryGiB": 256,
+      "monthly": 2132.33,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "b3-512",
+      "vcpu": 128,
+      "memoryGiB": 512,
+      "monthly": 2390.02,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "c3-320",
+      "vcpu": 160,
+      "memoryGiB": 320,
+      "monthly": 2665.23,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "b3-640",
+      "vcpu": 160,
+      "memoryGiB": 640,
+      "monthly": 2987.16,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "r3-1024",
+      "vcpu": 128,
+      "memoryGiB": 1024,
+      "monthly": 3092.28,
+      "category": "memory",
+      "arch": "x86"
+    }
+  ]
+}

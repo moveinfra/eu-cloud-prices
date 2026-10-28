@@ -1,0 +1,8705 @@
+{
+  "provider": "aws",
+  "region": "eu-central-1",
+  "currency": "USD",
+  "generated": "2026-10-28",
+  "source": "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonEC2/current/eu-central-1/index.json",
+  "servers": [
+    {
+      "name": "t4g.nano",
+      "vcpu": 2,
+      "memoryGiB": 0.5,
+      "monthly": 3.5,
+      "category": "burstable",
+      "arch": "arm"
+    },
+    {
+      "name": "t3a.nano",
+      "vcpu": 2,
+      "memoryGiB": 0.5,
+      "monthly": 3.94,
+      "category": "burstable",
+      "arch": "x86"
+    },
+    {
+      "name": "t3.nano",
+      "vcpu": 2,
+      "memoryGiB": 0.5,
+      "monthly": 4.38,
+      "category": "burstable",
+      "arch": "x86"
+    },
+    {
+      "name": "t2.nano",
+      "vcpu": 1,
+      "memoryGiB": 0.5,
+      "monthly": 4.89,
+      "category": "burstable",
+      "arch": "x86"
+    },
+    {
+      "name": "t8i.nano",
+      "vcpu": 2,
+      "memoryGiB": 0.5,
+      "monthly": 5.26,
+      "category": "burstable",
+      "arch": "x86"
+    },
+    {
+      "name": "t4g.micro",
+      "vcpu": 2,
+      "memoryGiB": 1,
+      "monthly": 7.01,
+      "category": "burstable",
+      "arch": "arm"
+    },
+    {
+      "name": "t3a.micro",
+      "vcpu": 2,
+      "memoryGiB": 1,
+      "monthly": 7.88,
+      "category": "burstable",
+      "arch": "x86"
+    },
+    {
+      "name": "t3.micro",
+      "vcpu": 2,
+      "memoryGiB": 1,
+      "monthly": 8.76,
+      "category": "burstable",
+      "arch": "x86"
+    },
+    {
+      "name": "t2.micro",
+      "vcpu": 1,
+      "memoryGiB": 1,
+      "monthly": 9.78,
+      "category": "burstable",
+      "arch": "x86"
+    },
+    {
+      "name": "t8i.micro",
+      "vcpu": 2,
+      "memoryGiB": 1,
+      "monthly": 10.51,
+      "category": "burstable",
+      "arch": "x86"
+    },
+    {
+      "name": "t4g.small",
+      "vcpu": 2,
+      "memoryGiB": 2,
+      "monthly": 14.02,
+      "category": "burstable",
+      "arch": "arm"
+    },
+    {
+      "name": "t3a.small",
+      "vcpu": 2,
+      "memoryGiB": 2,
+      "monthly": 15.77,
+      "category": "burstable",
+      "arch": "x86"
+    },
+    {
+      "name": "t3.small",
+      "vcpu": 2,
+      "memoryGiB": 2,
+      "monthly": 17.52,
+      "category": "burstable",
+      "arch": "x86"
+    },
+    {
+      "name": "t2.small",
+      "vcpu": 1,
+      "memoryGiB": 2,
+      "monthly": 19.56,
+      "category": "burstable",
+      "arch": "x86"
+    },
+    {
+      "name": "t8i.small",
+      "vcpu": 2,
+      "memoryGiB": 2,
+      "monthly": 21.02,
+      "category": "burstable",
+      "arch": "x86"
+    },
+    {
+      "name": "a1.medium",
+      "vcpu": 1,
+      "memoryGiB": 2,
+      "monthly": 21.24,
+      "category": "general",
+      "arch": "arm"
+    },
+    {
+      "name": "t4g.medium",
+      "vcpu": 2,
+      "memoryGiB": 4,
+      "monthly": 28.03,
+      "category": "burstable",
+      "arch": "arm"
+    },
+    {
+      "name": "c6g.medium",
+      "vcpu": 1,
+      "memoryGiB": 2,
+      "monthly": 28.32,
+      "category": "compute",
+      "arch": "arm"
+    },
+    {
+      "name": "c7g.medium",
+      "vcpu": 1,
+      "memoryGiB": 2,
+      "monthly": 30.08,
+      "category": "compute",
+      "arch": "arm"
+    },
+    {
+      "name": "t3a.medium",
+      "vcpu": 2,
+      "memoryGiB": 4,
+      "monthly": 31.54,
+      "category": "burstable",
+      "arch": "x86"
+    },
+    {
+      "name": "c6gd.medium",
+      "vcpu": 1,
+      "memoryGiB": 2,
+      "monthly": 32.49,
+      "category": "compute",
+      "arch": "arm"
+    },
+    {
+      "name": "c8g.medium",
+      "vcpu": 1,
+      "memoryGiB": 2,
+      "monthly": 33.11,
+      "category": "compute",
+      "arch": "arm"
+    },
+    {
+      "name": "m6g.medium",
+      "vcpu": 1,
+      "memoryGiB": 4,
+      "monthly": 33.58,
+      "category": "general",
+      "arch": "arm"
+    },
+    {
+      "name": "t3.medium",
+      "vcpu": 2,
+      "memoryGiB": 4,
+      "monthly": 35.04,
+      "category": "burstable",
+      "arch": "x86"
+    },
+    {
+      "name": "m7g.medium",
+      "vcpu": 1,
+      "memoryGiB": 4,
+      "monthly": 35.7,
+      "category": "general",
+      "arch": "arm"
+    },
+    {
+      "name": "c6gn.medium",
+      "vcpu": 1,
+      "memoryGiB": 2,
+      "monthly": 35.99,
+      "category": "compute",
+      "arch": "arm"
+    },
+    {
+      "name": "c9g.medium",
+      "vcpu": 1,
+      "memoryGiB": 2,
+      "monthly": 36.08,
+      "category": "compute",
+      "arch": "arm"
+    },
+    {
+      "name": "c7gd.medium",
+      "vcpu": 1,
+      "memoryGiB": 2,
+      "monthly": 38.32,
+      "category": "compute",
+      "arch": "arm"
+    },
+    {
+      "name": "t2.medium",
+      "vcpu": 2,
+      "memoryGiB": 4,
+      "monthly": 39.13,
+      "category": "burstable",
+      "arch": "x86"
+    },
+    {
+      "name": "m8g.medium",
+      "vcpu": 1,
+      "memoryGiB": 4,
+      "monthly": 39.25,
+      "category": "general",
+      "arch": "arm"
+    },
+    {
+      "name": "m6gd.medium",
+      "vcpu": 1,
+      "memoryGiB": 4,
+      "monthly": 39.78,
+      "category": "general",
+      "arch": "arm"
+    },
+    {
+      "name": "c8gd.medium",
+      "vcpu": 1,
+      "memoryGiB": 2,
+      "monthly": 41.35,
+      "category": "compute",
+      "arch": "arm"
+    },
+    {
+      "name": "t8i.medium",
+      "vcpu": 2,
+      "memoryGiB": 4,
+      "monthly": 42.05,
+      "category": "burstable",
+      "arch": "x86"
+    },
+    {
+      "name": "a1.large",
+      "vcpu": 2,
+      "memoryGiB": 4,
+      "monthly": 42.49,
+      "category": "general",
+      "arch": "arm"
+    },
+    {
+      "name": "c7a.medium",
+      "vcpu": 1,
+      "memoryGiB": 2,
+      "monthly": 42.76,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "m9g.medium",
+      "vcpu": 1,
+      "memoryGiB": 4,
+      "monthly": 42.79,
+      "category": "general",
+      "arch": "arm"
+    },
+    {
+      "name": "r6g.medium",
+      "vcpu": 1,
+      "memoryGiB": 8,
+      "monthly": 44.38,
+      "category": "memory",
+      "arch": "arm"
+    },
+    {
+      "name": "c8a.medium",
+      "vcpu": 1,
+      "memoryGiB": 2,
+      "monthly": 44.9,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c9gd.medium",
+      "vcpu": 1,
+      "memoryGiB": 2,
+      "monthly": 45.08,
+      "category": "compute",
+      "arch": "arm"
+    },
+    {
+      "name": "m7gd.medium",
+      "vcpu": 1,
+      "memoryGiB": 4,
+      "monthly": 46.94,
+      "category": "general",
+      "arch": "arm"
+    },
+    {
+      "name": "r7g.medium",
+      "vcpu": 1,
+      "memoryGiB": 8,
+      "monthly": 47.16,
+      "category": "memory",
+      "arch": "arm"
+    },
+    {
+      "name": "c8gb.medium",
+      "vcpu": 1,
+      "memoryGiB": 2,
+      "monthly": 49.26,
+      "category": "compute",
+      "arch": "arm"
+    },
+    {
+      "name": "c8gn.medium",
+      "vcpu": 1,
+      "memoryGiB": 2,
+      "monthly": 49.28,
+      "category": "compute",
+      "arch": "arm"
+    },
+    {
+      "name": "r6gd.medium",
+      "vcpu": 1,
+      "memoryGiB": 8,
+      "monthly": 50.37,
+      "category": "memory",
+      "arch": "arm"
+    },
+    {
+      "name": "m8gd.medium",
+      "vcpu": 1,
+      "memoryGiB": 4,
+      "monthly": 50.66,
+      "category": "general",
+      "arch": "arm"
+    },
+    {
+      "name": "m7a.medium",
+      "vcpu": 1,
+      "memoryGiB": 4,
+      "monthly": 50.68,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "r8g.medium",
+      "vcpu": 1,
+      "memoryGiB": 8,
+      "monthly": 51.87,
+      "category": "memory",
+      "arch": "arm"
+    },
+    {
+      "name": "m8a.medium",
+      "vcpu": 1,
+      "memoryGiB": 4,
+      "monthly": 53.22,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "m9gd.medium",
+      "vcpu": 1,
+      "memoryGiB": 4,
+      "monthly": 55.22,
+      "category": "general",
+      "arch": "arm"
+    },
+    {
+      "name": "t4g.large",
+      "vcpu": 2,
+      "memoryGiB": 8,
+      "monthly": 56.06,
+      "category": "burstable",
+      "arch": "arm"
+    },
+    {
+      "name": "r9g.medium",
+      "vcpu": 1,
+      "memoryGiB": 8,
+      "monthly": 56.55,
+      "category": "memory",
+      "arch": "arm"
+    },
+    {
+      "name": "c6g.large",
+      "vcpu": 2,
+      "memoryGiB": 4,
+      "monthly": 56.65,
+      "category": "compute",
+      "arch": "arm"
+    },
+    {
+      "name": "m3.medium",
+      "vcpu": 1,
+      "memoryGiB": 3.75,
+      "monthly": 57.67,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "r7gd.medium",
+      "vcpu": 1,
+      "memoryGiB": 8,
+      "monthly": 59.64,
+      "category": "memory",
+      "arch": "arm"
+    },
+    {
+      "name": "c7g.large",
+      "vcpu": 2,
+      "memoryGiB": 4,
+      "monthly": 60.23,
+      "category": "compute",
+      "arch": "arm"
+    },
+    {
+      "name": "t3a.large",
+      "vcpu": 2,
+      "memoryGiB": 8,
+      "monthly": 63.07,
+      "category": "burstable",
+      "arch": "x86"
+    },
+    {
+      "name": "c5a.large",
+      "vcpu": 2,
+      "memoryGiB": 4,
+      "monthly": 63.51,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c6a.large",
+      "vcpu": 2,
+      "memoryGiB": 4,
+      "monthly": 63.73,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "r8gd.medium",
+      "vcpu": 1,
+      "memoryGiB": 8,
+      "monthly": 64.44,
+      "category": "memory",
+      "arch": "arm"
+    },
+    {
+      "name": "c6gd.large",
+      "vcpu": 2,
+      "memoryGiB": 4,
+      "monthly": 64.97,
+      "category": "compute",
+      "arch": "arm"
+    },
+    {
+      "name": "c8g.large",
+      "vcpu": 2,
+      "memoryGiB": 4,
+      "monthly": 66.21,
+      "category": "compute",
+      "arch": "arm"
+    },
+    {
+      "name": "r7a.medium",
+      "vcpu": 1,
+      "memoryGiB": 8,
+      "monthly": 66.99,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "m6g.large",
+      "vcpu": 2,
+      "memoryGiB": 8,
+      "monthly": 67.16,
+      "category": "general",
+      "arch": "arm"
+    },
+    {
+      "name": "t3.large",
+      "vcpu": 2,
+      "memoryGiB": 8,
+      "monthly": 70.08,
+      "category": "burstable",
+      "arch": "x86"
+    },
+    {
+      "name": "r9gd.medium",
+      "vcpu": 1,
+      "memoryGiB": 8,
+      "monthly": 70.25,
+      "category": "memory",
+      "arch": "arm"
+    },
+    {
+      "name": "r8a.medium",
+      "vcpu": 1,
+      "memoryGiB": 8,
+      "monthly": 70.34,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "c7i-flex.large",
+      "vcpu": 2,
+      "memoryGiB": 4,
+      "monthly": 70.63,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c5.large",
+      "vcpu": 2,
+      "memoryGiB": 4,
+      "monthly": 70.81,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c6i.large",
+      "vcpu": 2,
+      "memoryGiB": 4,
+      "monthly": 70.81,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "m7g.large",
+      "vcpu": 2,
+      "memoryGiB": 8,
+      "monthly": 71.39,
+      "category": "general",
+      "arch": "arm"
+    },
+    {
+      "name": "c6gn.large",
+      "vcpu": 2,
+      "memoryGiB": 4,
+      "monthly": 71.98,
+      "category": "compute",
+      "arch": "arm"
+    },
+    {
+      "name": "c9g.large",
+      "vcpu": 2,
+      "memoryGiB": 4,
+      "monthly": 72.17,
+      "category": "compute",
+      "arch": "arm"
+    },
+    {
+      "name": "c5ad.large",
+      "vcpu": 2,
+      "memoryGiB": 4,
+      "monthly": 73,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c8i-flex.large",
+      "vcpu": 2,
+      "memoryGiB": 4,
+      "monthly": 74.16,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c7i.large",
+      "vcpu": 2,
+      "memoryGiB": 4,
+      "monthly": 74.35,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "m6a.large",
+      "vcpu": 2,
+      "memoryGiB": 8,
+      "monthly": 75.55,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "m5a.large",
+      "vcpu": 2,
+      "memoryGiB": 8,
+      "monthly": 75.92,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "c7gd.large",
+      "vcpu": 2,
+      "memoryGiB": 4,
+      "monthly": 76.58,
+      "category": "compute",
+      "arch": "arm"
+    },
+    {
+      "name": "c8i.large",
+      "vcpu": 2,
+      "memoryGiB": 4,
+      "monthly": 78.07,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "t2.large",
+      "vcpu": 2,
+      "memoryGiB": 8,
+      "monthly": 78.26,
+      "category": "burstable",
+      "arch": "x86"
+    },
+    {
+      "name": "m8g.large",
+      "vcpu": 2,
+      "memoryGiB": 8,
+      "monthly": 78.5,
+      "category": "general",
+      "arch": "arm"
+    },
+    {
+      "name": "m6gd.large",
+      "vcpu": 2,
+      "memoryGiB": 8,
+      "monthly": 79.57,
+      "category": "general",
+      "arch": "arm"
+    },
+    {
+      "name": "c5d.large",
+      "vcpu": 2,
+      "memoryGiB": 4,
+      "monthly": 81.03,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c8gd.large",
+      "vcpu": 2,
+      "memoryGiB": 4,
+      "monthly": 82.71,
+      "category": "compute",
+      "arch": "arm"
+    },
+    {
+      "name": "c4.large",
+      "vcpu": 2,
+      "memoryGiB": 3.75,
+      "monthly": 83.22,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "m7i-flex.large",
+      "vcpu": 2,
+      "memoryGiB": 8,
+      "monthly": 83.74,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "m5.large",
+      "vcpu": 2,
+      "memoryGiB": 8,
+      "monthly": 83.95,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "m6i.large",
+      "vcpu": 2,
+      "memoryGiB": 8,
+      "monthly": 83.95,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "a1.xlarge",
+      "vcpu": 4,
+      "memoryGiB": 8,
+      "monthly": 84.97,
+      "category": "general",
+      "arch": "arm"
+    },
+    {
+      "name": "c6id.large",
+      "vcpu": 2,
+      "memoryGiB": 4,
+      "monthly": 85.08,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c7a.large",
+      "vcpu": 2,
+      "memoryGiB": 4,
+      "monthly": 85.5,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "m9g.large",
+      "vcpu": 2,
+      "memoryGiB": 8,
+      "monthly": 85.57,
+      "category": "general",
+      "arch": "arm"
+    },
+    {
+      "name": "m4.large",
+      "vcpu": 2,
+      "memoryGiB": 8,
+      "monthly": 87.6,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "m8i-flex.large",
+      "vcpu": 2,
+      "memoryGiB": 8,
+      "monthly": 87.93,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "m7i.large",
+      "vcpu": 2,
+      "memoryGiB": 8,
+      "monthly": 88.15,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "r6g.large",
+      "vcpu": 2,
+      "memoryGiB": 16,
+      "monthly": 88.77,
+      "category": "memory",
+      "arch": "arm"
+    },
+    {
+      "name": "c8a.large",
+      "vcpu": 2,
+      "memoryGiB": 4,
+      "monthly": 89.78,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c5n.large",
+      "vcpu": 2,
+      "memoryGiB": 5.25,
+      "monthly": 89.79,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c9gd.large",
+      "vcpu": 2,
+      "memoryGiB": 4,
+      "monthly": 90.16,
+      "category": "compute",
+      "arch": "arm"
+    },
+    {
+      "name": "m8azn.medium",
+      "vcpu": 1,
+      "memoryGiB": 4,
+      "monthly": 90.28,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "m5ad.large",
+      "vcpu": 2,
+      "memoryGiB": 8,
+      "monthly": 91.25,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "m8i.large",
+      "vcpu": 2,
+      "memoryGiB": 8,
+      "monthly": 92.56,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "c8id.large",
+      "vcpu": 2,
+      "memoryGiB": 4,
+      "monthly": 93.59,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "m7gd.large",
+      "vcpu": 2,
+      "memoryGiB": 8,
+      "monthly": 93.81,
+      "category": "general",
+      "arch": "arm"
+    },
+    {
+      "name": "c3.large",
+      "vcpu": 2,
+      "memoryGiB": 3.75,
+      "monthly": 94.17,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c6in.large",
+      "vcpu": 2,
+      "memoryGiB": 4,
+      "monthly": 94.28,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "r7g.large",
+      "vcpu": 2,
+      "memoryGiB": 16,
+      "monthly": 94.32,
+      "category": "memory",
+      "arch": "arm"
+    },
+    {
+      "name": "c8gb.large",
+      "vcpu": 2,
+      "memoryGiB": 4,
+      "monthly": 98.52,
+      "category": "compute",
+      "arch": "arm"
+    },
+    {
+      "name": "c8gn.large",
+      "vcpu": 2,
+      "memoryGiB": 4,
+      "monthly": 98.55,
+      "category": "compute",
+      "arch": "arm"
+    },
+    {
+      "name": "m5d.large",
+      "vcpu": 2,
+      "memoryGiB": 8,
+      "monthly": 99.28,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "x8g.medium",
+      "vcpu": 1,
+      "memoryGiB": 16,
+      "monthly": 99.68,
+      "category": "memory",
+      "arch": "arm"
+    },
+    {
+      "name": "r6a.large",
+      "vcpu": 2,
+      "memoryGiB": 16,
+      "monthly": 99.86,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "r5a.large",
+      "vcpu": 2,
+      "memoryGiB": 16,
+      "monthly": 100.01,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "r6gd.large",
+      "vcpu": 2,
+      "memoryGiB": 16,
+      "monthly": 100.74,
+      "category": "memory",
+      "arch": "arm"
+    },
+    {
+      "name": "m8gd.large",
+      "vcpu": 2,
+      "memoryGiB": 8,
+      "monthly": 101.32,
+      "category": "general",
+      "arch": "arm"
+    },
+    {
+      "name": "m7a.large",
+      "vcpu": 2,
+      "memoryGiB": 8,
+      "monthly": 101.37,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "m5n.large",
+      "vcpu": 2,
+      "memoryGiB": 8,
+      "monthly": 102.93,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "r8g.large",
+      "vcpu": 2,
+      "memoryGiB": 16,
+      "monthly": 103.75,
+      "category": "memory",
+      "arch": "arm"
+    },
+    {
+      "name": "m6id.large",
+      "vcpu": 2,
+      "memoryGiB": 8,
+      "monthly": 104.24,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "m8a.large",
+      "vcpu": 2,
+      "memoryGiB": 8,
+      "monthly": 106.43,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "m9gd.large",
+      "vcpu": 2,
+      "memoryGiB": 8,
+      "monthly": 110.45,
+      "category": "general",
+      "arch": "arm"
+    },
+    {
+      "name": "r5.large",
+      "vcpu": 2,
+      "memoryGiB": 16,
+      "monthly": 110.96,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "r6i.large",
+      "vcpu": 2,
+      "memoryGiB": 16,
+      "monthly": 110.96,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "t4g.xlarge",
+      "vcpu": 4,
+      "memoryGiB": 16,
+      "monthly": 112.13,
+      "category": "burstable",
+      "arch": "arm"
+    },
+    {
+      "name": "r9g.large",
+      "vcpu": 2,
+      "memoryGiB": 16,
+      "monthly": 113.09,
+      "category": "memory",
+      "arch": "arm"
+    },
+    {
+      "name": "c8in.large",
+      "vcpu": 2,
+      "memoryGiB": 4,
+      "monthly": 113.14,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c6g.xlarge",
+      "vcpu": 4,
+      "memoryGiB": 8,
+      "monthly": 113.3,
+      "category": "compute",
+      "arch": "arm"
+    },
+    {
+      "name": "m8id.large",
+      "vcpu": 2,
+      "memoryGiB": 8,
+      "monthly": 114.67,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "m3.large",
+      "vcpu": 2,
+      "memoryGiB": 7.5,
+      "monthly": 115.34,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "r5ad.large",
+      "vcpu": 2,
+      "memoryGiB": 16,
+      "monthly": 115.34,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "r8i-flex.large",
+      "vcpu": 2,
+      "memoryGiB": 16,
+      "monthly": 116.22,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "r7i.large",
+      "vcpu": 2,
+      "memoryGiB": 16,
+      "monthly": 116.51,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "r4.large",
+      "vcpu": 2,
+      "memoryGiB": 15.25,
+      "monthly": 116.84,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "m5dn.large",
+      "vcpu": 2,
+      "memoryGiB": 8,
+      "monthly": 118.26,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "r7gd.large",
+      "vcpu": 2,
+      "memoryGiB": 16,
+      "monthly": 119.36,
+      "category": "memory",
+      "arch": "arm"
+    },
+    {
+      "name": "c7g.xlarge",
+      "vcpu": 4,
+      "memoryGiB": 8,
+      "monthly": 120.38,
+      "category": "compute",
+      "arch": "arm"
+    },
+    {
+      "name": "m6in.large",
+      "vcpu": 2,
+      "memoryGiB": 8,
+      "monthly": 120.43,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "r8i.large",
+      "vcpu": 2,
+      "memoryGiB": 16,
+      "monthly": 122.33,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "is4gen.medium",
+      "vcpu": 1,
+      "memoryGiB": 6,
+      "monthly": 125.65,
+      "category": "storage",
+      "arch": "arm"
+    },
+    {
+      "name": "t3a.xlarge",
+      "vcpu": 4,
+      "memoryGiB": 16,
+      "monthly": 126.14,
+      "category": "burstable",
+      "arch": "x86"
+    },
+    {
+      "name": "r5d.large",
+      "vcpu": 2,
+      "memoryGiB": 16,
+      "monthly": 126.29,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "c5a.xlarge",
+      "vcpu": 4,
+      "memoryGiB": 8,
+      "monthly": 127.02,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c6a.xlarge",
+      "vcpu": 4,
+      "memoryGiB": 8,
+      "monthly": 127.46,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "r8gd.large",
+      "vcpu": 2,
+      "memoryGiB": 16,
+      "monthly": 128.89,
+      "category": "memory",
+      "arch": "arm"
+    },
+    {
+      "name": "c6gd.xlarge",
+      "vcpu": 4,
+      "memoryGiB": 8,
+      "monthly": 129.94,
+      "category": "compute",
+      "arch": "arm"
+    },
+    {
+      "name": "r5b.large",
+      "vcpu": 2,
+      "memoryGiB": 16,
+      "monthly": 129.94,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "r5n.large",
+      "vcpu": 2,
+      "memoryGiB": 16,
+      "monthly": 129.94,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "c8g.xlarge",
+      "vcpu": 4,
+      "memoryGiB": 8,
+      "monthly": 132.42,
+      "category": "compute",
+      "arch": "arm"
+    },
+    {
+      "name": "r6id.large",
+      "vcpu": 2,
+      "memoryGiB": 16,
+      "monthly": 132.6,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "r7a.large",
+      "vcpu": 2,
+      "memoryGiB": 16,
+      "monthly": 133.98,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "m6g.xlarge",
+      "vcpu": 4,
+      "memoryGiB": 16,
+      "monthly": 134.32,
+      "category": "general",
+      "arch": "arm"
+    },
+    {
+      "name": "i3.large",
+      "vcpu": 2,
+      "memoryGiB": 15.25,
+      "monthly": 135.78,
+      "category": "storage",
+      "arch": "x86"
+    },
+    {
+      "name": "m6idn.large",
+      "vcpu": 2,
+      "memoryGiB": 8,
+      "monthly": 138.36,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "t3.xlarge",
+      "vcpu": 4,
+      "memoryGiB": 16,
+      "monthly": 140.16,
+      "category": "burstable",
+      "arch": "x86"
+    },
+    {
+      "name": "r9gd.large",
+      "vcpu": 2,
+      "memoryGiB": 16,
+      "monthly": 140.5,
+      "category": "memory",
+      "arch": "arm"
+    },
+    {
+      "name": "r8a.large",
+      "vcpu": 2,
+      "memoryGiB": 16,
+      "monthly": 140.69,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "c7i-flex.xlarge",
+      "vcpu": 4,
+      "memoryGiB": 8,
+      "monthly": 141.27,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c8ine.large",
+      "vcpu": 2,
+      "memoryGiB": 4,
+      "monthly": 141.42,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c5.xlarge",
+      "vcpu": 4,
+      "memoryGiB": 8,
+      "monthly": 141.62,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c6i.xlarge",
+      "vcpu": 4,
+      "memoryGiB": 8,
+      "monthly": 141.62,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "m7g.xlarge",
+      "vcpu": 4,
+      "memoryGiB": 16,
+      "monthly": 142.72,
+      "category": "general",
+      "arch": "arm"
+    },
+    {
+      "name": "c6gn.xlarge",
+      "vcpu": 4,
+      "memoryGiB": 8,
+      "monthly": 143.96,
+      "category": "compute",
+      "arch": "arm"
+    },
+    {
+      "name": "c9g.xlarge",
+      "vcpu": 4,
+      "memoryGiB": 8,
+      "monthly": 144.34,
+      "category": "compute",
+      "arch": "arm"
+    },
+    {
+      "name": "m5zn.large",
+      "vcpu": 2,
+      "memoryGiB": 8,
+      "monthly": 144.47,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "r5dn.large",
+      "vcpu": 2,
+      "memoryGiB": 16,
+      "monthly": 145.27,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "r8id.large",
+      "vcpu": 2,
+      "memoryGiB": 16,
+      "monthly": 145.87,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "c5ad.xlarge",
+      "vcpu": 4,
+      "memoryGiB": 8,
+      "monthly": 146,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "r3.large",
+      "vcpu": 2,
+      "memoryGiB": 15.25,
+      "monthly": 146,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "c8i-flex.xlarge",
+      "vcpu": 4,
+      "memoryGiB": 8,
+      "monthly": 148.32,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c7i.xlarge",
+      "vcpu": 4,
+      "memoryGiB": 8,
+      "monthly": 148.7,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "i8g.large",
+      "vcpu": 2,
+      "memoryGiB": 16,
+      "monthly": 149.36,
+      "category": "storage",
+      "arch": "arm"
+    },
+    {
+      "name": "i4i.large",
+      "vcpu": 2,
+      "memoryGiB": 16,
+      "monthly": 149.65,
+      "category": "storage",
+      "arch": "x86"
+    },
+    {
+      "name": "m6a.xlarge",
+      "vcpu": 4,
+      "memoryGiB": 16,
+      "monthly": 151.11,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "m5a.xlarge",
+      "vcpu": 4,
+      "memoryGiB": 16,
+      "monthly": 151.84,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "r6in.large",
+      "vcpu": 2,
+      "memoryGiB": 16,
+      "monthly": 152.03,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "c7gd.xlarge",
+      "vcpu": 4,
+      "memoryGiB": 8,
+      "monthly": 153.15,
+      "category": "compute",
+      "arch": "arm"
+    },
+    {
+      "name": "c8i.xlarge",
+      "vcpu": 4,
+      "memoryGiB": 8,
+      "monthly": 156.13,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "t2.xlarge",
+      "vcpu": 4,
+      "memoryGiB": 16,
+      "monthly": 156.51,
+      "category": "burstable",
+      "arch": "x86"
+    },
+    {
+      "name": "m8g.xlarge",
+      "vcpu": 4,
+      "memoryGiB": 16,
+      "monthly": 157.01,
+      "category": "general",
+      "arch": "arm"
+    },
+    {
+      "name": "im4gn.large",
+      "vcpu": 2,
+      "memoryGiB": 8,
+      "monthly": 158.32,
+      "category": "storage",
+      "arch": "arm"
+    },
+    {
+      "name": "m6gd.xlarge",
+      "vcpu": 4,
+      "memoryGiB": 16,
+      "monthly": 159.14,
+      "category": "general",
+      "arch": "arm"
+    },
+    {
+      "name": "c5d.xlarge",
+      "vcpu": 4,
+      "memoryGiB": 8,
+      "monthly": 162.06,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "r7iz.large",
+      "vcpu": 2,
+      "memoryGiB": 16,
+      "monthly": 164.25,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "z1d.large",
+      "vcpu": 2,
+      "memoryGiB": 16,
+      "monthly": 164.25,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "i7i.large",
+      "vcpu": 2,
+      "memoryGiB": 16,
+      "monthly": 164.32,
+      "category": "storage",
+      "arch": "x86"
+    },
+    {
+      "name": "c8gd.xlarge",
+      "vcpu": 4,
+      "memoryGiB": 8,
+      "monthly": 165.42,
+      "category": "compute",
+      "arch": "arm"
+    },
+    {
+      "name": "c4.xlarge",
+      "vcpu": 4,
+      "memoryGiB": 7.5,
+      "monthly": 165.71,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "m7i-flex.xlarge",
+      "vcpu": 4,
+      "memoryGiB": 16,
+      "monthly": 167.48,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "m5.xlarge",
+      "vcpu": 4,
+      "memoryGiB": 16,
+      "monthly": 167.9,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "m6i.xlarge",
+      "vcpu": 4,
+      "memoryGiB": 16,
+      "monthly": 167.9,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "a1.2xlarge",
+      "vcpu": 8,
+      "memoryGiB": 16,
+      "monthly": 169.94,
+      "category": "general",
+      "arch": "arm"
+    },
+    {
+      "name": "r6idn.large",
+      "vcpu": 2,
+      "memoryGiB": 16,
+      "monthly": 169.97,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "c6id.xlarge",
+      "vcpu": 4,
+      "memoryGiB": 8,
+      "monthly": 170.16,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c7a.xlarge",
+      "vcpu": 4,
+      "memoryGiB": 8,
+      "monthly": 171.01,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "m9g.xlarge",
+      "vcpu": 4,
+      "memoryGiB": 16,
+      "monthly": 171.14,
+      "category": "general",
+      "arch": "arm"
+    },
+    {
+      "name": "m4.xlarge",
+      "vcpu": 4,
+      "memoryGiB": 16,
+      "monthly": 175.2,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "m8i-flex.xlarge",
+      "vcpu": 4,
+      "memoryGiB": 16,
+      "monthly": 175.86,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "m7i.xlarge",
+      "vcpu": 4,
+      "memoryGiB": 16,
+      "monthly": 176.3,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "r6g.xlarge",
+      "vcpu": 4,
+      "memoryGiB": 32,
+      "monthly": 177.54,
+      "category": "memory",
+      "arch": "arm"
+    },
+    {
+      "name": "c8a.xlarge",
+      "vcpu": 4,
+      "memoryGiB": 8,
+      "monthly": 179.57,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c5n.xlarge",
+      "vcpu": 4,
+      "memoryGiB": 10.5,
+      "monthly": 179.58,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c9gd.xlarge",
+      "vcpu": 4,
+      "memoryGiB": 8,
+      "monthly": 180.31,
+      "category": "compute",
+      "arch": "arm"
+    },
+    {
+      "name": "m8azn.large",
+      "vcpu": 2,
+      "memoryGiB": 8,
+      "monthly": 180.55,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "r8ib.large",
+      "vcpu": 2,
+      "memoryGiB": 16,
+      "monthly": 182.43,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "r8in.large",
+      "vcpu": 2,
+      "memoryGiB": 16,
+      "monthly": 182.43,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "m5ad.xlarge",
+      "vcpu": 4,
+      "memoryGiB": 16,
+      "monthly": 182.5,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "g6f.large",
+      "vcpu": 2,
+      "memoryGiB": 8,
+      "monthly": 184.41,
+      "category": "other",
+      "arch": "x86"
+    },
+    {
+      "name": "m8i.xlarge",
+      "vcpu": 4,
+      "memoryGiB": 16,
+      "monthly": 185.11,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "c8id.xlarge",
+      "vcpu": 4,
+      "memoryGiB": 8,
+      "monthly": 187.19,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "m7gd.xlarge",
+      "vcpu": 4,
+      "memoryGiB": 16,
+      "monthly": 187.61,
+      "category": "general",
+      "arch": "arm"
+    },
+    {
+      "name": "c3.xlarge",
+      "vcpu": 4,
+      "memoryGiB": 7.5,
+      "monthly": 188.34,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c6in.xlarge",
+      "vcpu": 4,
+      "memoryGiB": 8,
+      "monthly": 188.56,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "r7g.xlarge",
+      "vcpu": 4,
+      "memoryGiB": 32,
+      "monthly": 188.63,
+      "category": "memory",
+      "arch": "arm"
+    },
+    {
+      "name": "c8gn.xlarge",
+      "vcpu": 4,
+      "memoryGiB": 8,
+      "monthly": 197.03,
+      "category": "compute",
+      "arch": "arm"
+    },
+    {
+      "name": "c8gb.xlarge",
+      "vcpu": 4,
+      "memoryGiB": 8,
+      "monthly": 197.04,
+      "category": "compute",
+      "arch": "arm"
+    },
+    {
+      "name": "i3en.large",
+      "vcpu": 2,
+      "memoryGiB": 16,
+      "monthly": 197.1,
+      "category": "storage",
+      "arch": "x86"
+    },
+    {
+      "name": "m5d.xlarge",
+      "vcpu": 4,
+      "memoryGiB": 16,
+      "monthly": 198.56,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "x8g.large",
+      "vcpu": 2,
+      "memoryGiB": 32,
+      "monthly": 199.36,
+      "category": "memory",
+      "arch": "arm"
+    },
+    {
+      "name": "r6a.xlarge",
+      "vcpu": 4,
+      "memoryGiB": 32,
+      "monthly": 199.73,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "r5a.xlarge",
+      "vcpu": 4,
+      "memoryGiB": 32,
+      "monthly": 200.02,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "r6gd.xlarge",
+      "vcpu": 4,
+      "memoryGiB": 32,
+      "monthly": 201.48,
+      "category": "memory",
+      "arch": "arm"
+    },
+    {
+      "name": "m8gd.xlarge",
+      "vcpu": 4,
+      "memoryGiB": 16,
+      "monthly": 202.65,
+      "category": "general",
+      "arch": "arm"
+    },
+    {
+      "name": "m7a.xlarge",
+      "vcpu": 4,
+      "memoryGiB": 16,
+      "monthly": 202.74,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "r8idb.large",
+      "vcpu": 2,
+      "memoryGiB": 16,
+      "monthly": 203.96,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "r8idn.large",
+      "vcpu": 2,
+      "memoryGiB": 16,
+      "monthly": 203.96,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "m5n.xlarge",
+      "vcpu": 4,
+      "memoryGiB": 16,
+      "monthly": 205.86,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "i8ge.large",
+      "vcpu": 2,
+      "memoryGiB": 16,
+      "monthly": 206.96,
+      "category": "storage",
+      "arch": "arm"
+    },
+    {
+      "name": "r8g.xlarge",
+      "vcpu": 4,
+      "memoryGiB": 32,
+      "monthly": 207.5,
+      "category": "memory",
+      "arch": "arm"
+    },
+    {
+      "name": "inf1.xlarge",
+      "vcpu": 4,
+      "memoryGiB": 8,
+      "monthly": 208.05,
+      "category": "other",
+      "arch": "x86"
+    },
+    {
+      "name": "m6id.xlarge",
+      "vcpu": 4,
+      "memoryGiB": 16,
+      "monthly": 208.49,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "m8a.xlarge",
+      "vcpu": 4,
+      "memoryGiB": 16,
+      "monthly": 212.87,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "g6f.xlarge",
+      "vcpu": 4,
+      "memoryGiB": 16,
+      "monthly": 216.81,
+      "category": "other",
+      "arch": "x86"
+    },
+    {
+      "name": "m9gd.xlarge",
+      "vcpu": 4,
+      "memoryGiB": 16,
+      "monthly": 220.9,
+      "category": "general",
+      "arch": "arm"
+    },
+    {
+      "name": "r5.xlarge",
+      "vcpu": 4,
+      "memoryGiB": 32,
+      "monthly": 221.92,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "r6i.xlarge",
+      "vcpu": 4,
+      "memoryGiB": 32,
+      "monthly": 221.92,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "x8i.large",
+      "vcpu": 2,
+      "memoryGiB": 32,
+      "monthly": 223.65,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "t4g.2xlarge",
+      "vcpu": 8,
+      "memoryGiB": 32,
+      "monthly": 224.26,
+      "category": "burstable",
+      "arch": "arm"
+    },
+    {
+      "name": "r9g.xlarge",
+      "vcpu": 4,
+      "memoryGiB": 32,
+      "monthly": 226.18,
+      "category": "memory",
+      "arch": "arm"
+    },
+    {
+      "name": "c8in.xlarge",
+      "vcpu": 4,
+      "memoryGiB": 8,
+      "monthly": 226.27,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c6g.2xlarge",
+      "vcpu": 8,
+      "memoryGiB": 16,
+      "monthly": 226.59,
+      "category": "compute",
+      "arch": "arm"
+    },
+    {
+      "name": "i7ie.large",
+      "vcpu": 2,
+      "memoryGiB": 16,
+      "monthly": 226.67,
+      "category": "storage",
+      "arch": "x86"
+    },
+    {
+      "name": "m8id.xlarge",
+      "vcpu": 4,
+      "memoryGiB": 16,
+      "monthly": 229.34,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "m3.xlarge",
+      "vcpu": 4,
+      "memoryGiB": 15,
+      "monthly": 229.95,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "r5ad.xlarge",
+      "vcpu": 4,
+      "memoryGiB": 32,
+      "monthly": 230.68,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "r8i-flex.xlarge",
+      "vcpu": 4,
+      "memoryGiB": 32,
+      "monthly": 232.43,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "r7i.xlarge",
+      "vcpu": 4,
+      "memoryGiB": 32,
+      "monthly": 233.02,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "r4.xlarge",
+      "vcpu": 4,
+      "memoryGiB": 30.5,
+      "monthly": 233.67,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "m5dn.xlarge",
+      "vcpu": 4,
+      "memoryGiB": 16,
+      "monthly": 236.52,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "r7gd.xlarge",
+      "vcpu": 4,
+      "memoryGiB": 32,
+      "monthly": 238.71,
+      "category": "memory",
+      "arch": "arm"
+    },
+    {
+      "name": "c7g.2xlarge",
+      "vcpu": 8,
+      "memoryGiB": 16,
+      "monthly": 240.75,
+      "category": "compute",
+      "arch": "arm"
+    },
+    {
+      "name": "m6in.xlarge",
+      "vcpu": 4,
+      "memoryGiB": 16,
+      "monthly": 240.86,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "r8i.xlarge",
+      "vcpu": 4,
+      "memoryGiB": 32,
+      "monthly": 244.67,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "is4gen.large",
+      "vcpu": 2,
+      "memoryGiB": 12,
+      "monthly": 251.3,
+      "category": "storage",
+      "arch": "arm"
+    },
+    {
+      "name": "t3a.2xlarge",
+      "vcpu": 8,
+      "memoryGiB": 32,
+      "monthly": 252.29,
+      "category": "burstable",
+      "arch": "x86"
+    },
+    {
+      "name": "r5d.xlarge",
+      "vcpu": 4,
+      "memoryGiB": 32,
+      "monthly": 252.58,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "c5a.2xlarge",
+      "vcpu": 8,
+      "memoryGiB": 16,
+      "monthly": 254.04,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c6a.2xlarge",
+      "vcpu": 8,
+      "memoryGiB": 16,
+      "monthly": 254.92,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "r8gd.xlarge",
+      "vcpu": 4,
+      "memoryGiB": 32,
+      "monthly": 257.78,
+      "category": "memory",
+      "arch": "arm"
+    },
+    {
+      "name": "c6gd.2xlarge",
+      "vcpu": 8,
+      "memoryGiB": 16,
+      "monthly": 259.88,
+      "category": "compute",
+      "arch": "arm"
+    },
+    {
+      "name": "r5b.xlarge",
+      "vcpu": 4,
+      "memoryGiB": 32,
+      "monthly": 259.88,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "r5n.xlarge",
+      "vcpu": 4,
+      "memoryGiB": 32,
+      "monthly": 259.88,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "c8g.2xlarge",
+      "vcpu": 8,
+      "memoryGiB": 16,
+      "monthly": 264.84,
+      "category": "compute",
+      "arch": "arm"
+    },
+    {
+      "name": "r6id.xlarge",
+      "vcpu": 4,
+      "memoryGiB": 32,
+      "monthly": 265.21,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "r7a.xlarge",
+      "vcpu": 4,
+      "memoryGiB": 32,
+      "monthly": 267.97,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "m6g.2xlarge",
+      "vcpu": 8,
+      "memoryGiB": 32,
+      "monthly": 268.64,
+      "category": "general",
+      "arch": "arm"
+    },
+    {
+      "name": "i3.xlarge",
+      "vcpu": 4,
+      "memoryGiB": 30.5,
+      "monthly": 271.56,
+      "category": "storage",
+      "arch": "x86"
+    },
+    {
+      "name": "m6idn.xlarge",
+      "vcpu": 4,
+      "memoryGiB": 16,
+      "monthly": 276.73,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "t3.2xlarge",
+      "vcpu": 8,
+      "memoryGiB": 32,
+      "monthly": 280.32,
+      "category": "burstable",
+      "arch": "x86"
+    },
+    {
+      "name": "r9gd.xlarge",
+      "vcpu": 4,
+      "memoryGiB": 32,
+      "monthly": 280.99,
+      "category": "memory",
+      "arch": "arm"
+    },
+    {
+      "name": "r8a.xlarge",
+      "vcpu": 4,
+      "memoryGiB": 32,
+      "monthly": 281.37,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "c7i-flex.2xlarge",
+      "vcpu": 8,
+      "memoryGiB": 16,
+      "monthly": 282.53,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c8ine.xlarge",
+      "vcpu": 4,
+      "memoryGiB": 8,
+      "monthly": 282.85,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c5.2xlarge",
+      "vcpu": 8,
+      "memoryGiB": 16,
+      "monthly": 283.24,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c6i.2xlarge",
+      "vcpu": 8,
+      "memoryGiB": 16,
+      "monthly": 283.24,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "m7g.2xlarge",
+      "vcpu": 8,
+      "memoryGiB": 32,
+      "monthly": 285.43,
+      "category": "general",
+      "arch": "arm"
+    },
+    {
+      "name": "c6gn.2xlarge",
+      "vcpu": 8,
+      "memoryGiB": 16,
+      "monthly": 287.91,
+      "category": "compute",
+      "arch": "arm"
+    },
+    {
+      "name": "c9g.2xlarge",
+      "vcpu": 8,
+      "memoryGiB": 16,
+      "monthly": 288.67,
+      "category": "compute",
+      "arch": "arm"
+    },
+    {
+      "name": "m5zn.xlarge",
+      "vcpu": 4,
+      "memoryGiB": 16,
+      "monthly": 288.86,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "r5dn.xlarge",
+      "vcpu": 4,
+      "memoryGiB": 32,
+      "monthly": 290.54,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "r8id.xlarge",
+      "vcpu": 4,
+      "memoryGiB": 32,
+      "monthly": 291.74,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "c5ad.2xlarge",
+      "vcpu": 8,
+      "memoryGiB": 16,
+      "monthly": 292,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "r3.xlarge",
+      "vcpu": 4,
+      "memoryGiB": 30.5,
+      "monthly": 292,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "c8i-flex.2xlarge",
+      "vcpu": 8,
+      "memoryGiB": 16,
+      "monthly": 296.64,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c7i.2xlarge",
+      "vcpu": 8,
+      "memoryGiB": 16,
+      "monthly": 297.4,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "i4i.xlarge",
+      "vcpu": 4,
+      "memoryGiB": 32,
+      "monthly": 298.57,
+      "category": "storage",
+      "arch": "x86"
+    },
+    {
+      "name": "i8g.xlarge",
+      "vcpu": 4,
+      "memoryGiB": 32,
+      "monthly": 298.72,
+      "category": "storage",
+      "arch": "arm"
+    },
+    {
+      "name": "m6a.2xlarge",
+      "vcpu": 8,
+      "memoryGiB": 32,
+      "monthly": 302.22,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "m5a.2xlarge",
+      "vcpu": 8,
+      "memoryGiB": 32,
+      "monthly": 303.68,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "r6in.xlarge",
+      "vcpu": 4,
+      "memoryGiB": 32,
+      "monthly": 304.06,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "c7gd.2xlarge",
+      "vcpu": 8,
+      "memoryGiB": 16,
+      "monthly": 306.31,
+      "category": "compute",
+      "arch": "arm"
+    },
+    {
+      "name": "c8i.2xlarge",
+      "vcpu": 8,
+      "memoryGiB": 16,
+      "monthly": 312.26,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "t2.2xlarge",
+      "vcpu": 8,
+      "memoryGiB": 32,
+      "monthly": 313.02,
+      "category": "burstable",
+      "arch": "x86"
+    },
+    {
+      "name": "m8g.2xlarge",
+      "vcpu": 8,
+      "memoryGiB": 32,
+      "monthly": 314.02,
+      "category": "general",
+      "arch": "arm"
+    },
+    {
+      "name": "im4gn.xlarge",
+      "vcpu": 4,
+      "memoryGiB": 16,
+      "monthly": 316.64,
+      "category": "storage",
+      "arch": "arm"
+    },
+    {
+      "name": "m6gd.2xlarge",
+      "vcpu": 8,
+      "memoryGiB": 32,
+      "monthly": 318.28,
+      "category": "general",
+      "arch": "arm"
+    },
+    {
+      "name": "c5d.2xlarge",
+      "vcpu": 8,
+      "memoryGiB": 16,
+      "monthly": 324.12,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "r7iz.xlarge",
+      "vcpu": 4,
+      "memoryGiB": 32,
+      "monthly": 328.5,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "z1d.xlarge",
+      "vcpu": 4,
+      "memoryGiB": 32,
+      "monthly": 328.5,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "i7i.xlarge",
+      "vcpu": 4,
+      "memoryGiB": 32,
+      "monthly": 328.57,
+      "category": "storage",
+      "arch": "x86"
+    },
+    {
+      "name": "inf1.2xlarge",
+      "vcpu": 8,
+      "memoryGiB": 16,
+      "monthly": 330.69,
+      "category": "other",
+      "arch": "x86"
+    },
+    {
+      "name": "c8gd.2xlarge",
+      "vcpu": 8,
+      "memoryGiB": 16,
+      "monthly": 330.84,
+      "category": "compute",
+      "arch": "arm"
+    },
+    {
+      "name": "c4.2xlarge",
+      "vcpu": 8,
+      "memoryGiB": 15,
+      "monthly": 331.42,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "m7i-flex.2xlarge",
+      "vcpu": 8,
+      "memoryGiB": 32,
+      "monthly": 334.95,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "m5.2xlarge",
+      "vcpu": 8,
+      "memoryGiB": 32,
+      "monthly": 335.8,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "m6i.2xlarge",
+      "vcpu": 8,
+      "memoryGiB": 32,
+      "monthly": 335.8,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "a1.4xlarge",
+      "vcpu": 16,
+      "memoryGiB": 32,
+      "monthly": 339.89,
+      "category": "general",
+      "arch": "arm"
+    },
+    {
+      "name": "r6idn.xlarge",
+      "vcpu": 4,
+      "memoryGiB": 32,
+      "monthly": 339.93,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "c6id.2xlarge",
+      "vcpu": 8,
+      "memoryGiB": 16,
+      "monthly": 340.33,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c7a.2xlarge",
+      "vcpu": 8,
+      "memoryGiB": 16,
+      "monthly": 342.02,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "m9g.2xlarge",
+      "vcpu": 8,
+      "memoryGiB": 32,
+      "monthly": 342.28,
+      "category": "general",
+      "arch": "arm"
+    },
+    {
+      "name": "g4ad.xlarge",
+      "vcpu": 4,
+      "memoryGiB": 16,
+      "monthly": 345.49,
+      "category": "other",
+      "arch": "x86"
+    },
+    {
+      "name": "m4.2xlarge",
+      "vcpu": 8,
+      "memoryGiB": 32,
+      "monthly": 350.4,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "m8i-flex.2xlarge",
+      "vcpu": 8,
+      "memoryGiB": 32,
+      "monthly": 351.71,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "m7i.2xlarge",
+      "vcpu": 8,
+      "memoryGiB": 32,
+      "monthly": 352.59,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "r6g.2xlarge",
+      "vcpu": 8,
+      "memoryGiB": 64,
+      "monthly": 355.07,
+      "category": "memory",
+      "arch": "arm"
+    },
+    {
+      "name": "c8a.2xlarge",
+      "vcpu": 8,
+      "memoryGiB": 16,
+      "monthly": 359.13,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c5n.2xlarge",
+      "vcpu": 8,
+      "memoryGiB": 21,
+      "monthly": 359.16,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c9gd.2xlarge",
+      "vcpu": 8,
+      "memoryGiB": 16,
+      "monthly": 360.62,
+      "category": "compute",
+      "arch": "arm"
+    },
+    {
+      "name": "m8azn.xlarge",
+      "vcpu": 4,
+      "memoryGiB": 16,
+      "monthly": 361.1,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "r8ib.xlarge",
+      "vcpu": 4,
+      "memoryGiB": 32,
+      "monthly": 364.87,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "r8in.xlarge",
+      "vcpu": 4,
+      "memoryGiB": 32,
+      "monthly": 364.87,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "m5ad.2xlarge",
+      "vcpu": 8,
+      "memoryGiB": 32,
+      "monthly": 365,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "m8i.2xlarge",
+      "vcpu": 8,
+      "memoryGiB": 32,
+      "monthly": 370.23,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "c8id.2xlarge",
+      "vcpu": 8,
+      "memoryGiB": 16,
+      "monthly": 374.37,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "m7gd.2xlarge",
+      "vcpu": 8,
+      "memoryGiB": 32,
+      "monthly": 375.29,
+      "category": "general",
+      "arch": "arm"
+    },
+    {
+      "name": "c3.2xlarge",
+      "vcpu": 8,
+      "memoryGiB": 15,
+      "monthly": 376.68,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c6in.2xlarge",
+      "vcpu": 8,
+      "memoryGiB": 16,
+      "monthly": 377.12,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "r7g.2xlarge",
+      "vcpu": 8,
+      "memoryGiB": 64,
+      "monthly": 377.26,
+      "category": "memory",
+      "arch": "arm"
+    },
+    {
+      "name": "g5g.xlarge",
+      "vcpu": 4,
+      "memoryGiB": 8,
+      "monthly": 383.54,
+      "category": "other",
+      "arch": "arm"
+    },
+    {
+      "name": "c8gn.2xlarge",
+      "vcpu": 8,
+      "memoryGiB": 16,
+      "monthly": 394.05,
+      "category": "compute",
+      "arch": "arm"
+    },
+    {
+      "name": "c8gb.2xlarge",
+      "vcpu": 8,
+      "memoryGiB": 16,
+      "monthly": 394.08,
+      "category": "compute",
+      "arch": "arm"
+    },
+    {
+      "name": "i3en.xlarge",
+      "vcpu": 4,
+      "memoryGiB": 32,
+      "monthly": 394.2,
+      "category": "storage",
+      "arch": "x86"
+    },
+    {
+      "name": "m5d.2xlarge",
+      "vcpu": 8,
+      "memoryGiB": 32,
+      "monthly": 397.12,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "x8g.xlarge",
+      "vcpu": 4,
+      "memoryGiB": 64,
+      "monthly": 398.73,
+      "category": "memory",
+      "arch": "arm"
+    },
+    {
+      "name": "r6a.2xlarge",
+      "vcpu": 8,
+      "memoryGiB": 64,
+      "monthly": 399.46,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "r5a.2xlarge",
+      "vcpu": 8,
+      "memoryGiB": 64,
+      "monthly": 400.04,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "r6gd.2xlarge",
+      "vcpu": 8,
+      "memoryGiB": 64,
+      "monthly": 402.96,
+      "category": "memory",
+      "arch": "arm"
+    },
+    {
+      "name": "m8gd.2xlarge",
+      "vcpu": 8,
+      "memoryGiB": 32,
+      "monthly": 405.3,
+      "category": "general",
+      "arch": "arm"
+    },
+    {
+      "name": "m7a.2xlarge",
+      "vcpu": 8,
+      "memoryGiB": 32,
+      "monthly": 405.47,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "r8idb.xlarge",
+      "vcpu": 4,
+      "memoryGiB": 32,
+      "monthly": 407.92,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "r8idn.xlarge",
+      "vcpu": 4,
+      "memoryGiB": 32,
+      "monthly": 407.92,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "m5n.2xlarge",
+      "vcpu": 8,
+      "memoryGiB": 32,
+      "monthly": 411.72,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "i8ge.xlarge",
+      "vcpu": 4,
+      "memoryGiB": 32,
+      "monthly": 413.91,
+      "category": "storage",
+      "arch": "arm"
+    },
+    {
+      "name": "r8g.2xlarge",
+      "vcpu": 8,
+      "memoryGiB": 64,
+      "monthly": 414.99,
+      "category": "memory",
+      "arch": "arm"
+    },
+    {
+      "name": "m6id.2xlarge",
+      "vcpu": 8,
+      "memoryGiB": 32,
+      "monthly": 416.98,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "m8a.2xlarge",
+      "vcpu": 8,
+      "memoryGiB": 32,
+      "monthly": 425.74,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "g6f.2xlarge",
+      "vcpu": 8,
+      "memoryGiB": 32,
+      "monthly": 433.62,
+      "category": "other",
+      "arch": "x86"
+    },
+    {
+      "name": "m9gd.2xlarge",
+      "vcpu": 8,
+      "memoryGiB": 32,
+      "monthly": 441.8,
+      "category": "general",
+      "arch": "arm"
+    },
+    {
+      "name": "r5.2xlarge",
+      "vcpu": 8,
+      "memoryGiB": 64,
+      "monthly": 443.84,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "r6i.2xlarge",
+      "vcpu": 8,
+      "memoryGiB": 64,
+      "monthly": 443.84,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "x8i.xlarge",
+      "vcpu": 4,
+      "memoryGiB": 64,
+      "monthly": 447.3,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "r9g.2xlarge",
+      "vcpu": 8,
+      "memoryGiB": 64,
+      "monthly": 452.37,
+      "category": "memory",
+      "arch": "arm"
+    },
+    {
+      "name": "c8in.2xlarge",
+      "vcpu": 8,
+      "memoryGiB": 16,
+      "monthly": 452.54,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c6g.4xlarge",
+      "vcpu": 16,
+      "memoryGiB": 32,
+      "monthly": 453.18,
+      "category": "compute",
+      "arch": "arm"
+    },
+    {
+      "name": "i7ie.xlarge",
+      "vcpu": 4,
+      "memoryGiB": 32,
+      "monthly": 453.33,
+      "category": "storage",
+      "arch": "x86"
+    },
+    {
+      "name": "m8id.2xlarge",
+      "vcpu": 8,
+      "memoryGiB": 32,
+      "monthly": 458.67,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "m3.2xlarge",
+      "vcpu": 8,
+      "memoryGiB": 30,
+      "monthly": 461.36,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "r5ad.2xlarge",
+      "vcpu": 8,
+      "memoryGiB": 64,
+      "monthly": 461.36,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "r8i-flex.2xlarge",
+      "vcpu": 8,
+      "memoryGiB": 64,
+      "monthly": 464.86,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "r7i.2xlarge",
+      "vcpu": 8,
+      "memoryGiB": 64,
+      "monthly": 466.03,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "r4.2xlarge",
+      "vcpu": 8,
+      "memoryGiB": 61,
+      "monthly": 467.35,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "m5dn.2xlarge",
+      "vcpu": 8,
+      "memoryGiB": 32,
+      "monthly": 473.04,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "r7gd.2xlarge",
+      "vcpu": 8,
+      "memoryGiB": 64,
+      "monthly": 477.35,
+      "category": "memory",
+      "arch": "arm"
+    },
+    {
+      "name": "d3.xlarge",
+      "vcpu": 4,
+      "memoryGiB": 32,
+      "monthly": 480.34,
+      "category": "storage",
+      "arch": "x86"
+    },
+    {
+      "name": "g4dn.xlarge",
+      "vcpu": 4,
+      "memoryGiB": 16,
+      "monthly": 480.34,
+      "category": "other",
+      "arch": "x86"
+    },
+    {
+      "name": "c7g.4xlarge",
+      "vcpu": 16,
+      "memoryGiB": 32,
+      "monthly": 481.51,
+      "category": "compute",
+      "arch": "arm"
+    },
+    {
+      "name": "m6in.2xlarge",
+      "vcpu": 8,
+      "memoryGiB": 32,
+      "monthly": 481.71,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "r8i.2xlarge",
+      "vcpu": 8,
+      "memoryGiB": 64,
+      "monthly": 489.33,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "g4ad.2xlarge",
+      "vcpu": 8,
+      "memoryGiB": 32,
+      "monthly": 493.93,
+      "category": "other",
+      "arch": "x86"
+    },
+    {
+      "name": "is4gen.xlarge",
+      "vcpu": 4,
+      "memoryGiB": 24,
+      "monthly": 502.61,
+      "category": "storage",
+      "arch": "arm"
+    },
+    {
+      "name": "r5d.2xlarge",
+      "vcpu": 8,
+      "memoryGiB": 64,
+      "monthly": 505.16,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "d3en.xlarge",
+      "vcpu": 4,
+      "memoryGiB": 16,
+      "monthly": 505.89,
+      "category": "storage",
+      "arch": "x86"
+    },
+    {
+      "name": "g5g.2xlarge",
+      "vcpu": 8,
+      "memoryGiB": 16,
+      "monthly": 507.72,
+      "category": "other",
+      "arch": "arm"
+    },
+    {
+      "name": "c5a.4xlarge",
+      "vcpu": 16,
+      "memoryGiB": 32,
+      "monthly": 508.08,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c6a.4xlarge",
+      "vcpu": 16,
+      "memoryGiB": 32,
+      "monthly": 509.83,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "r8gd.2xlarge",
+      "vcpu": 8,
+      "memoryGiB": 64,
+      "monthly": 515.56,
+      "category": "memory",
+      "arch": "arm"
+    },
+    {
+      "name": "c6gd.4xlarge",
+      "vcpu": 16,
+      "memoryGiB": 32,
+      "monthly": 519.76,
+      "category": "compute",
+      "arch": "arm"
+    },
+    {
+      "name": "r5b.2xlarge",
+      "vcpu": 8,
+      "memoryGiB": 64,
+      "monthly": 519.76,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "r5n.2xlarge",
+      "vcpu": 8,
+      "memoryGiB": 64,
+      "monthly": 519.76,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "c8g.4xlarge",
+      "vcpu": 16,
+      "memoryGiB": 32,
+      "monthly": 529.69,
+      "category": "compute",
+      "arch": "arm"
+    },
+    {
+      "name": "r6id.2xlarge",
+      "vcpu": 8,
+      "memoryGiB": 64,
+      "monthly": 530.42,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "r7a.2xlarge",
+      "vcpu": 8,
+      "memoryGiB": 64,
+      "monthly": 535.94,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "m6g.4xlarge",
+      "vcpu": 16,
+      "memoryGiB": 64,
+      "monthly": 537.28,
+      "category": "general",
+      "arch": "arm"
+    },
+    {
+      "name": "i3.2xlarge",
+      "vcpu": 8,
+      "memoryGiB": 61,
+      "monthly": 543.12,
+      "category": "storage",
+      "arch": "x86"
+    },
+    {
+      "name": "m6idn.2xlarge",
+      "vcpu": 8,
+      "memoryGiB": 32,
+      "monthly": 553.46,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "r9gd.2xlarge",
+      "vcpu": 8,
+      "memoryGiB": 64,
+      "monthly": 561.98,
+      "category": "memory",
+      "arch": "arm"
+    },
+    {
+      "name": "r8a.2xlarge",
+      "vcpu": 8,
+      "memoryGiB": 64,
+      "monthly": 562.74,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "g2.2xlarge",
+      "vcpu": 8,
+      "memoryGiB": 15,
+      "monthly": 563.56,
+      "category": "other",
+      "arch": "x86"
+    },
+    {
+      "name": "c7i-flex.4xlarge",
+      "vcpu": 16,
+      "memoryGiB": 32,
+      "monthly": 565.06,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c8ine.2xlarge",
+      "vcpu": 8,
+      "memoryGiB": 16,
+      "monthly": 565.69,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c5.4xlarge",
+      "vcpu": 16,
+      "memoryGiB": 32,
+      "monthly": 566.48,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c6i.4xlarge",
+      "vcpu": 16,
+      "memoryGiB": 32,
+      "monthly": 566.48,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "m7g.4xlarge",
+      "vcpu": 16,
+      "memoryGiB": 64,
+      "monthly": 570.93,
+      "category": "general",
+      "arch": "arm"
+    },
+    {
+      "name": "c6gn.4xlarge",
+      "vcpu": 16,
+      "memoryGiB": 32,
+      "monthly": 575.82,
+      "category": "compute",
+      "arch": "arm"
+    },
+    {
+      "name": "c9g.4xlarge",
+      "vcpu": 16,
+      "memoryGiB": 32,
+      "monthly": 577.34,
+      "category": "compute",
+      "arch": "arm"
+    },
+    {
+      "name": "m5zn.2xlarge",
+      "vcpu": 8,
+      "memoryGiB": 32,
+      "monthly": 577.72,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "d2.xlarge",
+      "vcpu": 4,
+      "memoryGiB": 30.5,
+      "monthly": 579.62,
+      "category": "storage",
+      "arch": "x86"
+    },
+    {
+      "name": "r5dn.2xlarge",
+      "vcpu": 8,
+      "memoryGiB": 64,
+      "monthly": 581.08,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "r8id.2xlarge",
+      "vcpu": 8,
+      "memoryGiB": 64,
+      "monthly": 583.47,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "c5ad.4xlarge",
+      "vcpu": 16,
+      "memoryGiB": 32,
+      "monthly": 584,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "r3.2xlarge",
+      "vcpu": 8,
+      "memoryGiB": 61,
+      "monthly": 584,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "c8i-flex.4xlarge",
+      "vcpu": 16,
+      "memoryGiB": 32,
+      "monthly": 593.29,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c7i.4xlarge",
+      "vcpu": 16,
+      "memoryGiB": 32,
+      "monthly": 594.8,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "i4i.2xlarge",
+      "vcpu": 8,
+      "memoryGiB": 64,
+      "monthly": 597.14,
+      "category": "storage",
+      "arch": "x86"
+    },
+    {
+      "name": "i8g.2xlarge",
+      "vcpu": 8,
+      "memoryGiB": 64,
+      "monthly": 597.43,
+      "category": "storage",
+      "arch": "arm"
+    },
+    {
+      "name": "m6a.4xlarge",
+      "vcpu": 16,
+      "memoryGiB": 64,
+      "monthly": 604.44,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "m5a.4xlarge",
+      "vcpu": 16,
+      "memoryGiB": 64,
+      "monthly": 607.36,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "r6in.2xlarge",
+      "vcpu": 8,
+      "memoryGiB": 64,
+      "monthly": 608.12,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "c7gd.4xlarge",
+      "vcpu": 16,
+      "memoryGiB": 32,
+      "monthly": 612.62,
+      "category": "compute",
+      "arch": "arm"
+    },
+    {
+      "name": "c8i.4xlarge",
+      "vcpu": 16,
+      "memoryGiB": 32,
+      "monthly": 624.53,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "m8g.4xlarge",
+      "vcpu": 16,
+      "memoryGiB": 64,
+      "monthly": 628.03,
+      "category": "general",
+      "arch": "arm"
+    },
+    {
+      "name": "im4gn.2xlarge",
+      "vcpu": 8,
+      "memoryGiB": 32,
+      "monthly": 633.28,
+      "category": "storage",
+      "arch": "arm"
+    },
+    {
+      "name": "m6gd.4xlarge",
+      "vcpu": 16,
+      "memoryGiB": 64,
+      "monthly": 636.56,
+      "category": "general",
+      "arch": "arm"
+    },
+    {
+      "name": "c5d.4xlarge",
+      "vcpu": 16,
+      "memoryGiB": 32,
+      "monthly": 648.24,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "r7iz.2xlarge",
+      "vcpu": 8,
+      "memoryGiB": 64,
+      "monthly": 657,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "z1d.2xlarge",
+      "vcpu": 8,
+      "memoryGiB": 64,
+      "monthly": 657,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "i7i.2xlarge",
+      "vcpu": 8,
+      "memoryGiB": 64,
+      "monthly": 657.15,
+      "category": "storage",
+      "arch": "x86"
+    },
+    {
+      "name": "c8gd.4xlarge",
+      "vcpu": 16,
+      "memoryGiB": 32,
+      "monthly": 661.67,
+      "category": "compute",
+      "arch": "arm"
+    },
+    {
+      "name": "c4.4xlarge",
+      "vcpu": 16,
+      "memoryGiB": 30,
+      "monthly": 663.57,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "m7i-flex.4xlarge",
+      "vcpu": 16,
+      "memoryGiB": 64,
+      "monthly": 669.91,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "m5.4xlarge",
+      "vcpu": 16,
+      "memoryGiB": 64,
+      "monthly": 671.6,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "m6i.4xlarge",
+      "vcpu": 16,
+      "memoryGiB": 64,
+      "monthly": 671.6,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "r6idn.2xlarge",
+      "vcpu": 8,
+      "memoryGiB": 64,
+      "monthly": 679.86,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "c6id.4xlarge",
+      "vcpu": 16,
+      "memoryGiB": 32,
+      "monthly": 680.65,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c7a.4xlarge",
+      "vcpu": 16,
+      "memoryGiB": 32,
+      "monthly": 684.04,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "m9g.4xlarge",
+      "vcpu": 16,
+      "memoryGiB": 64,
+      "monthly": 684.56,
+      "category": "general",
+      "arch": "arm"
+    },
+    {
+      "name": "g3s.xlarge",
+      "vcpu": 4,
+      "memoryGiB": 30.5,
+      "monthly": 684.74,
+      "category": "other",
+      "arch": "x86"
+    },
+    {
+      "name": "g4dn.2xlarge",
+      "vcpu": 8,
+      "memoryGiB": 32,
+      "monthly": 686.2,
+      "category": "other",
+      "arch": "x86"
+    },
+    {
+      "name": "m4.4xlarge",
+      "vcpu": 16,
+      "memoryGiB": 64,
+      "monthly": 700.8,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "m8i-flex.4xlarge",
+      "vcpu": 16,
+      "memoryGiB": 64,
+      "monthly": 703.43,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "m7i.4xlarge",
+      "vcpu": 16,
+      "memoryGiB": 64,
+      "monthly": 705.18,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "r6g.4xlarge",
+      "vcpu": 16,
+      "memoryGiB": 128,
+      "monthly": 710.14,
+      "category": "memory",
+      "arch": "arm"
+    },
+    {
+      "name": "c8a.4xlarge",
+      "vcpu": 16,
+      "memoryGiB": 32,
+      "monthly": 718.26,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c5n.4xlarge",
+      "vcpu": 16,
+      "memoryGiB": 42,
+      "monthly": 718.32,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c9gd.4xlarge",
+      "vcpu": 16,
+      "memoryGiB": 32,
+      "monthly": 721.24,
+      "category": "compute",
+      "arch": "arm"
+    },
+    {
+      "name": "r8ib.2xlarge",
+      "vcpu": 8,
+      "memoryGiB": 64,
+      "monthly": 729.74,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "r8in.2xlarge",
+      "vcpu": 8,
+      "memoryGiB": 64,
+      "monthly": 729.74,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "m5ad.4xlarge",
+      "vcpu": 16,
+      "memoryGiB": 64,
+      "monthly": 730,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "g6.xlarge",
+      "vcpu": 4,
+      "memoryGiB": 16,
+      "monthly": 734.67,
+      "category": "other",
+      "arch": "x86"
+    },
+    {
+      "name": "i2.xlarge",
+      "vcpu": 4,
+      "memoryGiB": 30.5,
+      "monthly": 739.49,
+      "category": "storage",
+      "arch": "x86"
+    },
+    {
+      "name": "m8i.4xlarge",
+      "vcpu": 16,
+      "memoryGiB": 64,
+      "monthly": 740.45,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "c8id.4xlarge",
+      "vcpu": 16,
+      "memoryGiB": 32,
+      "monthly": 748.75,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "m7gd.4xlarge",
+      "vcpu": 16,
+      "memoryGiB": 64,
+      "monthly": 750.59,
+      "category": "general",
+      "arch": "arm"
+    },
+    {
+      "name": "c3.4xlarge",
+      "vcpu": 16,
+      "memoryGiB": 30,
+      "monthly": 753.36,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c6in.4xlarge",
+      "vcpu": 16,
+      "memoryGiB": 32,
+      "monthly": 754.24,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "r7g.4xlarge",
+      "vcpu": 16,
+      "memoryGiB": 128,
+      "monthly": 754.53,
+      "category": "memory",
+      "arch": "arm"
+    },
+    {
+      "name": "g5g.4xlarge",
+      "vcpu": 16,
+      "memoryGiB": 32,
+      "monthly": 756.13,
+      "category": "other",
+      "arch": "arm"
+    },
+    {
+      "name": "c8gb.4xlarge",
+      "vcpu": 16,
+      "memoryGiB": 32,
+      "monthly": 788.17,
+      "category": "compute",
+      "arch": "arm"
+    },
+    {
+      "name": "c8gn.4xlarge",
+      "vcpu": 16,
+      "memoryGiB": 32,
+      "monthly": 788.18,
+      "category": "compute",
+      "arch": "arm"
+    },
+    {
+      "name": "i3en.2xlarge",
+      "vcpu": 8,
+      "memoryGiB": 64,
+      "monthly": 788.4,
+      "category": "storage",
+      "arch": "x86"
+    },
+    {
+      "name": "g4ad.4xlarge",
+      "vcpu": 16,
+      "memoryGiB": 64,
+      "monthly": 791.32,
+      "category": "other",
+      "arch": "x86"
+    },
+    {
+      "name": "m5d.4xlarge",
+      "vcpu": 16,
+      "memoryGiB": 64,
+      "monthly": 794.24,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "x8g.2xlarge",
+      "vcpu": 8,
+      "memoryGiB": 128,
+      "monthly": 797.45,
+      "category": "memory",
+      "arch": "arm"
+    },
+    {
+      "name": "r6a.4xlarge",
+      "vcpu": 16,
+      "memoryGiB": 128,
+      "monthly": 798.91,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "r5a.4xlarge",
+      "vcpu": 16,
+      "memoryGiB": 128,
+      "monthly": 800.08,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "r6gd.4xlarge",
+      "vcpu": 16,
+      "memoryGiB": 128,
+      "monthly": 805.92,
+      "category": "memory",
+      "arch": "arm"
+    },
+    {
+      "name": "m8gd.4xlarge",
+      "vcpu": 16,
+      "memoryGiB": 64,
+      "monthly": 810.59,
+      "category": "general",
+      "arch": "arm"
+    },
+    {
+      "name": "m7a.4xlarge",
+      "vcpu": 16,
+      "memoryGiB": 64,
+      "monthly": 810.94,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "r8idb.2xlarge",
+      "vcpu": 8,
+      "memoryGiB": 64,
+      "monthly": 815.85,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "r8idn.2xlarge",
+      "vcpu": 8,
+      "memoryGiB": 64,
+      "monthly": 815.85,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "m5n.4xlarge",
+      "vcpu": 16,
+      "memoryGiB": 64,
+      "monthly": 823.44,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "i8ge.2xlarge",
+      "vcpu": 8,
+      "memoryGiB": 64,
+      "monthly": 827.82,
+      "category": "storage",
+      "arch": "arm"
+    },
+    {
+      "name": "r8g.4xlarge",
+      "vcpu": 16,
+      "memoryGiB": 128,
+      "monthly": 829.98,
+      "category": "memory",
+      "arch": "arm"
+    },
+    {
+      "name": "inf2.xlarge",
+      "vcpu": 4,
+      "memoryGiB": 16,
+      "monthly": 830.23,
+      "category": "other",
+      "arch": "x86"
+    },
+    {
+      "name": "m6id.4xlarge",
+      "vcpu": 16,
+      "memoryGiB": 64,
+      "monthly": 833.95,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "m8a.4xlarge",
+      "vcpu": 16,
+      "memoryGiB": 64,
+      "monthly": 851.47,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "x1e.xlarge",
+      "vcpu": 4,
+      "memoryGiB": 122,
+      "monthly": 851.91,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "x2iedn.xlarge",
+      "vcpu": 4,
+      "memoryGiB": 128,
+      "monthly": 852,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "m5zn.3xlarge",
+      "vcpu": 12,
+      "memoryGiB": 48,
+      "monthly": 866.66,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "g6f.4xlarge",
+      "vcpu": 16,
+      "memoryGiB": 64,
+      "monthly": 867.24,
+      "category": "other",
+      "arch": "x86"
+    },
+    {
+      "name": "m9gd.4xlarge",
+      "vcpu": 16,
+      "memoryGiB": 64,
+      "monthly": 883.59,
+      "category": "general",
+      "arch": "arm"
+    },
+    {
+      "name": "r5.4xlarge",
+      "vcpu": 16,
+      "memoryGiB": 128,
+      "monthly": 887.68,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "r6i.4xlarge",
+      "vcpu": 16,
+      "memoryGiB": 128,
+      "monthly": 887.68,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "g6.2xlarge",
+      "vcpu": 8,
+      "memoryGiB": 32,
+      "monthly": 892.42,
+      "category": "other",
+      "arch": "x86"
+    },
+    {
+      "name": "x8i.2xlarge",
+      "vcpu": 8,
+      "memoryGiB": 128,
+      "monthly": 894.6,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "r9g.4xlarge",
+      "vcpu": 16,
+      "memoryGiB": 128,
+      "monthly": 904.73,
+      "category": "memory",
+      "arch": "arm"
+    },
+    {
+      "name": "c8in.4xlarge",
+      "vcpu": 16,
+      "memoryGiB": 32,
+      "monthly": 905.08,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c6g.8xlarge",
+      "vcpu": 32,
+      "memoryGiB": 64,
+      "monthly": 906.37,
+      "category": "compute",
+      "arch": "arm"
+    },
+    {
+      "name": "i7ie.2xlarge",
+      "vcpu": 8,
+      "memoryGiB": 64,
+      "monthly": 906.66,
+      "category": "storage",
+      "arch": "x86"
+    },
+    {
+      "name": "m8id.4xlarge",
+      "vcpu": 16,
+      "memoryGiB": 64,
+      "monthly": 917.35,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "g5.xlarge",
+      "vcpu": 4,
+      "memoryGiB": 16,
+      "monthly": 918.34,
+      "category": "other",
+      "arch": "x86"
+    },
+    {
+      "name": "r5ad.4xlarge",
+      "vcpu": 16,
+      "memoryGiB": 128,
+      "monthly": 922.72,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "r8i-flex.4xlarge",
+      "vcpu": 16,
+      "memoryGiB": 128,
+      "monthly": 929.73,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "r7i.4xlarge",
+      "vcpu": 16,
+      "memoryGiB": 128,
+      "monthly": 932.06,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "r4.4xlarge",
+      "vcpu": 16,
+      "memoryGiB": 122,
+      "monthly": 934.69,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "m5dn.4xlarge",
+      "vcpu": 16,
+      "memoryGiB": 64,
+      "monthly": 946.08,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "r7gd.4xlarge",
+      "vcpu": 16,
+      "memoryGiB": 128,
+      "monthly": 954.77,
+      "category": "memory",
+      "arch": "arm"
+    },
+    {
+      "name": "d3.2xlarge",
+      "vcpu": 8,
+      "memoryGiB": 64,
+      "monthly": 960.68,
+      "category": "storage",
+      "arch": "x86"
+    },
+    {
+      "name": "c7g.8xlarge",
+      "vcpu": 32,
+      "memoryGiB": 64,
+      "monthly": 963.02,
+      "category": "compute",
+      "arch": "arm"
+    },
+    {
+      "name": "m6in.4xlarge",
+      "vcpu": 16,
+      "memoryGiB": 64,
+      "monthly": 963.42,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "p2.xlarge",
+      "vcpu": 4,
+      "memoryGiB": 61,
+      "monthly": 967.98,
+      "category": "other",
+      "arch": "x86"
+    },
+    {
+      "name": "gr6f.4xlarge",
+      "vcpu": 16,
+      "memoryGiB": 128,
+      "monthly": 973.13,
+      "category": "other",
+      "arch": "x86"
+    },
+    {
+      "name": "r8i.4xlarge",
+      "vcpu": 16,
+      "memoryGiB": 128,
+      "monthly": 978.67,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "z1d.3xlarge",
+      "vcpu": 12,
+      "memoryGiB": 96,
+      "monthly": 985.5,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "is4gen.2xlarge",
+      "vcpu": 8,
+      "memoryGiB": 48,
+      "monthly": 1005.21,
+      "category": "storage",
+      "arch": "arm"
+    },
+    {
+      "name": "r5d.4xlarge",
+      "vcpu": 16,
+      "memoryGiB": 128,
+      "monthly": 1010.32,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "d3en.2xlarge",
+      "vcpu": 8,
+      "memoryGiB": 32,
+      "monthly": 1011.05,
+      "category": "storage",
+      "arch": "x86"
+    },
+    {
+      "name": "c5a.8xlarge",
+      "vcpu": 32,
+      "memoryGiB": 64,
+      "monthly": 1016.16,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c6a.8xlarge",
+      "vcpu": 32,
+      "memoryGiB": 64,
+      "monthly": 1019.66,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "r8gd.4xlarge",
+      "vcpu": 16,
+      "memoryGiB": 128,
+      "monthly": 1031.11,
+      "category": "memory",
+      "arch": "arm"
+    },
+    {
+      "name": "c6gd.8xlarge",
+      "vcpu": 32,
+      "memoryGiB": 64,
+      "monthly": 1039.52,
+      "category": "compute",
+      "arch": "arm"
+    },
+    {
+      "name": "r5b.4xlarge",
+      "vcpu": 16,
+      "memoryGiB": 128,
+      "monthly": 1039.52,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "r5n.4xlarge",
+      "vcpu": 16,
+      "memoryGiB": 128,
+      "monthly": 1039.52,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "g3.4xlarge",
+      "vcpu": 16,
+      "memoryGiB": 122,
+      "monthly": 1040.25,
+      "category": "other",
+      "arch": "x86"
+    },
+    {
+      "name": "c8g.8xlarge",
+      "vcpu": 32,
+      "memoryGiB": 64,
+      "monthly": 1059.38,
+      "category": "compute",
+      "arch": "arm"
+    },
+    {
+      "name": "r6id.4xlarge",
+      "vcpu": 16,
+      "memoryGiB": 128,
+      "monthly": 1060.84,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "r7a.4xlarge",
+      "vcpu": 16,
+      "memoryGiB": 128,
+      "monthly": 1071.87,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "m6g.8xlarge",
+      "vcpu": 32,
+      "memoryGiB": 128,
+      "monthly": 1074.56,
+      "category": "general",
+      "arch": "arm"
+    },
+    {
+      "name": "inf1.6xlarge",
+      "vcpu": 24,
+      "memoryGiB": 48,
+      "monthly": 1076.75,
+      "category": "other",
+      "arch": "x86"
+    },
+    {
+      "name": "m8azn.3xlarge",
+      "vcpu": 12,
+      "memoryGiB": 48,
+      "monthly": 1083.31,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "i3.4xlarge",
+      "vcpu": 16,
+      "memoryGiB": 122,
+      "monthly": 1086.24,
+      "category": "storage",
+      "arch": "x86"
+    },
+    {
+      "name": "g4dn.4xlarge",
+      "vcpu": 16,
+      "memoryGiB": 64,
+      "monthly": 1098.65,
+      "category": "other",
+      "arch": "x86"
+    },
+    {
+      "name": "g5.2xlarge",
+      "vcpu": 8,
+      "memoryGiB": 32,
+      "monthly": 1106.39,
+      "category": "other",
+      "arch": "x86"
+    },
+    {
+      "name": "m6idn.4xlarge",
+      "vcpu": 16,
+      "memoryGiB": 64,
+      "monthly": 1106.91,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "r9gd.4xlarge",
+      "vcpu": 16,
+      "memoryGiB": 128,
+      "monthly": 1123.97,
+      "category": "memory",
+      "arch": "arm"
+    },
+    {
+      "name": "r8a.4xlarge",
+      "vcpu": 16,
+      "memoryGiB": 128,
+      "monthly": 1125.48,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "c7i-flex.8xlarge",
+      "vcpu": 32,
+      "memoryGiB": 64,
+      "monthly": 1130.13,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c8ine.4xlarge",
+      "vcpu": 16,
+      "memoryGiB": 32,
+      "monthly": 1131.38,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c6i.8xlarge",
+      "vcpu": 32,
+      "memoryGiB": 64,
+      "monthly": 1132.96,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "m7g.8xlarge",
+      "vcpu": 32,
+      "memoryGiB": 128,
+      "monthly": 1141.87,
+      "category": "general",
+      "arch": "arm"
+    },
+    {
+      "name": "c6gn.8xlarge",
+      "vcpu": 32,
+      "memoryGiB": 64,
+      "monthly": 1151.65,
+      "category": "compute",
+      "arch": "arm"
+    },
+    {
+      "name": "c9g.8xlarge",
+      "vcpu": 32,
+      "memoryGiB": 64,
+      "monthly": 1154.68,
+      "category": "compute",
+      "arch": "arm"
+    },
+    {
+      "name": "d2.2xlarge",
+      "vcpu": 8,
+      "memoryGiB": 61,
+      "monthly": 1159.24,
+      "category": "storage",
+      "arch": "x86"
+    },
+    {
+      "name": "r5dn.4xlarge",
+      "vcpu": 16,
+      "memoryGiB": 128,
+      "monthly": 1162.16,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "r8id.4xlarge",
+      "vcpu": 16,
+      "memoryGiB": 128,
+      "monthly": 1166.95,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "c5ad.8xlarge",
+      "vcpu": 32,
+      "memoryGiB": 64,
+      "monthly": 1168,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "r3.4xlarge",
+      "vcpu": 16,
+      "memoryGiB": 122,
+      "monthly": 1168,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "i3en.3xlarge",
+      "vcpu": 12,
+      "memoryGiB": 96,
+      "monthly": 1182.6,
+      "category": "storage",
+      "arch": "x86"
+    },
+    {
+      "name": "c8i-flex.8xlarge",
+      "vcpu": 32,
+      "memoryGiB": 64,
+      "monthly": 1186.57,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c7i.8xlarge",
+      "vcpu": 32,
+      "memoryGiB": 64,
+      "monthly": 1189.61,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "i8g.4xlarge",
+      "vcpu": 16,
+      "memoryGiB": 128,
+      "monthly": 1194.86,
+      "category": "storage",
+      "arch": "arm"
+    },
+    {
+      "name": "i4i.4xlarge",
+      "vcpu": 16,
+      "memoryGiB": 128,
+      "monthly": 1195.01,
+      "category": "storage",
+      "arch": "x86"
+    },
+    {
+      "name": "g6.4xlarge",
+      "vcpu": 16,
+      "memoryGiB": 64,
+      "monthly": 1207.9,
+      "category": "other",
+      "arch": "x86"
+    },
+    {
+      "name": "m6a.8xlarge",
+      "vcpu": 32,
+      "memoryGiB": 128,
+      "monthly": 1208.88,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "m5a.8xlarge",
+      "vcpu": 32,
+      "memoryGiB": 128,
+      "monthly": 1214.72,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "r6in.4xlarge",
+      "vcpu": 16,
+      "memoryGiB": 128,
+      "monthly": 1216.24,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "c7gd.8xlarge",
+      "vcpu": 32,
+      "memoryGiB": 64,
+      "monthly": 1225.23,
+      "category": "compute",
+      "arch": "arm"
+    },
+    {
+      "name": "i8ge.3xlarge",
+      "vcpu": 12,
+      "memoryGiB": 96,
+      "monthly": 1241.73,
+      "category": "storage",
+      "arch": "arm"
+    },
+    {
+      "name": "c8i.8xlarge",
+      "vcpu": 32,
+      "memoryGiB": 64,
+      "monthly": 1249.06,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "g5g.8xlarge",
+      "vcpu": 32,
+      "memoryGiB": 64,
+      "monthly": 1252.9,
+      "category": "other",
+      "arch": "arm"
+    },
+    {
+      "name": "m8g.8xlarge",
+      "vcpu": 32,
+      "memoryGiB": 128,
+      "monthly": 1256.07,
+      "category": "general",
+      "arch": "arm"
+    },
+    {
+      "name": "f1.2xlarge",
+      "vcpu": 8,
+      "memoryGiB": 122,
+      "monthly": 1265.82,
+      "category": "other",
+      "arch": "x86"
+    },
+    {
+      "name": "im4gn.4xlarge",
+      "vcpu": 16,
+      "memoryGiB": 64,
+      "monthly": 1266.56,
+      "category": "storage",
+      "arch": "arm"
+    },
+    {
+      "name": "m6gd.8xlarge",
+      "vcpu": 32,
+      "memoryGiB": 128,
+      "monthly": 1273.12,
+      "category": "general",
+      "arch": "arm"
+    },
+    {
+      "name": "c5.9xlarge",
+      "vcpu": 36,
+      "memoryGiB": 72,
+      "monthly": 1274.58,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "r7iz.4xlarge",
+      "vcpu": 16,
+      "memoryGiB": 128,
+      "monthly": 1314,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "i7i.4xlarge",
+      "vcpu": 16,
+      "memoryGiB": 128,
+      "monthly": 1314.37,
+      "category": "storage",
+      "arch": "x86"
+    },
+    {
+      "name": "c8gd.8xlarge",
+      "vcpu": 32,
+      "memoryGiB": 64,
+      "monthly": 1323.34,
+      "category": "compute",
+      "arch": "arm"
+    },
+    {
+      "name": "c4.8xlarge",
+      "vcpu": 36,
+      "memoryGiB": 60,
+      "monthly": 1326.41,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "m7i-flex.8xlarge",
+      "vcpu": 32,
+      "memoryGiB": 128,
+      "monthly": 1339.81,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "m5.8xlarge",
+      "vcpu": 32,
+      "memoryGiB": 128,
+      "monthly": 1343.2,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "m6i.8xlarge",
+      "vcpu": 32,
+      "memoryGiB": 128,
+      "monthly": 1343.2,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "c6g.12xlarge",
+      "vcpu": 48,
+      "memoryGiB": 96,
+      "monthly": 1359.55,
+      "category": "compute",
+      "arch": "arm"
+    },
+    {
+      "name": "r6idn.4xlarge",
+      "vcpu": 16,
+      "memoryGiB": 128,
+      "monthly": 1359.73,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "i7ie.3xlarge",
+      "vcpu": 12,
+      "memoryGiB": 96,
+      "monthly": 1359.99,
+      "category": "storage",
+      "arch": "x86"
+    },
+    {
+      "name": "c6id.8xlarge",
+      "vcpu": 32,
+      "memoryGiB": 64,
+      "monthly": 1361.3,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c7a.8xlarge",
+      "vcpu": 32,
+      "memoryGiB": 64,
+      "monthly": 1368.08,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "m9g.8xlarge",
+      "vcpu": 32,
+      "memoryGiB": 128,
+      "monthly": 1369.13,
+      "category": "general",
+      "arch": "arm"
+    },
+    {
+      "name": "gr6.4xlarge",
+      "vcpu": 16,
+      "memoryGiB": 128,
+      "monthly": 1405.1,
+      "category": "other",
+      "arch": "x86"
+    },
+    {
+      "name": "m8i-flex.8xlarge",
+      "vcpu": 32,
+      "memoryGiB": 128,
+      "monthly": 1406.86,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "m7i.8xlarge",
+      "vcpu": 32,
+      "memoryGiB": 128,
+      "monthly": 1410.36,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "r6g.8xlarge",
+      "vcpu": 32,
+      "memoryGiB": 256,
+      "monthly": 1420.29,
+      "category": "memory",
+      "arch": "arm"
+    },
+    {
+      "name": "c8a.8xlarge",
+      "vcpu": 32,
+      "memoryGiB": 64,
+      "monthly": 1436.52,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c9gd.8xlarge",
+      "vcpu": 32,
+      "memoryGiB": 64,
+      "monthly": 1442.48,
+      "category": "compute",
+      "arch": "arm"
+    },
+    {
+      "name": "c7g.12xlarge",
+      "vcpu": 48,
+      "memoryGiB": 96,
+      "monthly": 1444.52,
+      "category": "compute",
+      "arch": "arm"
+    },
+    {
+      "name": "c5d.9xlarge",
+      "vcpu": 36,
+      "memoryGiB": 72,
+      "monthly": 1458.54,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "r8ib.4xlarge",
+      "vcpu": 16,
+      "memoryGiB": 128,
+      "monthly": 1459.47,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "r8in.4xlarge",
+      "vcpu": 16,
+      "memoryGiB": 128,
+      "monthly": 1459.47,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "m5ad.8xlarge",
+      "vcpu": 32,
+      "memoryGiB": 128,
+      "monthly": 1460,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "i2.2xlarge",
+      "vcpu": 8,
+      "memoryGiB": 61,
+      "monthly": 1478.98,
+      "category": "storage",
+      "arch": "x86"
+    },
+    {
+      "name": "m8i.8xlarge",
+      "vcpu": 32,
+      "memoryGiB": 128,
+      "monthly": 1480.91,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "g5.4xlarge",
+      "vcpu": 16,
+      "memoryGiB": 64,
+      "monthly": 1482.49,
+      "category": "other",
+      "arch": "x86"
+    },
+    {
+      "name": "c8id.8xlarge",
+      "vcpu": 32,
+      "memoryGiB": 64,
+      "monthly": 1497.49,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "m7gd.8xlarge",
+      "vcpu": 32,
+      "memoryGiB": 128,
+      "monthly": 1501.1,
+      "category": "general",
+      "arch": "arm"
+    },
+    {
+      "name": "c3.8xlarge",
+      "vcpu": 32,
+      "memoryGiB": 60,
+      "monthly": 1506.72,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c6in.8xlarge",
+      "vcpu": 32,
+      "memoryGiB": 64,
+      "monthly": 1508.47,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "r7g.8xlarge",
+      "vcpu": 32,
+      "memoryGiB": 256,
+      "monthly": 1509.06,
+      "category": "memory",
+      "arch": "arm"
+    },
+    {
+      "name": "c5a.12xlarge",
+      "vcpu": 48,
+      "memoryGiB": 96,
+      "monthly": 1524.24,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c6a.12xlarge",
+      "vcpu": 48,
+      "memoryGiB": 96,
+      "monthly": 1529.5,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c6gd.12xlarge",
+      "vcpu": 48,
+      "memoryGiB": 96,
+      "monthly": 1559.28,
+      "category": "compute",
+      "arch": "arm"
+    },
+    {
+      "name": "c8gb.8xlarge",
+      "vcpu": 32,
+      "memoryGiB": 64,
+      "monthly": 1576.33,
+      "category": "compute",
+      "arch": "arm"
+    },
+    {
+      "name": "c8gn.8xlarge",
+      "vcpu": 32,
+      "memoryGiB": 64,
+      "monthly": 1576.36,
+      "category": "compute",
+      "arch": "arm"
+    },
+    {
+      "name": "g4ad.8xlarge",
+      "vcpu": 32,
+      "memoryGiB": 128,
+      "monthly": 1582.64,
+      "category": "other",
+      "arch": "x86"
+    },
+    {
+      "name": "m5d.8xlarge",
+      "vcpu": 32,
+      "memoryGiB": 128,
+      "monthly": 1588.48,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "c8g.12xlarge",
+      "vcpu": 48,
+      "memoryGiB": 96,
+      "monthly": 1589.06,
+      "category": "compute",
+      "arch": "arm"
+    },
+    {
+      "name": "x8g.4xlarge",
+      "vcpu": 16,
+      "memoryGiB": 256,
+      "monthly": 1594.9,
+      "category": "memory",
+      "arch": "arm"
+    },
+    {
+      "name": "r6a.8xlarge",
+      "vcpu": 32,
+      "memoryGiB": 256,
+      "monthly": 1597.82,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "r5a.8xlarge",
+      "vcpu": 32,
+      "memoryGiB": 256,
+      "monthly": 1600.16,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "m6g.12xlarge",
+      "vcpu": 48,
+      "memoryGiB": 192,
+      "monthly": 1611.84,
+      "category": "general",
+      "arch": "arm"
+    },
+    {
+      "name": "r6gd.8xlarge",
+      "vcpu": 32,
+      "memoryGiB": 256,
+      "monthly": 1611.84,
+      "category": "memory",
+      "arch": "arm"
+    },
+    {
+      "name": "c5n.9xlarge",
+      "vcpu": 36,
+      "memoryGiB": 96,
+      "monthly": 1616.22,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "m8gd.8xlarge",
+      "vcpu": 32,
+      "memoryGiB": 128,
+      "monthly": 1621.18,
+      "category": "general",
+      "arch": "arm"
+    },
+    {
+      "name": "m7a.8xlarge",
+      "vcpu": 32,
+      "memoryGiB": 128,
+      "monthly": 1621.88,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "r8idb.4xlarge",
+      "vcpu": 16,
+      "memoryGiB": 128,
+      "monthly": 1631.7,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "r8idn.4xlarge",
+      "vcpu": 16,
+      "memoryGiB": 128,
+      "monthly": 1631.7,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "m5n.8xlarge",
+      "vcpu": 32,
+      "memoryGiB": 128,
+      "monthly": 1646.88,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "r8g.8xlarge",
+      "vcpu": 32,
+      "memoryGiB": 256,
+      "monthly": 1659.96,
+      "category": "memory",
+      "arch": "arm"
+    },
+    {
+      "name": "m6id.8xlarge",
+      "vcpu": 32,
+      "memoryGiB": 128,
+      "monthly": 1667.9,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "c7i-flex.12xlarge",
+      "vcpu": 48,
+      "memoryGiB": 96,
+      "monthly": 1695.19,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "g6e.xlarge",
+      "vcpu": 4,
+      "memoryGiB": 32,
+      "monthly": 1698.71,
+      "category": "other",
+      "arch": "x86"
+    },
+    {
+      "name": "c5.12xlarge",
+      "vcpu": 48,
+      "memoryGiB": 96,
+      "monthly": 1699.44,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c6i.12xlarge",
+      "vcpu": 48,
+      "memoryGiB": 96,
+      "monthly": 1699.44,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "m8a.8xlarge",
+      "vcpu": 32,
+      "memoryGiB": 128,
+      "monthly": 1702.94,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "x1e.2xlarge",
+      "vcpu": 8,
+      "memoryGiB": 244,
+      "monthly": 1703.82,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "x2iedn.2xlarge",
+      "vcpu": 8,
+      "memoryGiB": 256,
+      "monthly": 1704,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "m7g.12xlarge",
+      "vcpu": 48,
+      "memoryGiB": 192,
+      "monthly": 1712.73,
+      "category": "general",
+      "arch": "arm"
+    },
+    {
+      "name": "c6gn.12xlarge",
+      "vcpu": 48,
+      "memoryGiB": 96,
+      "monthly": 1727.47,
+      "category": "compute",
+      "arch": "arm"
+    },
+    {
+      "name": "c9g.12xlarge",
+      "vcpu": 48,
+      "memoryGiB": 96,
+      "monthly": 1732.03,
+      "category": "compute",
+      "arch": "arm"
+    },
+    {
+      "name": "m5zn.6xlarge",
+      "vcpu": 24,
+      "memoryGiB": 96,
+      "monthly": 1733.24,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "c5ad.12xlarge",
+      "vcpu": 48,
+      "memoryGiB": 96,
+      "monthly": 1752,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "m4.10xlarge",
+      "vcpu": 40,
+      "memoryGiB": 160,
+      "monthly": 1752,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "m9gd.8xlarge",
+      "vcpu": 32,
+      "memoryGiB": 128,
+      "monthly": 1767.18,
+      "category": "general",
+      "arch": "arm"
+    },
+    {
+      "name": "r5.8xlarge",
+      "vcpu": 32,
+      "memoryGiB": 256,
+      "monthly": 1775.36,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "r6i.8xlarge",
+      "vcpu": 32,
+      "memoryGiB": 256,
+      "monthly": 1775.36,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "c8i-flex.12xlarge",
+      "vcpu": 48,
+      "memoryGiB": 96,
+      "monthly": 1779.86,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c7i.12xlarge",
+      "vcpu": 48,
+      "memoryGiB": 96,
+      "monthly": 1784.41,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "x8i.4xlarge",
+      "vcpu": 16,
+      "memoryGiB": 256,
+      "monthly": 1789.2,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "f2.6xlarge",
+      "vcpu": 24,
+      "memoryGiB": 256,
+      "monthly": 1806.75,
+      "category": "other",
+      "arch": "x86"
+    },
+    {
+      "name": "r9g.8xlarge",
+      "vcpu": 32,
+      "memoryGiB": 256,
+      "monthly": 1809.47,
+      "category": "memory",
+      "arch": "arm"
+    },
+    {
+      "name": "c8in.8xlarge",
+      "vcpu": 32,
+      "memoryGiB": 64,
+      "monthly": 1810.17,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c6g.16xlarge",
+      "vcpu": 64,
+      "memoryGiB": 128,
+      "monthly": 1812.74,
+      "category": "compute",
+      "arch": "arm"
+    },
+    {
+      "name": "m6a.12xlarge",
+      "vcpu": 48,
+      "memoryGiB": 192,
+      "monthly": 1813.32,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "m5a.12xlarge",
+      "vcpu": 48,
+      "memoryGiB": 192,
+      "monthly": 1822.08,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "m8id.8xlarge",
+      "vcpu": 32,
+      "memoryGiB": 128,
+      "monthly": 1834.69,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "c7gd.12xlarge",
+      "vcpu": 48,
+      "memoryGiB": 96,
+      "monthly": 1837.85,
+      "category": "compute",
+      "arch": "arm"
+    },
+    {
+      "name": "g6.8xlarge",
+      "vcpu": 32,
+      "memoryGiB": 128,
+      "monthly": 1838.87,
+      "category": "other",
+      "arch": "x86"
+    },
+    {
+      "name": "r5ad.8xlarge",
+      "vcpu": 32,
+      "memoryGiB": 256,
+      "monthly": 1845.44,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "r8i-flex.8xlarge",
+      "vcpu": 32,
+      "memoryGiB": 256,
+      "monthly": 1859.46,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "r7i.8xlarge",
+      "vcpu": 32,
+      "memoryGiB": 256,
+      "monthly": 1864.13,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "r4.8xlarge",
+      "vcpu": 32,
+      "memoryGiB": 244,
+      "monthly": 1869.38,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "c8i.12xlarge",
+      "vcpu": 48,
+      "memoryGiB": 96,
+      "monthly": 1873.59,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "m8g.12xlarge",
+      "vcpu": 48,
+      "memoryGiB": 192,
+      "monthly": 1884.1,
+      "category": "general",
+      "arch": "arm"
+    },
+    {
+      "name": "m5dn.8xlarge",
+      "vcpu": 32,
+      "memoryGiB": 128,
+      "monthly": 1892.16,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "r7gd.8xlarge",
+      "vcpu": 32,
+      "memoryGiB": 256,
+      "monthly": 1909.53,
+      "category": "memory",
+      "arch": "arm"
+    },
+    {
+      "name": "m6gd.12xlarge",
+      "vcpu": 48,
+      "memoryGiB": 192,
+      "monthly": 1909.68,
+      "category": "general",
+      "arch": "arm"
+    },
+    {
+      "name": "d3.4xlarge",
+      "vcpu": 16,
+      "memoryGiB": 128,
+      "monthly": 1921.36,
+      "category": "storage",
+      "arch": "x86"
+    },
+    {
+      "name": "c7g.16xlarge",
+      "vcpu": 64,
+      "memoryGiB": 128,
+      "monthly": 1926.03,
+      "category": "compute",
+      "arch": "arm"
+    },
+    {
+      "name": "m6in.8xlarge",
+      "vcpu": 32,
+      "memoryGiB": 128,
+      "monthly": 1926.85,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "c5d.12xlarge",
+      "vcpu": 48,
+      "memoryGiB": 96,
+      "monthly": 1944.72,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "r8i.8xlarge",
+      "vcpu": 32,
+      "memoryGiB": 256,
+      "monthly": 1957.33,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "z1d.6xlarge",
+      "vcpu": 24,
+      "memoryGiB": 192,
+      "monthly": 1971,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "c8gd.12xlarge",
+      "vcpu": 48,
+      "memoryGiB": 96,
+      "monthly": 1985.02,
+      "category": "compute",
+      "arch": "arm"
+    },
+    {
+      "name": "g4dn.8xlarge",
+      "vcpu": 32,
+      "memoryGiB": 128,
+      "monthly": 1985.6,
+      "category": "other",
+      "arch": "x86"
+    },
+    {
+      "name": "m7i-flex.12xlarge",
+      "vcpu": 48,
+      "memoryGiB": 192,
+      "monthly": 2009.72,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "is4gen.4xlarge",
+      "vcpu": 16,
+      "memoryGiB": 96,
+      "monthly": 2010.42,
+      "category": "storage",
+      "arch": "arm"
+    },
+    {
+      "name": "m5.12xlarge",
+      "vcpu": 48,
+      "memoryGiB": 192,
+      "monthly": 2014.8,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "m6i.12xlarge",
+      "vcpu": 48,
+      "memoryGiB": 192,
+      "monthly": 2014.8,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "r5d.8xlarge",
+      "vcpu": 32,
+      "memoryGiB": 256,
+      "monthly": 2020.64,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "d3en.4xlarge",
+      "vcpu": 16,
+      "memoryGiB": 64,
+      "monthly": 2022.83,
+      "category": "storage",
+      "arch": "x86"
+    },
+    {
+      "name": "c5a.16xlarge",
+      "vcpu": 64,
+      "memoryGiB": 128,
+      "monthly": 2032.32,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c6a.16xlarge",
+      "vcpu": 64,
+      "memoryGiB": 128,
+      "monthly": 2039.33,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c6id.12xlarge",
+      "vcpu": 48,
+      "memoryGiB": 96,
+      "monthly": 2041.96,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "g6e.2xlarge",
+      "vcpu": 8,
+      "memoryGiB": 64,
+      "monthly": 2046.56,
+      "category": "other",
+      "arch": "x86"
+    },
+    {
+      "name": "c7a.12xlarge",
+      "vcpu": 48,
+      "memoryGiB": 96,
+      "monthly": 2052.12,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "m9g.12xlarge",
+      "vcpu": 48,
+      "memoryGiB": 192,
+      "monthly": 2053.69,
+      "category": "general",
+      "arch": "arm"
+    },
+    {
+      "name": "r8gd.8xlarge",
+      "vcpu": 32,
+      "memoryGiB": 256,
+      "monthly": 2062.22,
+      "category": "memory",
+      "arch": "arm"
+    },
+    {
+      "name": "c6gd.16xlarge",
+      "vcpu": 64,
+      "memoryGiB": 128,
+      "monthly": 2079.04,
+      "category": "compute",
+      "arch": "arm"
+    },
+    {
+      "name": "r5b.8xlarge",
+      "vcpu": 32,
+      "memoryGiB": 256,
+      "monthly": 2079.04,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "r5n.8xlarge",
+      "vcpu": 32,
+      "memoryGiB": 256,
+      "monthly": 2079.04,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "g3.8xlarge",
+      "vcpu": 32,
+      "memoryGiB": 244,
+      "monthly": 2080.5,
+      "category": "other",
+      "arch": "x86"
+    },
+    {
+      "name": "m8i-flex.12xlarge",
+      "vcpu": 48,
+      "memoryGiB": 192,
+      "monthly": 2110.28,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "m7i.12xlarge",
+      "vcpu": 48,
+      "memoryGiB": 192,
+      "monthly": 2115.54,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "c8g.16xlarge",
+      "vcpu": 64,
+      "memoryGiB": 128,
+      "monthly": 2118.75,
+      "category": "compute",
+      "arch": "arm"
+    },
+    {
+      "name": "r6id.8xlarge",
+      "vcpu": 32,
+      "memoryGiB": 256,
+      "monthly": 2121.67,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "r6g.12xlarge",
+      "vcpu": 48,
+      "memoryGiB": 384,
+      "monthly": 2130.43,
+      "category": "memory",
+      "arch": "arm"
+    },
+    {
+      "name": "r7a.8xlarge",
+      "vcpu": 32,
+      "memoryGiB": 256,
+      "monthly": 2143.75,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "m6g.16xlarge",
+      "vcpu": 64,
+      "memoryGiB": 256,
+      "monthly": 2149.12,
+      "category": "general",
+      "arch": "arm"
+    },
+    {
+      "name": "c8a.12xlarge",
+      "vcpu": 48,
+      "memoryGiB": 96,
+      "monthly": 2154.78,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "inf2.8xlarge",
+      "vcpu": 32,
+      "memoryGiB": 128,
+      "monthly": 2154.81,
+      "category": "other",
+      "arch": "x86"
+    },
+    {
+      "name": "c9gd.12xlarge",
+      "vcpu": 48,
+      "memoryGiB": 96,
+      "monthly": 2163.72,
+      "category": "compute",
+      "arch": "arm"
+    },
+    {
+      "name": "m8azn.6xlarge",
+      "vcpu": 24,
+      "memoryGiB": 96,
+      "monthly": 2166.61,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "i3.8xlarge",
+      "vcpu": 32,
+      "memoryGiB": 244,
+      "monthly": 2172.48,
+      "category": "storage",
+      "arch": "x86"
+    },
+    {
+      "name": "m5ad.12xlarge",
+      "vcpu": 48,
+      "memoryGiB": 192,
+      "monthly": 2190,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "m6idn.8xlarge",
+      "vcpu": 32,
+      "memoryGiB": 128,
+      "monthly": 2213.83,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "m8i.12xlarge",
+      "vcpu": 48,
+      "memoryGiB": 192,
+      "monthly": 2221.36,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "gr6.8xlarge",
+      "vcpu": 32,
+      "memoryGiB": 256,
+      "monthly": 2233.27,
+      "category": "other",
+      "arch": "x86"
+    },
+    {
+      "name": "g5.8xlarge",
+      "vcpu": 32,
+      "memoryGiB": 128,
+      "monthly": 2234.69,
+      "category": "other",
+      "arch": "x86"
+    },
+    {
+      "name": "c8id.12xlarge",
+      "vcpu": 48,
+      "memoryGiB": 96,
+      "monthly": 2246.24,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "r9gd.8xlarge",
+      "vcpu": 32,
+      "memoryGiB": 256,
+      "monthly": 2247.93,
+      "category": "memory",
+      "arch": "arm"
+    },
+    {
+      "name": "r8a.8xlarge",
+      "vcpu": 32,
+      "memoryGiB": 256,
+      "monthly": 2250.97,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "m7gd.12xlarge",
+      "vcpu": 48,
+      "memoryGiB": 192,
+      "monthly": 2251.69,
+      "category": "general",
+      "arch": "arm"
+    },
+    {
+      "name": "g2.8xlarge",
+      "vcpu": 32,
+      "memoryGiB": 60,
+      "monthly": 2254.24,
+      "category": "other",
+      "arch": "x86"
+    },
+    {
+      "name": "c7i-flex.16xlarge",
+      "vcpu": 64,
+      "memoryGiB": 128,
+      "monthly": 2260.26,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c6in.12xlarge",
+      "vcpu": 48,
+      "memoryGiB": 96,
+      "monthly": 2262.71,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c8ine.8xlarge",
+      "vcpu": 32,
+      "memoryGiB": 64,
+      "monthly": 2262.77,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "r7g.12xlarge",
+      "vcpu": 48,
+      "memoryGiB": 384,
+      "monthly": 2263.58,
+      "category": "memory",
+      "arch": "arm"
+    },
+    {
+      "name": "c6i.16xlarge",
+      "vcpu": 64,
+      "memoryGiB": 128,
+      "monthly": 2265.92,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "m7g.16xlarge",
+      "vcpu": 64,
+      "memoryGiB": 256,
+      "monthly": 2283.66,
+      "category": "general",
+      "arch": "arm"
+    },
+    {
+      "name": "g7.2xlarge",
+      "vcpu": 8,
+      "memoryGiB": 32,
+      "monthly": 2300.45,
+      "category": "other",
+      "arch": "x86"
+    },
+    {
+      "name": "c6gn.16xlarge",
+      "vcpu": 64,
+      "memoryGiB": 128,
+      "monthly": 2303.3,
+      "category": "compute",
+      "arch": "arm"
+    },
+    {
+      "name": "c9g.16xlarge",
+      "vcpu": 64,
+      "memoryGiB": 128,
+      "monthly": 2309.37,
+      "category": "compute",
+      "arch": "arm"
+    },
+    {
+      "name": "d2.4xlarge",
+      "vcpu": 16,
+      "memoryGiB": 122,
+      "monthly": 2318.48,
+      "category": "storage",
+      "arch": "x86"
+    },
+    {
+      "name": "r5dn.8xlarge",
+      "vcpu": 32,
+      "memoryGiB": 256,
+      "monthly": 2324.32,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "r8id.8xlarge",
+      "vcpu": 32,
+      "memoryGiB": 256,
+      "monthly": 2333.9,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "c5ad.16xlarge",
+      "vcpu": 64,
+      "memoryGiB": 128,
+      "monthly": 2336,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "r3.8xlarge",
+      "vcpu": 32,
+      "memoryGiB": 244,
+      "monthly": 2336.73,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "c8gn.12xlarge",
+      "vcpu": 48,
+      "memoryGiB": 96,
+      "monthly": 2364.47,
+      "category": "compute",
+      "arch": "arm"
+    },
+    {
+      "name": "c8gb.12xlarge",
+      "vcpu": 48,
+      "memoryGiB": 96,
+      "monthly": 2364.5,
+      "category": "compute",
+      "arch": "arm"
+    },
+    {
+      "name": "i3en.6xlarge",
+      "vcpu": 24,
+      "memoryGiB": 192,
+      "monthly": 2365.2,
+      "category": "storage",
+      "arch": "x86"
+    },
+    {
+      "name": "c8i-flex.16xlarge",
+      "vcpu": 64,
+      "memoryGiB": 128,
+      "monthly": 2373.14,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c7i.16xlarge",
+      "vcpu": 64,
+      "memoryGiB": 128,
+      "monthly": 2379.22,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "m5d.12xlarge",
+      "vcpu": 48,
+      "memoryGiB": 192,
+      "monthly": 2382.72,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "i8g.8xlarge",
+      "vcpu": 32,
+      "memoryGiB": 256,
+      "monthly": 2389.73,
+      "category": "storage",
+      "arch": "arm"
+    },
+    {
+      "name": "i4i.8xlarge",
+      "vcpu": 32,
+      "memoryGiB": 256,
+      "monthly": 2390.02,
+      "category": "storage",
+      "arch": "x86"
+    },
+    {
+      "name": "r6a.12xlarge",
+      "vcpu": 48,
+      "memoryGiB": 384,
+      "monthly": 2396.74,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "r5a.12xlarge",
+      "vcpu": 48,
+      "memoryGiB": 384,
+      "monthly": 2400.24,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "m6a.16xlarge",
+      "vcpu": 64,
+      "memoryGiB": 256,
+      "monthly": 2417.76,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "r6gd.12xlarge",
+      "vcpu": 48,
+      "memoryGiB": 384,
+      "monthly": 2417.76,
+      "category": "memory",
+      "arch": "arm"
+    },
+    {
+      "name": "m5a.16xlarge",
+      "vcpu": 64,
+      "memoryGiB": 256,
+      "monthly": 2429.44,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "m8gd.12xlarge",
+      "vcpu": 48,
+      "memoryGiB": 192,
+      "monthly": 2431.78,
+      "category": "general",
+      "arch": "arm"
+    },
+    {
+      "name": "r6in.8xlarge",
+      "vcpu": 32,
+      "memoryGiB": 256,
+      "monthly": 2432.48,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "m7a.12xlarge",
+      "vcpu": 48,
+      "memoryGiB": 192,
+      "monthly": 2432.83,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "c7gd.16xlarge",
+      "vcpu": 64,
+      "memoryGiB": 128,
+      "monthly": 2450.46,
+      "category": "compute",
+      "arch": "arm"
+    },
+    {
+      "name": "m5n.12xlarge",
+      "vcpu": 48,
+      "memoryGiB": 192,
+      "monthly": 2470.32,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "i8ge.6xlarge",
+      "vcpu": 24,
+      "memoryGiB": 192,
+      "monthly": 2483.46,
+      "category": "storage",
+      "arch": "arm"
+    },
+    {
+      "name": "r8g.12xlarge",
+      "vcpu": 48,
+      "memoryGiB": 384,
+      "monthly": 2489.94,
+      "category": "memory",
+      "arch": "arm"
+    },
+    {
+      "name": "c8i.16xlarge",
+      "vcpu": 64,
+      "memoryGiB": 128,
+      "monthly": 2498.12,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "m6id.12xlarge",
+      "vcpu": 48,
+      "memoryGiB": 192,
+      "monthly": 2501.86,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "g5g.16xlarge",
+      "vcpu": 64,
+      "memoryGiB": 128,
+      "monthly": 2505.8,
+      "category": "other",
+      "arch": "arm"
+    },
+    {
+      "name": "m8g.16xlarge",
+      "vcpu": 64,
+      "memoryGiB": 256,
+      "monthly": 2512.13,
+      "category": "general",
+      "arch": "arm"
+    },
+    {
+      "name": "f1.4xlarge",
+      "vcpu": 16,
+      "memoryGiB": 244,
+      "monthly": 2531.64,
+      "category": "other",
+      "arch": "x86"
+    },
+    {
+      "name": "im4gn.8xlarge",
+      "vcpu": 32,
+      "memoryGiB": 128,
+      "monthly": 2533.11,
+      "category": "storage",
+      "arch": "arm"
+    },
+    {
+      "name": "m6gd.16xlarge",
+      "vcpu": 64,
+      "memoryGiB": 256,
+      "monthly": 2546.24,
+      "category": "general",
+      "arch": "arm"
+    },
+    {
+      "name": "c5.18xlarge",
+      "vcpu": 72,
+      "memoryGiB": 144,
+      "monthly": 2549.16,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "m8a.12xlarge",
+      "vcpu": 48,
+      "memoryGiB": 192,
+      "monthly": 2554.42,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "r7iz.8xlarge",
+      "vcpu": 32,
+      "memoryGiB": 256,
+      "monthly": 2628,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "i7i.8xlarge",
+      "vcpu": 32,
+      "memoryGiB": 256,
+      "monthly": 2628.73,
+      "category": "storage",
+      "arch": "x86"
+    },
+    {
+      "name": "c8gd.16xlarge",
+      "vcpu": 64,
+      "memoryGiB": 128,
+      "monthly": 2646.69,
+      "category": "compute",
+      "arch": "arm"
+    },
+    {
+      "name": "m9gd.12xlarge",
+      "vcpu": 48,
+      "memoryGiB": 192,
+      "monthly": 2650.78,
+      "category": "general",
+      "arch": "arm"
+    },
+    {
+      "name": "r5.12xlarge",
+      "vcpu": 48,
+      "memoryGiB": 384,
+      "monthly": 2663.04,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "r6i.12xlarge",
+      "vcpu": 48,
+      "memoryGiB": 384,
+      "monthly": 2663.04,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "m7i-flex.16xlarge",
+      "vcpu": 64,
+      "memoryGiB": 256,
+      "monthly": 2679.63,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "m5.16xlarge",
+      "vcpu": 64,
+      "memoryGiB": 256,
+      "monthly": 2686.4,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "m6i.16xlarge",
+      "vcpu": 64,
+      "memoryGiB": 256,
+      "monthly": 2686.4,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "r9g.12xlarge",
+      "vcpu": 48,
+      "memoryGiB": 384,
+      "monthly": 2714.2,
+      "category": "memory",
+      "arch": "arm"
+    },
+    {
+      "name": "c8in.12xlarge",
+      "vcpu": 48,
+      "memoryGiB": 96,
+      "monthly": 2715.25,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "r6idn.8xlarge",
+      "vcpu": 32,
+      "memoryGiB": 256,
+      "monthly": 2719.45,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "i7ie.6xlarge",
+      "vcpu": 24,
+      "memoryGiB": 192,
+      "monthly": 2719.98,
+      "category": "storage",
+      "arch": "x86"
+    },
+    {
+      "name": "c6id.16xlarge",
+      "vcpu": 64,
+      "memoryGiB": 128,
+      "monthly": 2722.61,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c7a.16xlarge",
+      "vcpu": 64,
+      "memoryGiB": 128,
+      "monthly": 2736.16,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "m9g.16xlarge",
+      "vcpu": 64,
+      "memoryGiB": 256,
+      "monthly": 2738.26,
+      "category": "general",
+      "arch": "arm"
+    },
+    {
+      "name": "g6e.4xlarge",
+      "vcpu": 16,
+      "memoryGiB": 128,
+      "monthly": 2742.25,
+      "category": "other",
+      "arch": "x86"
+    },
+    {
+      "name": "m8id.12xlarge",
+      "vcpu": 48,
+      "memoryGiB": 192,
+      "monthly": 2752.04,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "r5ad.12xlarge",
+      "vcpu": 48,
+      "memoryGiB": 384,
+      "monthly": 2768.16,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "g7.4xlarge",
+      "vcpu": 16,
+      "memoryGiB": 64,
+      "monthly": 2777.04,
+      "category": "other",
+      "arch": "x86"
+    },
+    {
+      "name": "r8i-flex.12xlarge",
+      "vcpu": 48,
+      "memoryGiB": 384,
+      "monthly": 2789.18,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "p3.2xlarge",
+      "vcpu": 8,
+      "memoryGiB": 61,
+      "monthly": 2790.79,
+      "category": "other",
+      "arch": "x86"
+    },
+    {
+      "name": "r7i.12xlarge",
+      "vcpu": 48,
+      "memoryGiB": 384,
+      "monthly": 2796.19,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "m4.16xlarge",
+      "vcpu": 64,
+      "memoryGiB": 256,
+      "monthly": 2803.2,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "m8i-flex.16xlarge",
+      "vcpu": 64,
+      "memoryGiB": 256,
+      "monthly": 2813.71,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "m7i.16xlarge",
+      "vcpu": 64,
+      "memoryGiB": 256,
+      "monthly": 2820.72,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "m5dn.12xlarge",
+      "vcpu": 48,
+      "memoryGiB": 192,
+      "monthly": 2838.24,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "r6g.16xlarge",
+      "vcpu": 64,
+      "memoryGiB": 512,
+      "monthly": 2840.58,
+      "category": "memory",
+      "arch": "arm"
+    },
+    {
+      "name": "r7gd.12xlarge",
+      "vcpu": 48,
+      "memoryGiB": 384,
+      "monthly": 2864.23,
+      "category": "memory",
+      "arch": "arm"
+    },
+    {
+      "name": "c8a.16xlarge",
+      "vcpu": 64,
+      "memoryGiB": 128,
+      "monthly": 2873.05,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c9gd.16xlarge",
+      "vcpu": 64,
+      "memoryGiB": 128,
+      "monthly": 2884.96,
+      "category": "compute",
+      "arch": "arm"
+    },
+    {
+      "name": "m6in.12xlarge",
+      "vcpu": 48,
+      "memoryGiB": 192,
+      "monthly": 2890.27,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "c5d.18xlarge",
+      "vcpu": 72,
+      "memoryGiB": 144,
+      "monthly": 2917.08,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "r8ib.8xlarge",
+      "vcpu": 32,
+      "memoryGiB": 256,
+      "monthly": 2918.95,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "r8in.8xlarge",
+      "vcpu": 32,
+      "memoryGiB": 256,
+      "monthly": 2918.95,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "m5ad.16xlarge",
+      "vcpu": 64,
+      "memoryGiB": 256,
+      "monthly": 2920,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "r8i.12xlarge",
+      "vcpu": 48,
+      "memoryGiB": 384,
+      "monthly": 2936,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "i2.4xlarge",
+      "vcpu": 16,
+      "memoryGiB": 122,
+      "monthly": 2957.23,
+      "category": "storage",
+      "arch": "x86"
+    },
+    {
+      "name": "m8i.16xlarge",
+      "vcpu": 64,
+      "memoryGiB": 256,
+      "monthly": 2961.81,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "c8id.16xlarge",
+      "vcpu": 64,
+      "memoryGiB": 128,
+      "monthly": 2994.99,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "m7gd.16xlarge",
+      "vcpu": 64,
+      "memoryGiB": 256,
+      "monthly": 3002.2,
+      "category": "general",
+      "arch": "arm"
+    },
+    {
+      "name": "c6in.16xlarge",
+      "vcpu": 64,
+      "memoryGiB": 128,
+      "monthly": 3016.94,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "r7g.16xlarge",
+      "vcpu": 64,
+      "memoryGiB": 512,
+      "monthly": 3018.11,
+      "category": "memory",
+      "arch": "arm"
+    },
+    {
+      "name": "r5d.12xlarge",
+      "vcpu": 48,
+      "memoryGiB": 384,
+      "monthly": 3030.96,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "d3en.6xlarge",
+      "vcpu": 24,
+      "memoryGiB": 96,
+      "monthly": 3033.88,
+      "category": "storage",
+      "arch": "x86"
+    },
+    {
+      "name": "c5a.24xlarge",
+      "vcpu": 96,
+      "memoryGiB": 192,
+      "monthly": 3048.48,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c6a.24xlarge",
+      "vcpu": 96,
+      "memoryGiB": 192,
+      "monthly": 3058.99,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "r8gd.12xlarge",
+      "vcpu": 48,
+      "memoryGiB": 384,
+      "monthly": 3093.33,
+      "category": "memory",
+      "arch": "arm"
+    },
+    {
+      "name": "g6.16xlarge",
+      "vcpu": 64,
+      "memoryGiB": 256,
+      "monthly": 3100.81,
+      "category": "other",
+      "arch": "x86"
+    },
+    {
+      "name": "r5b.12xlarge",
+      "vcpu": 48,
+      "memoryGiB": 384,
+      "monthly": 3118.56,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "r5n.12xlarge",
+      "vcpu": 48,
+      "memoryGiB": 384,
+      "monthly": 3118.56,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "c8gn.16xlarge",
+      "vcpu": 64,
+      "memoryGiB": 128,
+      "monthly": 3152.65,
+      "category": "compute",
+      "arch": "arm"
+    },
+    {
+      "name": "c8gb.16xlarge",
+      "vcpu": 64,
+      "memoryGiB": 128,
+      "monthly": 3152.67,
+      "category": "compute",
+      "arch": "arm"
+    },
+    {
+      "name": "g4ad.16xlarge",
+      "vcpu": 64,
+      "memoryGiB": 256,
+      "monthly": 3165.28,
+      "category": "other",
+      "arch": "x86"
+    },
+    {
+      "name": "m5d.16xlarge",
+      "vcpu": 64,
+      "memoryGiB": 256,
+      "monthly": 3176.96,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "c8g.24xlarge",
+      "vcpu": 96,
+      "memoryGiB": 192,
+      "monthly": 3178.13,
+      "category": "compute",
+      "arch": "arm"
+    },
+    {
+      "name": "r6id.12xlarge",
+      "vcpu": 48,
+      "memoryGiB": 384,
+      "monthly": 3182.51,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "x8g.8xlarge",
+      "vcpu": 32,
+      "memoryGiB": 512,
+      "monthly": 3189.81,
+      "category": "memory",
+      "arch": "arm"
+    },
+    {
+      "name": "r6a.16xlarge",
+      "vcpu": 64,
+      "memoryGiB": 512,
+      "monthly": 3195.65,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "r5a.16xlarge",
+      "vcpu": 64,
+      "memoryGiB": 512,
+      "monthly": 3200.32,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "r7a.12xlarge",
+      "vcpu": 48,
+      "memoryGiB": 384,
+      "monthly": 3215.62,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "r6gd.16xlarge",
+      "vcpu": 64,
+      "memoryGiB": 512,
+      "monthly": 3223.68,
+      "category": "memory",
+      "arch": "arm"
+    },
+    {
+      "name": "c5n.18xlarge",
+      "vcpu": 72,
+      "memoryGiB": 192,
+      "monthly": 3232.44,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "m8gd.16xlarge",
+      "vcpu": 64,
+      "memoryGiB": 256,
+      "monthly": 3242.37,
+      "category": "general",
+      "arch": "arm"
+    },
+    {
+      "name": "m7a.16xlarge",
+      "vcpu": 64,
+      "memoryGiB": 256,
+      "monthly": 3243.77,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "r8idb.8xlarge",
+      "vcpu": 32,
+      "memoryGiB": 256,
+      "monthly": 3263.39,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "r8idn.8xlarge",
+      "vcpu": 32,
+      "memoryGiB": 256,
+      "monthly": 3263.39,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "m5n.16xlarge",
+      "vcpu": 64,
+      "memoryGiB": 256,
+      "monthly": 3293.76,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "r8g.16xlarge",
+      "vcpu": 64,
+      "memoryGiB": 512,
+      "monthly": 3319.92,
+      "category": "memory",
+      "arch": "arm"
+    },
+    {
+      "name": "m6idn.12xlarge",
+      "vcpu": 48,
+      "memoryGiB": 192,
+      "monthly": 3320.74,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "m6id.16xlarge",
+      "vcpu": 64,
+      "memoryGiB": 256,
+      "monthly": 3335.81,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "r9gd.12xlarge",
+      "vcpu": 48,
+      "memoryGiB": 384,
+      "monthly": 3371.9,
+      "category": "memory",
+      "arch": "arm"
+    },
+    {
+      "name": "r8a.12xlarge",
+      "vcpu": 48,
+      "memoryGiB": 384,
+      "monthly": 3376.45,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "c8ine.12xlarge",
+      "vcpu": 48,
+      "memoryGiB": 96,
+      "monthly": 3394.15,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c5.24xlarge",
+      "vcpu": 96,
+      "memoryGiB": 192,
+      "monthly": 3398.88,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c6i.24xlarge",
+      "vcpu": 96,
+      "memoryGiB": 192,
+      "monthly": 3398.88,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "m8a.16xlarge",
+      "vcpu": 64,
+      "memoryGiB": 256,
+      "monthly": 3405.89,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "x1e.4xlarge",
+      "vcpu": 16,
+      "memoryGiB": 488,
+      "monthly": 3407.64,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "x2iedn.4xlarge",
+      "vcpu": 16,
+      "memoryGiB": 512,
+      "monthly": 3408.01,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "c9g.24xlarge",
+      "vcpu": 96,
+      "memoryGiB": 192,
+      "monthly": 3464.05,
+      "category": "compute",
+      "arch": "arm"
+    },
+    {
+      "name": "m5zn.12xlarge",
+      "vcpu": 48,
+      "memoryGiB": 192,
+      "monthly": 3466.48,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "r5dn.12xlarge",
+      "vcpu": 48,
+      "memoryGiB": 384,
+      "monthly": 3486.48,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "r8id.12xlarge",
+      "vcpu": 48,
+      "memoryGiB": 384,
+      "monthly": 3500.85,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "c5ad.24xlarge",
+      "vcpu": 96,
+      "memoryGiB": 192,
+      "monthly": 3504,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "m9gd.16xlarge",
+      "vcpu": 64,
+      "memoryGiB": 256,
+      "monthly": 3534.37,
+      "category": "general",
+      "arch": "arm"
+    },
+    {
+      "name": "r5.16xlarge",
+      "vcpu": 64,
+      "memoryGiB": 512,
+      "monthly": 3550.72,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "r6i.16xlarge",
+      "vcpu": 64,
+      "memoryGiB": 512,
+      "monthly": 3550.72,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "c7i.24xlarge",
+      "vcpu": 96,
+      "memoryGiB": 192,
+      "monthly": 3568.82,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "g4dn.12xlarge",
+      "vcpu": 48,
+      "memoryGiB": 192,
+      "monthly": 3569.7,
+      "category": "other",
+      "arch": "x86"
+    },
+    {
+      "name": "x8i.8xlarge",
+      "vcpu": 32,
+      "memoryGiB": 512,
+      "monthly": 3578.4,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "i4i.12xlarge",
+      "vcpu": 48,
+      "memoryGiB": 384,
+      "monthly": 3584.3,
+      "category": "storage",
+      "arch": "x86"
+    },
+    {
+      "name": "i8g.12xlarge",
+      "vcpu": 48,
+      "memoryGiB": 384,
+      "monthly": 3584.59,
+      "category": "storage",
+      "arch": "arm"
+    },
+    {
+      "name": "f2.12xlarge",
+      "vcpu": 48,
+      "memoryGiB": 512,
+      "monthly": 3613.5,
+      "category": "other",
+      "arch": "x86"
+    },
+    {
+      "name": "r9g.16xlarge",
+      "vcpu": 64,
+      "memoryGiB": 512,
+      "monthly": 3618.93,
+      "category": "memory",
+      "arch": "arm"
+    },
+    {
+      "name": "c8in.16xlarge",
+      "vcpu": 64,
+      "memoryGiB": 128,
+      "monthly": 3620.33,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "m6a.24xlarge",
+      "vcpu": 96,
+      "memoryGiB": 384,
+      "monthly": 3626.64,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "m5a.24xlarge",
+      "vcpu": 96,
+      "memoryGiB": 384,
+      "monthly": 3644.16,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "r6in.12xlarge",
+      "vcpu": 48,
+      "memoryGiB": 384,
+      "monthly": 3648.72,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "m8id.16xlarge",
+      "vcpu": 64,
+      "memoryGiB": 256,
+      "monthly": 3669.39,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "r5ad.16xlarge",
+      "vcpu": 64,
+      "memoryGiB": 512,
+      "monthly": 3690.88,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "r8i-flex.16xlarge",
+      "vcpu": 64,
+      "memoryGiB": 512,
+      "monthly": 3718.91,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "r7i.16xlarge",
+      "vcpu": 64,
+      "memoryGiB": 512,
+      "monthly": 3728.26,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "g7.8xlarge",
+      "vcpu": 32,
+      "memoryGiB": 128,
+      "monthly": 3730.23,
+      "category": "other",
+      "arch": "x86"
+    },
+    {
+      "name": "r4.16xlarge",
+      "vcpu": 64,
+      "memoryGiB": 488,
+      "monthly": 3738.77,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "g5.16xlarge",
+      "vcpu": 64,
+      "memoryGiB": 256,
+      "monthly": 3739.09,
+      "category": "other",
+      "arch": "x86"
+    },
+    {
+      "name": "c8i.24xlarge",
+      "vcpu": 96,
+      "memoryGiB": 192,
+      "monthly": 3747.18,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "m8g.24xlarge",
+      "vcpu": 96,
+      "memoryGiB": 384,
+      "monthly": 3768.2,
+      "category": "general",
+      "arch": "arm"
+    },
+    {
+      "name": "m5dn.16xlarge",
+      "vcpu": 64,
+      "memoryGiB": 256,
+      "monthly": 3784.32,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "r7gd.16xlarge",
+      "vcpu": 64,
+      "memoryGiB": 512,
+      "monthly": 3819,
+      "category": "memory",
+      "arch": "arm"
+    },
+    {
+      "name": "d3.8xlarge",
+      "vcpu": 32,
+      "memoryGiB": 256,
+      "monthly": 3843.07,
+      "category": "storage",
+      "arch": "x86"
+    },
+    {
+      "name": "m6in.16xlarge",
+      "vcpu": 64,
+      "memoryGiB": 256,
+      "monthly": 3853.7,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "c5d.24xlarge",
+      "vcpu": 96,
+      "memoryGiB": 192,
+      "monthly": 3889.44,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "r8i.16xlarge",
+      "vcpu": 64,
+      "memoryGiB": 512,
+      "monthly": 3914.67,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "r7iz.12xlarge",
+      "vcpu": 48,
+      "memoryGiB": 384,
+      "monthly": 3942,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "z1d.12xlarge",
+      "vcpu": 48,
+      "memoryGiB": 384,
+      "monthly": 3942,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "i7i.12xlarge",
+      "vcpu": 48,
+      "memoryGiB": 384,
+      "monthly": 3943.02,
+      "category": "storage",
+      "arch": "x86"
+    },
+    {
+      "name": "c8gd.24xlarge",
+      "vcpu": 96,
+      "memoryGiB": 192,
+      "monthly": 3970.03,
+      "category": "compute",
+      "arch": "arm"
+    },
+    {
+      "name": "g4dn.16xlarge",
+      "vcpu": 64,
+      "memoryGiB": 256,
+      "monthly": 3971.2,
+      "category": "other",
+      "arch": "x86"
+    },
+    {
+      "name": "is4gen.8xlarge",
+      "vcpu": 32,
+      "memoryGiB": 192,
+      "monthly": 4020.84,
+      "category": "storage",
+      "arch": "arm"
+    },
+    {
+      "name": "m5.24xlarge",
+      "vcpu": 96,
+      "memoryGiB": 384,
+      "monthly": 4029.6,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "m6i.24xlarge",
+      "vcpu": 96,
+      "memoryGiB": 384,
+      "monthly": 4029.6,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "r5d.16xlarge",
+      "vcpu": 64,
+      "memoryGiB": 512,
+      "monthly": 4041.28,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "d3en.8xlarge",
+      "vcpu": 32,
+      "memoryGiB": 128,
+      "monthly": 4045.31,
+      "category": "storage",
+      "arch": "x86"
+    },
+    {
+      "name": "c6a.32xlarge",
+      "vcpu": 128,
+      "memoryGiB": 256,
+      "monthly": 4078.66,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "r6idn.12xlarge",
+      "vcpu": 48,
+      "memoryGiB": 384,
+      "monthly": 4079.18,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "c6id.24xlarge",
+      "vcpu": 96,
+      "memoryGiB": 192,
+      "monthly": 4083.91,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c7a.24xlarge",
+      "vcpu": 96,
+      "memoryGiB": 192,
+      "monthly": 4104.24,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "m9g.24xlarge",
+      "vcpu": 96,
+      "memoryGiB": 384,
+      "monthly": 4107.39,
+      "category": "general",
+      "arch": "arm"
+    },
+    {
+      "name": "r8gd.16xlarge",
+      "vcpu": 64,
+      "memoryGiB": 512,
+      "monthly": 4124.44,
+      "category": "memory",
+      "arch": "arm"
+    },
+    {
+      "name": "g6e.8xlarge",
+      "vcpu": 32,
+      "memoryGiB": 256,
+      "monthly": 4133.64,
+      "category": "other",
+      "arch": "x86"
+    },
+    {
+      "name": "r5b.16xlarge",
+      "vcpu": 64,
+      "memoryGiB": 512,
+      "monthly": 4158.08,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "r5n.16xlarge",
+      "vcpu": 64,
+      "memoryGiB": 512,
+      "monthly": 4158.08,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "g3.16xlarge",
+      "vcpu": 64,
+      "memoryGiB": 488,
+      "monthly": 4161,
+      "category": "other",
+      "arch": "x86"
+    },
+    {
+      "name": "g7e.2xlarge",
+      "vcpu": 8,
+      "memoryGiB": 64,
+      "monthly": 4174.98,
+      "category": "other",
+      "arch": "x86"
+    },
+    {
+      "name": "g6.12xlarge",
+      "vcpu": 48,
+      "memoryGiB": 192,
+      "monthly": 4200.63,
+      "category": "other",
+      "arch": "x86"
+    },
+    {
+      "name": "m7i.24xlarge",
+      "vcpu": 96,
+      "memoryGiB": 384,
+      "monthly": 4231.08,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "r6id.16xlarge",
+      "vcpu": 64,
+      "memoryGiB": 512,
+      "monthly": 4243.34,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "r7a.16xlarge",
+      "vcpu": 64,
+      "memoryGiB": 512,
+      "monthly": 4287.49,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "inf1.24xlarge",
+      "vcpu": 96,
+      "memoryGiB": 192,
+      "monthly": 4308.46,
+      "category": "other",
+      "arch": "x86"
+    },
+    {
+      "name": "c8a.24xlarge",
+      "vcpu": 96,
+      "memoryGiB": 192,
+      "monthly": 4309.57,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c9gd.24xlarge",
+      "vcpu": 96,
+      "memoryGiB": 192,
+      "monthly": 4327.44,
+      "category": "compute",
+      "arch": "arm"
+    },
+    {
+      "name": "m8azn.12xlarge",
+      "vcpu": 48,
+      "memoryGiB": 192,
+      "monthly": 4333.22,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "i3.16xlarge",
+      "vcpu": 64,
+      "memoryGiB": 488,
+      "monthly": 4344.96,
+      "category": "storage",
+      "arch": "x86"
+    },
+    {
+      "name": "r8ib.12xlarge",
+      "vcpu": 48,
+      "memoryGiB": 384,
+      "monthly": 4378.42,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "r8in.12xlarge",
+      "vcpu": 48,
+      "memoryGiB": 384,
+      "monthly": 4378.42,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "m5ad.24xlarge",
+      "vcpu": 96,
+      "memoryGiB": 384,
+      "monthly": 4380,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "m6idn.16xlarge",
+      "vcpu": 64,
+      "memoryGiB": 256,
+      "monthly": 4427.65,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "m8i.24xlarge",
+      "vcpu": 96,
+      "memoryGiB": 384,
+      "monthly": 4442.72,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "c8id.24xlarge",
+      "vcpu": 96,
+      "memoryGiB": 192,
+      "monthly": 4492.48,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "r9gd.16xlarge",
+      "vcpu": 64,
+      "memoryGiB": 512,
+      "monthly": 4495.87,
+      "category": "memory",
+      "arch": "arm"
+    },
+    {
+      "name": "r8a.16xlarge",
+      "vcpu": 64,
+      "memoryGiB": 512,
+      "monthly": 4501.94,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "c6in.24xlarge",
+      "vcpu": 96,
+      "memoryGiB": 192,
+      "monthly": 4525.42,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c6i.32xlarge",
+      "vcpu": 128,
+      "memoryGiB": 256,
+      "monthly": 4531.84,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "d2.8xlarge",
+      "vcpu": 36,
+      "memoryGiB": 244,
+      "monthly": 4636.96,
+      "category": "storage",
+      "arch": "x86"
+    },
+    {
+      "name": "r5dn.16xlarge",
+      "vcpu": 64,
+      "memoryGiB": 512,
+      "monthly": 4648.64,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "r8id.16xlarge",
+      "vcpu": 64,
+      "memoryGiB": 512,
+      "monthly": 4667.8,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "c8gb.24xlarge",
+      "vcpu": 96,
+      "memoryGiB": 192,
+      "monthly": 4729,
+      "category": "compute",
+      "arch": "arm"
+    },
+    {
+      "name": "c8gn.24xlarge",
+      "vcpu": 96,
+      "memoryGiB": 192,
+      "monthly": 4729.01,
+      "category": "compute",
+      "arch": "arm"
+    },
+    {
+      "name": "i3en.12xlarge",
+      "vcpu": 48,
+      "memoryGiB": 384,
+      "monthly": 4730.4,
+      "category": "storage",
+      "arch": "x86"
+    },
+    {
+      "name": "m5d.24xlarge",
+      "vcpu": 96,
+      "memoryGiB": 384,
+      "monthly": 4765.44,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "i4i.16xlarge",
+      "vcpu": 64,
+      "memoryGiB": 512,
+      "monthly": 4779.31,
+      "category": "storage",
+      "arch": "x86"
+    },
+    {
+      "name": "i8g.16xlarge",
+      "vcpu": 64,
+      "memoryGiB": 512,
+      "monthly": 4779.46,
+      "category": "storage",
+      "arch": "arm"
+    },
+    {
+      "name": "x8g.12xlarge",
+      "vcpu": 48,
+      "memoryGiB": 768,
+      "monthly": 4784.71,
+      "category": "memory",
+      "arch": "arm"
+    },
+    {
+      "name": "r6a.24xlarge",
+      "vcpu": 96,
+      "memoryGiB": 768,
+      "monthly": 4793.47,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "r5a.24xlarge",
+      "vcpu": 96,
+      "memoryGiB": 768,
+      "monthly": 4800.48,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "m6a.32xlarge",
+      "vcpu": 128,
+      "memoryGiB": 512,
+      "monthly": 4835.52,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "m8gd.24xlarge",
+      "vcpu": 96,
+      "memoryGiB": 384,
+      "monthly": 4863.55,
+      "category": "general",
+      "arch": "arm"
+    },
+    {
+      "name": "r6in.16xlarge",
+      "vcpu": 64,
+      "memoryGiB": 512,
+      "monthly": 4864.95,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "m7a.24xlarge",
+      "vcpu": 96,
+      "memoryGiB": 384,
+      "monthly": 4865.65,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "r8idb.12xlarge",
+      "vcpu": 48,
+      "memoryGiB": 384,
+      "monthly": 4895.09,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "r8idn.12xlarge",
+      "vcpu": 48,
+      "memoryGiB": 384,
+      "monthly": 4895.09,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "m5n.24xlarge",
+      "vcpu": 96,
+      "memoryGiB": 384,
+      "monthly": 4940.64,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "g7e.4xlarge",
+      "vcpu": 16,
+      "memoryGiB": 128,
+      "monthly": 4963.32,
+      "category": "other",
+      "arch": "x86"
+    },
+    {
+      "name": "i8ge.12xlarge",
+      "vcpu": 48,
+      "memoryGiB": 384,
+      "monthly": 4966.92,
+      "category": "storage",
+      "arch": "arm"
+    },
+    {
+      "name": "r8g.24xlarge",
+      "vcpu": 96,
+      "memoryGiB": 768,
+      "monthly": 4979.88,
+      "category": "memory",
+      "arch": "arm"
+    },
+    {
+      "name": "c8i.32xlarge",
+      "vcpu": 128,
+      "memoryGiB": 256,
+      "monthly": 4996.24,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "m6id.24xlarge",
+      "vcpu": 96,
+      "memoryGiB": 384,
+      "monthly": 5003.71,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "im4gn.16xlarge",
+      "vcpu": 64,
+      "memoryGiB": 256,
+      "monthly": 5066.22,
+      "category": "storage",
+      "arch": "arm"
+    },
+    {
+      "name": "m8a.24xlarge",
+      "vcpu": 96,
+      "memoryGiB": 384,
+      "monthly": 5108.83,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "g5.12xlarge",
+      "vcpu": 48,
+      "memoryGiB": 192,
+      "monthly": 5177.76,
+      "category": "other",
+      "arch": "x86"
+    },
+    {
+      "name": "r7iz.16xlarge",
+      "vcpu": 64,
+      "memoryGiB": 512,
+      "monthly": 5256,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "i7i.16xlarge",
+      "vcpu": 64,
+      "memoryGiB": 512,
+      "monthly": 5257.39,
+      "category": "storage",
+      "arch": "x86"
+    },
+    {
+      "name": "m9gd.24xlarge",
+      "vcpu": 96,
+      "memoryGiB": 384,
+      "monthly": 5301.55,
+      "category": "general",
+      "arch": "arm"
+    },
+    {
+      "name": "r5.24xlarge",
+      "vcpu": 96,
+      "memoryGiB": 768,
+      "monthly": 5326.08,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "r6i.24xlarge",
+      "vcpu": 96,
+      "memoryGiB": 768,
+      "monthly": 5326.08,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "x8i.12xlarge",
+      "vcpu": 48,
+      "memoryGiB": 768,
+      "monthly": 5367.6,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "m6i.32xlarge",
+      "vcpu": 128,
+      "memoryGiB": 512,
+      "monthly": 5372.8,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "r9g.24xlarge",
+      "vcpu": 96,
+      "memoryGiB": 768,
+      "monthly": 5428.4,
+      "category": "memory",
+      "arch": "arm"
+    },
+    {
+      "name": "c8in.24xlarge",
+      "vcpu": 96,
+      "memoryGiB": 192,
+      "monthly": 5430.5,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "r6idn.16xlarge",
+      "vcpu": 64,
+      "memoryGiB": 512,
+      "monthly": 5438.91,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "i7ie.12xlarge",
+      "vcpu": 48,
+      "memoryGiB": 384,
+      "monthly": 5439.96,
+      "category": "storage",
+      "arch": "x86"
+    },
+    {
+      "name": "c6id.32xlarge",
+      "vcpu": 128,
+      "memoryGiB": 256,
+      "monthly": 5445.22,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c7a.32xlarge",
+      "vcpu": 128,
+      "memoryGiB": 256,
+      "monthly": 5472.31,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "m8id.24xlarge",
+      "vcpu": 96,
+      "memoryGiB": 384,
+      "monthly": 5504.08,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "r5ad.24xlarge",
+      "vcpu": 96,
+      "memoryGiB": 768,
+      "monthly": 5536.32,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "r7i.24xlarge",
+      "vcpu": 96,
+      "memoryGiB": 768,
+      "monthly": 5592.38,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "m5dn.24xlarge",
+      "vcpu": 96,
+      "memoryGiB": 384,
+      "monthly": 5676.48,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "m6in.24xlarge",
+      "vcpu": 96,
+      "memoryGiB": 384,
+      "monthly": 5780.55,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "r8ib.16xlarge",
+      "vcpu": 64,
+      "memoryGiB": 512,
+      "monthly": 5837.9,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "r8in.16xlarge",
+      "vcpu": 64,
+      "memoryGiB": 512,
+      "monthly": 5837.9,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "r8i.24xlarge",
+      "vcpu": 96,
+      "memoryGiB": 768,
+      "monthly": 5872,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "i2.8xlarge",
+      "vcpu": 32,
+      "memoryGiB": 244,
+      "monthly": 5914.46,
+      "category": "storage",
+      "arch": "x86"
+    },
+    {
+      "name": "m8i.32xlarge",
+      "vcpu": 128,
+      "memoryGiB": 512,
+      "monthly": 5923.63,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "c8id.32xlarge",
+      "vcpu": 128,
+      "memoryGiB": 256,
+      "monthly": 5989.97,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c6in.32xlarge",
+      "vcpu": 128,
+      "memoryGiB": 256,
+      "monthly": 6033.89,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "r5d.24xlarge",
+      "vcpu": 96,
+      "memoryGiB": 768,
+      "monthly": 6061.92,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "d3en.12xlarge",
+      "vcpu": 48,
+      "memoryGiB": 192,
+      "monthly": 6067.96,
+      "category": "storage",
+      "arch": "x86"
+    },
+    {
+      "name": "g6.24xlarge",
+      "vcpu": 96,
+      "memoryGiB": 384,
+      "monthly": 6093.54,
+      "category": "other",
+      "arch": "x86"
+    },
+    {
+      "name": "c6a.48xlarge",
+      "vcpu": 192,
+      "memoryGiB": 384,
+      "monthly": 6117.98,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "r8gd.24xlarge",
+      "vcpu": 96,
+      "memoryGiB": 768,
+      "monthly": 6186.66,
+      "category": "memory",
+      "arch": "arm"
+    },
+    {
+      "name": "r5b.24xlarge",
+      "vcpu": 96,
+      "memoryGiB": 768,
+      "monthly": 6237.12,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "r5n.24xlarge",
+      "vcpu": 96,
+      "memoryGiB": 768,
+      "monthly": 6237.12,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "c8g.48xlarge",
+      "vcpu": 192,
+      "memoryGiB": 384,
+      "monthly": 6356.26,
+      "category": "compute",
+      "arch": "arm"
+    },
+    {
+      "name": "r6id.24xlarge",
+      "vcpu": 96,
+      "memoryGiB": 768,
+      "monthly": 6365.02,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "x8g.16xlarge",
+      "vcpu": 64,
+      "memoryGiB": 1024,
+      "monthly": 6379.62,
+      "category": "memory",
+      "arch": "arm"
+    },
+    {
+      "name": "r6a.32xlarge",
+      "vcpu": 128,
+      "memoryGiB": 1024,
+      "monthly": 6391.3,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "r7a.24xlarge",
+      "vcpu": 96,
+      "memoryGiB": 768,
+      "monthly": 6431.24,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "m7a.32xlarge",
+      "vcpu": 128,
+      "memoryGiB": 512,
+      "monthly": 6487.54,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "g7.12xlarge",
+      "vcpu": 48,
+      "memoryGiB": 192,
+      "monthly": 6507.28,
+      "category": "other",
+      "arch": "x86"
+    },
+    {
+      "name": "r8idb.16xlarge",
+      "vcpu": 64,
+      "memoryGiB": 512,
+      "monthly": 6526.78,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "r8idn.16xlarge",
+      "vcpu": 64,
+      "memoryGiB": 512,
+      "monthly": 6526.78,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "g7e.8xlarge",
+      "vcpu": 32,
+      "memoryGiB": 256,
+      "monthly": 6540,
+      "category": "other",
+      "arch": "x86"
+    },
+    {
+      "name": "m6idn.24xlarge",
+      "vcpu": 96,
+      "memoryGiB": 384,
+      "monthly": 6641.48,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "m6id.32xlarge",
+      "vcpu": 128,
+      "memoryGiB": 512,
+      "monthly": 6671.62,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "r9gd.24xlarge",
+      "vcpu": 96,
+      "memoryGiB": 768,
+      "monthly": 6743.8,
+      "category": "memory",
+      "arch": "arm"
+    },
+    {
+      "name": "r8a.24xlarge",
+      "vcpu": 96,
+      "memoryGiB": 768,
+      "monthly": 6752.91,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "x1e.8xlarge",
+      "vcpu": 32,
+      "memoryGiB": 976,
+      "monthly": 6815.28,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "x1.16xlarge",
+      "vcpu": 64,
+      "memoryGiB": 976,
+      "monthly": 6816.01,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "x2idn.16xlarge",
+      "vcpu": 64,
+      "memoryGiB": 1024,
+      "monthly": 6816.01,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "x2iedn.8xlarge",
+      "vcpu": 32,
+      "memoryGiB": 1024,
+      "monthly": 6816.01,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "g6e.16xlarge",
+      "vcpu": 64,
+      "memoryGiB": 512,
+      "monthly": 6916.41,
+      "category": "other",
+      "arch": "x86"
+    },
+    {
+      "name": "c9g.48xlarge",
+      "vcpu": 192,
+      "memoryGiB": 384,
+      "monthly": 6928.11,
+      "category": "compute",
+      "arch": "arm"
+    },
+    {
+      "name": "r5dn.24xlarge",
+      "vcpu": 96,
+      "memoryGiB": 768,
+      "monthly": 6972.96,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "r8id.24xlarge",
+      "vcpu": 96,
+      "memoryGiB": 768,
+      "monthly": 7001.69,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "r6i.32xlarge",
+      "vcpu": 128,
+      "memoryGiB": 1024,
+      "monthly": 7101.44,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "inf2.24xlarge",
+      "vcpu": 96,
+      "memoryGiB": 384,
+      "monthly": 7107.24,
+      "category": "other",
+      "arch": "x86"
+    },
+    {
+      "name": "c7i.48xlarge",
+      "vcpu": 192,
+      "memoryGiB": 384,
+      "monthly": 7137.65,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "x8i.16xlarge",
+      "vcpu": 64,
+      "memoryGiB": 1024,
+      "monthly": 7156.8,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "i4i.24xlarge",
+      "vcpu": 96,
+      "memoryGiB": 768,
+      "monthly": 7169.18,
+      "category": "storage",
+      "arch": "x86"
+    },
+    {
+      "name": "i8g.24xlarge",
+      "vcpu": 96,
+      "memoryGiB": 768,
+      "monthly": 7169.18,
+      "category": "storage",
+      "arch": "arm"
+    },
+    {
+      "name": "c8in.32xlarge",
+      "vcpu": 128,
+      "memoryGiB": 256,
+      "monthly": 7240.67,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "m6a.48xlarge",
+      "vcpu": 192,
+      "memoryGiB": 768,
+      "monthly": 7253.28,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "r6in.24xlarge",
+      "vcpu": 96,
+      "memoryGiB": 768,
+      "monthly": 7297.43,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "m8id.32xlarge",
+      "vcpu": 128,
+      "memoryGiB": 512,
+      "monthly": 7338.78,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "g5.24xlarge",
+      "vcpu": 96,
+      "memoryGiB": 384,
+      "monthly": 7434.36,
+      "category": "other",
+      "arch": "x86"
+    },
+    {
+      "name": "i8ge.18xlarge",
+      "vcpu": 72,
+      "memoryGiB": 576,
+      "monthly": 7450.38,
+      "category": "storage",
+      "arch": "arm"
+    },
+    {
+      "name": "c8i.48xlarge",
+      "vcpu": 192,
+      "memoryGiB": 384,
+      "monthly": 7494.36,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "m8g.48xlarge",
+      "vcpu": 192,
+      "memoryGiB": 768,
+      "monthly": 7536.4,
+      "category": "general",
+      "arch": "arm"
+    },
+    {
+      "name": "m6in.32xlarge",
+      "vcpu": 128,
+      "memoryGiB": 512,
+      "monthly": 7707.4,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "p2.8xlarge",
+      "vcpu": 32,
+      "memoryGiB": 488,
+      "monthly": 7743.84,
+      "category": "other",
+      "arch": "x86"
+    },
+    {
+      "name": "r8i.32xlarge",
+      "vcpu": 128,
+      "memoryGiB": 1024,
+      "monthly": 7829.34,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "i7i.24xlarge",
+      "vcpu": 96,
+      "memoryGiB": 768,
+      "monthly": 7886.12,
+      "category": "storage",
+      "arch": "x86"
+    },
+    {
+      "name": "c8gd.48xlarge",
+      "vcpu": 192,
+      "memoryGiB": 384,
+      "monthly": 7940.06,
+      "category": "compute",
+      "arch": "arm"
+    },
+    {
+      "name": "r6idn.24xlarge",
+      "vcpu": 96,
+      "memoryGiB": 768,
+      "monthly": 8158.36,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "i7ie.18xlarge",
+      "vcpu": 72,
+      "memoryGiB": 576,
+      "monthly": 8159.94,
+      "category": "storage",
+      "arch": "x86"
+    },
+    {
+      "name": "c7a.48xlarge",
+      "vcpu": 192,
+      "memoryGiB": 384,
+      "monthly": 8208.47,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "m9g.48xlarge",
+      "vcpu": 192,
+      "memoryGiB": 768,
+      "monthly": 8214.78,
+      "category": "general",
+      "arch": "arm"
+    },
+    {
+      "name": "m7i.48xlarge",
+      "vcpu": 192,
+      "memoryGiB": 768,
+      "monthly": 8462.16,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "dl2q.24xlarge",
+      "vcpu": 96,
+      "memoryGiB": 768,
+      "monthly": 8464.5,
+      "category": "other",
+      "arch": "x86"
+    },
+    {
+      "name": "r6id.32xlarge",
+      "vcpu": 128,
+      "memoryGiB": 1024,
+      "monthly": 8486.69,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "r7a.32xlarge",
+      "vcpu": 128,
+      "memoryGiB": 1024,
+      "monthly": 8574.99,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "c8a.48xlarge",
+      "vcpu": 192,
+      "memoryGiB": 384,
+      "monthly": 8619.14,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c9gd.48xlarge",
+      "vcpu": 192,
+      "memoryGiB": 384,
+      "monthly": 8654.88,
+      "category": "compute",
+      "arch": "arm"
+    },
+    {
+      "name": "m8azn.24xlarge",
+      "vcpu": 96,
+      "memoryGiB": 384,
+      "monthly": 8666.44,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "r8ib.24xlarge",
+      "vcpu": 96,
+      "memoryGiB": 768,
+      "monthly": 8756.85,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "r8in.24xlarge",
+      "vcpu": 96,
+      "memoryGiB": 768,
+      "monthly": 8756.85,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "m6idn.32xlarge",
+      "vcpu": 128,
+      "memoryGiB": 512,
+      "monthly": 8855.31,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "m8i.48xlarge",
+      "vcpu": 192,
+      "memoryGiB": 768,
+      "monthly": 8885.44,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "c8id.48xlarge",
+      "vcpu": 192,
+      "memoryGiB": 384,
+      "monthly": 8984.96,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "r8id.32xlarge",
+      "vcpu": 128,
+      "memoryGiB": 1024,
+      "monthly": 9335.59,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "c8gb.48xlarge",
+      "vcpu": 192,
+      "memoryGiB": 384,
+      "monthly": 9458,
+      "category": "compute",
+      "arch": "arm"
+    },
+    {
+      "name": "c8gn.48xlarge",
+      "vcpu": 192,
+      "memoryGiB": 384,
+      "monthly": 9458.03,
+      "category": "compute",
+      "arch": "arm"
+    },
+    {
+      "name": "i3en.24xlarge",
+      "vcpu": 96,
+      "memoryGiB": 768,
+      "monthly": 9460.8,
+      "category": "storage",
+      "arch": "x86"
+    },
+    {
+      "name": "i4i.32xlarge",
+      "vcpu": 128,
+      "memoryGiB": 1024,
+      "monthly": 9558.91,
+      "category": "storage",
+      "arch": "x86"
+    },
+    {
+      "name": "x8g.24xlarge",
+      "vcpu": 96,
+      "memoryGiB": 1536,
+      "monthly": 9569.42,
+      "category": "memory",
+      "arch": "arm"
+    },
+    {
+      "name": "g6e.12xlarge",
+      "vcpu": 48,
+      "memoryGiB": 384,
+      "monthly": 9577.61,
+      "category": "other",
+      "arch": "x86"
+    },
+    {
+      "name": "r6a.48xlarge",
+      "vcpu": 192,
+      "memoryGiB": 1536,
+      "monthly": 9586.94,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "m8gd.48xlarge",
+      "vcpu": 192,
+      "memoryGiB": 768,
+      "monthly": 9727.1,
+      "category": "general",
+      "arch": "arm"
+    },
+    {
+      "name": "r6in.32xlarge",
+      "vcpu": 128,
+      "memoryGiB": 1024,
+      "monthly": 9729.91,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "m7a.48xlarge",
+      "vcpu": 192,
+      "memoryGiB": 768,
+      "monthly": 9731.31,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "r8idb.24xlarge",
+      "vcpu": 96,
+      "memoryGiB": 768,
+      "monthly": 9790.18,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "r8idn.24xlarge",
+      "vcpu": 96,
+      "memoryGiB": 768,
+      "monthly": 9790.18,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "i8ge.24xlarge",
+      "vcpu": 96,
+      "memoryGiB": 768,
+      "monthly": 9933.84,
+      "category": "storage",
+      "arch": "arm"
+    },
+    {
+      "name": "r8g.48xlarge",
+      "vcpu": 192,
+      "memoryGiB": 1536,
+      "monthly": 9959.77,
+      "category": "memory",
+      "arch": "arm"
+    },
+    {
+      "name": "m8a.48xlarge",
+      "vcpu": 192,
+      "memoryGiB": 768,
+      "monthly": 10217.66,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "x2idn.24xlarge",
+      "vcpu": 96,
+      "memoryGiB": 1536,
+      "monthly": 10224.02,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "g7e.12xlarge",
+      "vcpu": 48,
+      "memoryGiB": 512,
+      "monthly": 10286.34,
+      "category": "other",
+      "arch": "x86"
+    },
+    {
+      "name": "r7iz.32xlarge",
+      "vcpu": 128,
+      "memoryGiB": 1024,
+      "monthly": 10512,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "m9gd.48xlarge",
+      "vcpu": 192,
+      "memoryGiB": 768,
+      "monthly": 10603.1,
+      "category": "general",
+      "arch": "arm"
+    },
+    {
+      "name": "x8i.24xlarge",
+      "vcpu": 96,
+      "memoryGiB": 1536,
+      "monthly": 10735.2,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "r9g.48xlarge",
+      "vcpu": 192,
+      "memoryGiB": 1536,
+      "monthly": 10856.79,
+      "category": "memory",
+      "arch": "arm"
+    },
+    {
+      "name": "c8in.48xlarge",
+      "vcpu": 192,
+      "memoryGiB": 384,
+      "monthly": 10861,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "r6idn.32xlarge",
+      "vcpu": 128,
+      "memoryGiB": 1024,
+      "monthly": 10877.82,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "i7ie.24xlarge",
+      "vcpu": 96,
+      "memoryGiB": 768,
+      "monthly": 10879.92,
+      "category": "storage",
+      "arch": "x86"
+    },
+    {
+      "name": "m8id.48xlarge",
+      "vcpu": 192,
+      "memoryGiB": 768,
+      "monthly": 11008.17,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "p3.8xlarge",
+      "vcpu": 32,
+      "memoryGiB": 244,
+      "monthly": 11163.16,
+      "category": "other",
+      "arch": "x86"
+    },
+    {
+      "name": "r7i.48xlarge",
+      "vcpu": 192,
+      "memoryGiB": 1536,
+      "monthly": 11184.77,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "r8ib.32xlarge",
+      "vcpu": 128,
+      "memoryGiB": 1024,
+      "monthly": 11675.8,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "r8in.32xlarge",
+      "vcpu": 128,
+      "memoryGiB": 1024,
+      "monthly": 11675.8,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "r8i.48xlarge",
+      "vcpu": 192,
+      "memoryGiB": 1536,
+      "monthly": 11744.01,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "g6.48xlarge",
+      "vcpu": 192,
+      "memoryGiB": 768,
+      "monthly": 12187.09,
+      "category": "other",
+      "arch": "x86"
+    },
+    {
+      "name": "r8gd.48xlarge",
+      "vcpu": 192,
+      "memoryGiB": 1536,
+      "monthly": 12373.32,
+      "category": "memory",
+      "arch": "arm"
+    },
+    {
+      "name": "r7a.48xlarge",
+      "vcpu": 192,
+      "memoryGiB": 1536,
+      "monthly": 12862.48,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "g7.24xlarge",
+      "vcpu": 96,
+      "memoryGiB": 384,
+      "monthly": 13014.55,
+      "category": "other",
+      "arch": "x86"
+    },
+    {
+      "name": "r8idb.32xlarge",
+      "vcpu": 128,
+      "memoryGiB": 1024,
+      "monthly": 13053.57,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "r8idn.32xlarge",
+      "vcpu": 128,
+      "memoryGiB": 1024,
+      "monthly": 13053.57,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "r9gd.48xlarge",
+      "vcpu": 192,
+      "memoryGiB": 1536,
+      "monthly": 13487.6,
+      "category": "memory",
+      "arch": "arm"
+    },
+    {
+      "name": "r8a.48xlarge",
+      "vcpu": 192,
+      "memoryGiB": 1536,
+      "monthly": 13505.82,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "x1e.16xlarge",
+      "vcpu": 64,
+      "memoryGiB": 1952,
+      "monthly": 13630.56,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "x1.32xlarge",
+      "vcpu": 128,
+      "memoryGiB": 1952,
+      "monthly": 13632.02,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "x2idn.32xlarge",
+      "vcpu": 128,
+      "memoryGiB": 2048,
+      "monthly": 13632.02,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "x2iedn.16xlarge",
+      "vcpu": 64,
+      "memoryGiB": 2048,
+      "monthly": 13632.02,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "g6e.24xlarge",
+      "vcpu": 96,
+      "memoryGiB": 768,
+      "monthly": 13751.78,
+      "category": "other",
+      "arch": "x86"
+    },
+    {
+      "name": "r8id.48xlarge",
+      "vcpu": 192,
+      "memoryGiB": 1536,
+      "monthly": 14003.39,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "inf2.48xlarge",
+      "vcpu": 192,
+      "memoryGiB": 768,
+      "monthly": 14214.49,
+      "category": "other",
+      "arch": "x86"
+    },
+    {
+      "name": "x8i.32xlarge",
+      "vcpu": 128,
+      "memoryGiB": 2048,
+      "monthly": 14313.61,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "f2.48xlarge",
+      "vcpu": 192,
+      "memoryGiB": 2048,
+      "monthly": 14454,
+      "category": "other",
+      "arch": "x86"
+    },
+    {
+      "name": "g5.48xlarge",
+      "vcpu": 192,
+      "memoryGiB": 768,
+      "monthly": 14868.71,
+      "category": "other",
+      "arch": "x86"
+    },
+    {
+      "name": "c8i.96xlarge",
+      "vcpu": 384,
+      "memoryGiB": 768,
+      "monthly": 14988.71,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "p2.16xlarge",
+      "vcpu": 64,
+      "memoryGiB": 732,
+      "monthly": 15487.68,
+      "category": "other",
+      "arch": "x86"
+    },
+    {
+      "name": "i7i.48xlarge",
+      "vcpu": 192,
+      "memoryGiB": 1536,
+      "monthly": 15772.23,
+      "category": "storage",
+      "arch": "x86"
+    },
+    {
+      "name": "r8ib.48xlarge",
+      "vcpu": 192,
+      "memoryGiB": 1536,
+      "monthly": 17513.69,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "r8in.48xlarge",
+      "vcpu": 192,
+      "memoryGiB": 1536,
+      "monthly": 17513.69,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "m8i.96xlarge",
+      "vcpu": 384,
+      "memoryGiB": 1536,
+      "monthly": 17770.89,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "c8id.96xlarge",
+      "vcpu": 384,
+      "memoryGiB": 768,
+      "monthly": 17969.91,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "x8g.48xlarge",
+      "vcpu": 192,
+      "memoryGiB": 3072,
+      "monthly": 19138.85,
+      "category": "memory",
+      "arch": "arm"
+    },
+    {
+      "name": "r8idb.48xlarge",
+      "vcpu": 192,
+      "memoryGiB": 1536,
+      "monthly": 19580.35,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "r8idn.48xlarge",
+      "vcpu": 192,
+      "memoryGiB": 1536,
+      "monthly": 19580.35,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "i8ge.48xlarge",
+      "vcpu": 192,
+      "memoryGiB": 1536,
+      "monthly": 19867.68,
+      "category": "storage",
+      "arch": "arm"
+    },
+    {
+      "name": "p4d.24xlarge",
+      "vcpu": 96,
+      "memoryGiB": 1152,
+      "monthly": 20026.08,
+      "category": "other",
+      "arch": "x86"
+    },
+    {
+      "name": "x2iedn.24xlarge",
+      "vcpu": 96,
+      "memoryGiB": 3072,
+      "monthly": 20448.03,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "g7e.24xlarge",
+      "vcpu": 96,
+      "memoryGiB": 1024,
+      "monthly": 20572.69,
+      "category": "other",
+      "arch": "x86"
+    },
+    {
+      "name": "x8i.48xlarge",
+      "vcpu": 192,
+      "memoryGiB": 3072,
+      "monthly": 21470.41,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "c8in.96xlarge",
+      "vcpu": 384,
+      "memoryGiB": 768,
+      "monthly": 21722,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "i7ie.48xlarge",
+      "vcpu": 192,
+      "memoryGiB": 1536,
+      "monthly": 21759.84,
+      "category": "storage",
+      "arch": "x86"
+    },
+    {
+      "name": "m8id.96xlarge",
+      "vcpu": 384,
+      "memoryGiB": 1536,
+      "monthly": 22016.33,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "p3.16xlarge",
+      "vcpu": 64,
+      "memoryGiB": 488,
+      "monthly": 22326.32,
+      "category": "other",
+      "arch": "x86"
+    },
+    {
+      "name": "r8i.96xlarge",
+      "vcpu": 384,
+      "memoryGiB": 3072,
+      "monthly": 23488.01,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "u-3tb1.56xlarge",
+      "vcpu": 224,
+      "memoryGiB": 3072,
+      "monthly": 24041.46,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "p4de.24xlarge",
+      "vcpu": 96,
+      "memoryGiB": 1152,
+      "monthly": 25032.59,
+      "category": "other",
+      "arch": "x86"
+    },
+    {
+      "name": "g7.48xlarge",
+      "vcpu": 192,
+      "memoryGiB": 768,
+      "monthly": 26029.11,
+      "category": "other",
+      "arch": "x86"
+    },
+    {
+      "name": "x1e.32xlarge",
+      "vcpu": 128,
+      "memoryGiB": 3904,
+      "monthly": 27261.12,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "x2iedn.32xlarge",
+      "vcpu": 128,
+      "memoryGiB": 4096,
+      "monthly": 27264.04,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "g6e.48xlarge",
+      "vcpu": 192,
+      "memoryGiB": 1536,
+      "monthly": 27503.57,
+      "category": "other",
+      "arch": "x86"
+    },
+    {
+      "name": "r8id.96xlarge",
+      "vcpu": 384,
+      "memoryGiB": 3072,
+      "monthly": 28006.77,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "x8i.64xlarge",
+      "vcpu": 256,
+      "memoryGiB": 4096,
+      "monthly": 28627.21,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "r8ib.96xlarge",
+      "vcpu": 384,
+      "memoryGiB": 3072,
+      "monthly": 35027.39,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "r8in.96xlarge",
+      "vcpu": 384,
+      "memoryGiB": 3072,
+      "monthly": 35027.39,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "r8idb.96xlarge",
+      "vcpu": 384,
+      "memoryGiB": 3072,
+      "monthly": 39160.7,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "r8idn.96xlarge",
+      "vcpu": 384,
+      "memoryGiB": 3072,
+      "monthly": 39160.7,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "u-6tb1.56xlarge",
+      "vcpu": 224,
+      "memoryGiB": 6144,
+      "monthly": 40865.11,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "g7e.48xlarge",
+      "vcpu": 192,
+      "memoryGiB": 2048,
+      "monthly": 41145.38,
+      "category": "other",
+      "arch": "x86"
+    },
+    {
+      "name": "x8i.96xlarge",
+      "vcpu": 384,
+      "memoryGiB": 6144,
+      "monthly": 42940.82,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "u-6tb1.112xlarge",
+      "vcpu": 448,
+      "memoryGiB": 6144,
+      "monthly": 48082.91,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "u7i-6tb.112xlarge",
+      "vcpu": 448,
+      "memoryGiB": 6144,
+      "monthly": 55295.35,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "u-9tb1.112xlarge",
+      "vcpu": 448,
+      "memoryGiB": 9216,
+      "monthly": 72124,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "u7i-8tb.112xlarge",
+      "vcpu": 448,
+      "memoryGiB": 8192,
+      "monthly": 73726.75,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "u-12tb1.112xlarge",
+      "vcpu": 448,
+      "memoryGiB": 12288,
+      "monthly": 96165.09,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "u7i-12tb.224xlarge",
+      "vcpu": 896,
+      "memoryGiB": 12288,
+      "monthly": 110593.24,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "u-18tb1.112xlarge",
+      "vcpu": 448,
+      "memoryGiB": 18432,
+      "monthly": 144248,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "u7in-16tb.224xlarge",
+      "vcpu": 896,
+      "memoryGiB": 16384,
+      "monthly": 158933.1,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "u7in-24tb.224xlarge",
+      "vcpu": 896,
+      "memoryGiB": 24576,
+      "monthly": 238418.44,
+      "category": "memory",
+      "arch": "x86"
+    }
+  ]
+}

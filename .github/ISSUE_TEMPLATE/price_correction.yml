@@ -1,0 +1,30 @@
+name: Price correction
+description: A price in the index is wrong or out of date
+labels: [price]
+body:
+  - type: input
+    id: provider
+    attributes:
+      label: Provider
+      placeholder: Scaleway
+    validations:
+      required: true
+  - type: input
+    id: item
+    attributes:
+      label: Basket or price
+      placeholder: Object storage, 1 TB
+    validations:
+      required: true
+  - type: textarea
+    id: change
+    attributes:
+      label: What the index says, and what it should say
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Link to the provider's price page
+    validations:
+      required: true

@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Help moving to an EU cloud
+    url: https://moveinfra.eu/
+    about: MoveInfra moves infrastructure from AWS, Azure and Google Cloud to EU-owned clouds.

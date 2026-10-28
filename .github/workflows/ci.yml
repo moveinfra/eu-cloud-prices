@@ -1,0 +1,32 @@
+name: CI
+on:
+  push:
+    branches: [main]
+  pull_request: {}
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-go@v6
+        with:
+          go-version-file: go.mod
+      - run: go vet ./...
+      - run: go test ./...
+      - name: Data is valid JSON with sources
+        run: |
+          python3 - <<'PY'
+          import json, sys
+          d = json.load(open("data/eu-cloud-prices.json"))
+          m = json.load(open("data/manual.json"))
+          errors = []
+          for p, items in m["providers"].items():
+              for k, v in items.items():
+                  if isinstance(v, dict) and any(isinstance(x, (int, float)) for x in v.values()) and not v.get("source"):
+                      errors.append(f"manual.json {p}.{k}: number without source")
+          if len(d["providers"]) != 7:
+              errors.append("expected 7 providers")
+          print("\n".join(errors) or "data OK")
+          sys.exit(1 if errors else 0)
+          PY

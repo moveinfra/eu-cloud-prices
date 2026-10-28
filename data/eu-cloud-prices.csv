@@ -1,0 +1,85 @@
+basket,label,provider,eu_owned,monthly_eur,detail
+server-2-8,"Server, 2 vCPU, 8 GB",aws,false,67.86,m6a.large
+server-2-8,"Server, 2 vCPU, 8 GB",azure,false,66.80,Standard_D2a_v4
+server-2-8,"Server, 2 vCPU, 8 GB",gcp,false,56.61,e2-standard-2
+server-2-8,"Server, 2 vCPU, 8 GB",upcloud,true,38.00,PREMIUM-2xCPU-8GB
+server-2-8,"Server, 2 vCPU, 8 GB",hetzner,true,42.99,CCX13
+server-2-8,"Server, 2 vCPU, 8 GB",scaleway,true,40.95,PRO2-XXS
+server-2-8,"Server, 2 vCPU, 8 GB",ovhcloud,true,37.38,b3-8
+server-4-16,"Server, 4 vCPU, 16 GB",aws,false,135.73,m6a.xlarge
+server-4-16,"Server, 4 vCPU, 16 GB",azure,false,133.59,Standard_D4a_v4
+server-4-16,"Server, 4 vCPU, 16 GB",gcp,false,113.22,e2-standard-4
+server-4-16,"Server, 4 vCPU, 16 GB",upcloud,true,92.00,PREMIUM-4xCPU-16GB
+server-4-16,"Server, 4 vCPU, 16 GB",hetzner,true,85.99,CCX23
+server-4-16,"Server, 4 vCPU, 16 GB",scaleway,true,67.76,GP1-XS
+server-4-16,"Server, 4 vCPU, 16 GB",ovhcloud,true,74.68,b3-16
+server-8-32,"Server, 8 vCPU, 32 GB",aws,false,271.46,m6a.2xlarge
+server-8-32,"Server, 8 vCPU, 32 GB",azure,false,267.25,Standard_D8a_v4
+server-8-32,"Server, 8 vCPU, 32 GB",gcp,false,226.44,e2-standard-8
+server-8-32,"Server, 8 vCPU, 32 GB",upcloud,true,192.00,PREMIUM-8xCPU-32GB
+server-8-32,"Server, 8 vCPU, 32 GB",hetzner,true,138.49,CCX33
+server-8-32,"Server, 8 vCPU, 32 GB",scaleway,true,139.24,GP1-S
+server-8-32,"Server, 8 vCPU, 32 GB",ovhcloud,true,149.36,b3-32
+server-16-64,"Server, 16 vCPU, 64 GB",aws,false,542.93,m6a.4xlarge
+server-16-64,"Server, 16 vCPU, 64 GB",azure,false,534.43,Standard_D16a_v4
+server-16-64,"Server, 16 vCPU, 64 GB",gcp,false,452.89,e2-standard-16
+server-16-64,"Server, 16 vCPU, 64 GB",upcloud,true,384.00,PREMIUM-16xCPU-64GB
+server-16-64,"Server, 16 vCPU, 64 GB",hetzner,true,275.99,CCX43
+server-16-64,"Server, 16 vCPU, 64 GB",scaleway,true,279.97,GP1-M
+server-16-64,"Server, 16 vCPU, 64 GB",ovhcloud,true,298.72,b3-64
+block-1tb,"Block storage, 1 TB SSD",aws,false,85.50,EBS gp3
+block-1tb,"Block storage, 1 TB SSD",azure,false,85.20,Premium SSD v2 (Premium LRS provisioned capacity)
+block-1tb,"Block storage, 1 TB SSD",gcp,false,107.80,"Persistent Disk Balanced (pd-balanced), zonal"
+block-1tb,"Block storage, 1 TB SSD",upcloud,true,220.00,MaxIOPS
+block-1tb,"Block storage, 1 TB SSD",hetzner,true,44.00,Volumes
+block-1tb,"Block storage, 1 TB SSD",scaleway,true,94.90,Block Storage 5K
+block-1tb,"Block storage, 1 TB SSD",ovhcloud,true,86.00,Block Storage high-speed
+object-1tb,"Object storage, 1 TB",aws,false,22.00,S3 Standard
+object-1tb,"Object storage, 1 TB",azure,false,17.60,"Blob Storage, General Block Blob v2, Hot LRS"
+object-1tb,"Object storage, 1 TB",gcp,false,20.70,"Cloud Storage Standard, regional europe-west3"
+object-1tb,"Object storage, 1 TB",upcloud,true,20.00,Managed Object Storage
+object-1tb,"Object storage, 1 TB",hetzner,true,6.40,Object Storage
+object-1tb,"Object storage, 1 TB",scaleway,true,16.10,Object Storage Standard Multi-AZ
+object-1tb,"Object storage, 1 TB",ovhcloud,true,14.00,"Object Storage Standard (S3 API), 3-AZ"
+egress-1tb,"Internet egress, 1 TB from one server",aws,false,72.72,"Tiers from AWS price list API (EU (Frankfurt) -> External, usagetype EUC1-DataTransfer-Out-Bytes); first tier described as 'beyond the global free tier'. 100 GB free tier quoted on https://aws.amazon.com/ec2/pricing/on-demand/. Excl. tax."
+egress-1tb,"Internet egress, 1 TB from one server",azure,false,62.48,"Default routing via Microsoft Premium Global Network ('Rtn Preference: MGN', 'Standard Data Transfer Out'). Tier boundaries are the API's tierMinimumUnits; the pricing page states First 100 GB / Next 10 TB / Next 40 TB / Next 100 TB / Next 350 TB (1 TB = 1,000 GB), contact sales over 500 TB. Routing preference 'Internet' is cheaper: 0.08/0.065/0.06/0.04. Pricing page: https://azure.microsoft.com/en-us/pricing/details/bandwidth/"
+egress-1tb,"Internet egress, 1 TB from one server",gcp,false,107.80,"Premium Tier (default), destination Europe. Destination North America/Asia: 0.12/0.11/0.085; Australia, Indonesia, Korea, South America, Saudi Arabia: 0.19/0.18/0.15; Middle East/Africa: 0.15/0.13/0.11; China: 0.23/0.22/0.20. Read from the Frankfurt table embedded in the page."
+egress-1tb,"Internet egress, 1 TB from one server",upcloud,true,0.00,"No excess fees by default: above the share UpCloud may limit bandwidth to 100 Mbps for the rest of the month, or you can opt into a paid transfer model at €0.01/GB for the excess."
+egress-1tb,"Internet egress, 1 TB from one server",hetzner,true,0.00,"Page: 'For each additional TB at EU-Central locations we charge € 1.00' (the page labels it 'per hour', an apparent template glitch; price API item CLOUD_66 = €1.00). TB->GB conversion assumes 1 TB = 1,000 GB. Tiers apply to traffic above the included 20 TB."
+egress-1tb,"Internet egress, 1 TB from one server",scaleway,true,0.00,Public IPv4 and storage are extra. Per-instance bandwidth limits not captured.
+egress-1tb,"Internet egress, 1 TB from one server",ovhcloud,true,0.00,"Catalog for subsidiary DE (taxRate 19, prices excl. VAT). Bandwidth caps per instance not captured."
+egress-10tb,"Internet egress, 10 TB from one server",aws,false,799.92,"Tiers from AWS price list API (EU (Frankfurt) -> External, usagetype EUC1-DataTransfer-Out-Bytes); first tier described as 'beyond the global free tier'. 100 GB free tier quoted on https://aws.amazon.com/ec2/pricing/on-demand/. Excl. tax."
+egress-10tb,"Internet egress, 10 TB from one server",azure,false,765.38,"Default routing via Microsoft Premium Global Network ('Rtn Preference: MGN', 'Standard Data Transfer Out'). Tier boundaries are the API's tierMinimumUnits; the pricing page states First 100 GB / Next 10 TB / Next 40 TB / Next 100 TB / Next 350 TB (1 TB = 1,000 GB), contact sales over 500 TB. Routing preference 'Internet' is cheaper: 0.08/0.065/0.06/0.04. Pricing page: https://azure.microsoft.com/en-us/pricing/details/bandwidth/"
+egress-10tb,"Internet egress, 10 TB from one server",gcp,false,997.22,"Premium Tier (default), destination Europe. Destination North America/Asia: 0.12/0.11/0.085; Australia, Indonesia, Korea, South America, Saudi Arabia: 0.19/0.18/0.15; Middle East/Africa: 0.15/0.13/0.11; China: 0.23/0.22/0.20. Read from the Frankfurt table embedded in the page."
+egress-10tb,"Internet egress, 10 TB from one server",upcloud,true,0.00,"No excess fees by default: above the share UpCloud may limit bandwidth to 100 Mbps for the rest of the month, or you can opt into a paid transfer model at €0.01/GB for the excess."
+egress-10tb,"Internet egress, 10 TB from one server",hetzner,true,0.00,"Page: 'For each additional TB at EU-Central locations we charge € 1.00' (the page labels it 'per hour', an apparent template glitch; price API item CLOUD_66 = €1.00). TB->GB conversion assumes 1 TB = 1,000 GB. Tiers apply to traffic above the included 20 TB."
+egress-10tb,"Internet egress, 10 TB from one server",scaleway,true,0.00,Public IPv4 and storage are extra. Per-instance bandwidth limits not captured.
+egress-10tb,"Internet egress, 10 TB from one server",ovhcloud,true,0.00,"Catalog for subsidiary DE (taxRate 19, prices excl. VAT). Bandwidth caps per instance not captured."
+load-balancer,Managed load balancer,aws,false,17.70,Application Load Balancer
+load-balancer,Managed load balancer,azure,false,16.39,Standard Load Balancer
+load-balancer,Managed load balancer,gcp,false,16.39,Cloud Load Balancing forwarding rule (first 5 rules)
+load-balancer,Managed load balancer,upcloud,true,30.00,"Managed Load Balancer Production S (2 nodes, 50,000 sessions/node)"
+load-balancer,Managed load balancer,hetzner,true,7.49,LB11
+load-balancer,Managed load balancer,scaleway,true,16.79,LB-S
+load-balancer,Managed load balancer,ovhcloud,true,6.00,Octavia Load Balancer Small
+kubernetes,Managed Kubernetes control plane,aws,false,65.57,Amazon EKS cluster (standard support)
+kubernetes,Managed Kubernetes control plane,azure,false,65.57,AKS Standard tier (Uptime SLA)
+kubernetes,Managed Kubernetes control plane,gcp,false,65.57,GKE cluster management fee
+kubernetes,Managed Kubernetes control plane,upcloud,true,60.00,Managed Kubernetes Production control plane (up to 120 nodes)
+kubernetes,Managed Kubernetes control plane,hetzner,true,,not offered or not verified
+kubernetes,Managed Kubernetes control plane,scaleway,true,80.30,Kapsule Dedicated-4
+kubernetes,Managed Kubernetes control plane,ovhcloud,true,65.70,Managed Kubernetes Service Standard
+postgres-2-8,"Managed PostgreSQL, 2 vCPU, 8 GB",aws,false,131.14,db.m7g.large
+postgres-2-8,"Managed PostgreSQL, 2 vCPU, 8 GB",azure,false,139.01,D2ds_v5 (General Purpose)
+postgres-2-8,"Managed PostgreSQL, 2 vCPU, 8 GB",gcp,false,109.11,"db-custom-2-8192 (Cloud SQL Enterprise edition, General Purpose)"
+postgres-2-8,"Managed PostgreSQL, 2 vCPU, 8 GB",upcloud,true,60.00,"rdb.standard.2CPU-8GB (Standard, 1 node)"
+postgres-2-8,"Managed PostgreSQL, 2 vCPU, 8 GB",hetzner,true,,not offered or not verified
+postgres-2-8,"Managed PostgreSQL, 2 vCPU, 8 GB",scaleway,true,80.30,DB-PRO2-XXS
+postgres-2-8,"Managed PostgreSQL, 2 vCPU, 8 GB",ovhcloud,true,143.15,Essential B3-8
+stack,Example stack,aws,false,774.30,managed PostgreSQL
+stack,Example stack,azure,false,756.95,managed PostgreSQL
+stack,Example stack,gcp,false,746.58,managed PostgreSQL
+stack,Example stack,upcloud,true,496.00,managed PostgreSQL
+stack,Example stack,hetzner,true,336.85,no managed PostgreSQL: self-run on a 2 vCPU 8 GB server
+stack,Example stack,scaleway,true,363.92,managed PostgreSQL
+stack,Example stack,ovhcloud,true,430.19,managed PostgreSQL

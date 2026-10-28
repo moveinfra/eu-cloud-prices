@@ -1,0 +1,4258 @@
+{
+  "provider": "gcp",
+  "region": "europe-west3",
+  "currency": "USD",
+  "generated": "2026-10-28",
+  "source": "https://raw.githubusercontent.com/Cyclenerd/google-cloud-pricing-cost-calculator/master/pricing.yml",
+  "note": "Generated from the Google Cloud Billing Catalog API by github.com/Cyclenerd/google-cloud-pricing-cost-calculator on Thu Oct 22 08:56:36 2026.",
+  "servers": [
+    {
+      "name": "f1-micro",
+      "vcpu": 1,
+      "memoryGiB": 0.6,
+      "monthly": 4.91,
+      "category": "shared",
+      "arch": "x86"
+    },
+    {
+      "name": "e2-micro",
+      "vcpu": 0.25,
+      "memoryGiB": 1,
+      "monthly": 7.88,
+      "category": "shared",
+      "arch": "x86"
+    },
+    {
+      "name": "e2-small",
+      "vcpu": 0.5,
+      "memoryGiB": 2,
+      "monthly": 15.76,
+      "category": "shared",
+      "arch": "x86"
+    },
+    {
+      "name": "g1-small",
+      "vcpu": 1,
+      "memoryGiB": 1.7,
+      "monthly": 16.56,
+      "category": "shared",
+      "arch": "x86"
+    },
+    {
+      "name": "n4a-highcpu-1",
+      "vcpu": 1,
+      "memoryGiB": 2,
+      "monthly": 27.97,
+      "category": "compute",
+      "arch": "arm"
+    },
+    {
+      "name": "n1-standard-1",
+      "vcpu": 1,
+      "memoryGiB": 3.75,
+      "monthly": 31.27,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "e2-medium",
+      "vcpu": 1,
+      "memoryGiB": 4,
+      "monthly": 31.51,
+      "category": "shared",
+      "arch": "x86"
+    },
+    {
+      "name": "c4a-highcpu-1",
+      "vcpu": 1,
+      "memoryGiB": 2,
+      "monthly": 32.63,
+      "category": "compute",
+      "arch": "arm"
+    },
+    {
+      "name": "n4a-standard-1",
+      "vcpu": 1,
+      "memoryGiB": 4,
+      "monthly": 33.16,
+      "category": "general",
+      "arch": "arm"
+    },
+    {
+      "name": "c4a-standard-1",
+      "vcpu": 1,
+      "memoryGiB": 4,
+      "monthly": 38.68,
+      "category": "compute",
+      "arch": "arm"
+    },
+    {
+      "name": "t2d-standard-1",
+      "vcpu": 1,
+      "memoryGiB": 4,
+      "monthly": 39.73,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "n4a-highmem-1",
+      "vcpu": 1,
+      "memoryGiB": 8,
+      "monthly": 43.52,
+      "category": "memory",
+      "arch": "arm"
+    },
+    {
+      "name": "custom-1-7680-ext",
+      "vcpu": 1,
+      "memoryGiB": 7.5,
+      "monthly": 43.82,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "e2-highcpu-2",
+      "vcpu": 2,
+      "memoryGiB": 2,
+      "monthly": 46.53,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "n1-highcpu-2",
+      "vcpu": 2,
+      "memoryGiB": 1.8,
+      "monthly": 46.65,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "n2d-highcpu-2",
+      "vcpu": 2,
+      "memoryGiB": 2,
+      "monthly": 46.95,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c4a-highmem-1",
+      "vcpu": 1,
+      "memoryGiB": 8,
+      "monthly": 50.77,
+      "category": "memory",
+      "arch": "arm"
+    },
+    {
+      "name": "n2-highcpu-2",
+      "vcpu": 2,
+      "memoryGiB": 2,
+      "monthly": 53.96,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "n4a-highcpu-2",
+      "vcpu": 2,
+      "memoryGiB": 4,
+      "monthly": 55.95,
+      "category": "compute",
+      "arch": "arm"
+    },
+    {
+      "name": "n4d-highcpu-2",
+      "vcpu": 2,
+      "memoryGiB": 4,
+      "monthly": 61.57,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "n1-standard-2",
+      "vcpu": 2,
+      "memoryGiB": 7.5,
+      "monthly": 62.54,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "e2-standard-2",
+      "vcpu": 2,
+      "memoryGiB": 8,
+      "monthly": 63.02,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "n2d-standard-2",
+      "vcpu": 2,
+      "memoryGiB": 8,
+      "monthly": 63.59,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "c4a-highcpu-2",
+      "vcpu": 2,
+      "memoryGiB": 4,
+      "monthly": 65.26,
+      "category": "compute",
+      "arch": "arm"
+    },
+    {
+      "name": "n4-highcpu-2",
+      "vcpu": 2,
+      "memoryGiB": 4,
+      "monthly": 65.93,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c4d-highcpu-2",
+      "vcpu": 2,
+      "memoryGiB": 3,
+      "monthly": 66.04,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "n4a-standard-2",
+      "vcpu": 2,
+      "memoryGiB": 8,
+      "monthly": 66.31,
+      "category": "general",
+      "arch": "arm"
+    },
+    {
+      "name": "c2d-highcpu-2",
+      "vcpu": 2,
+      "memoryGiB": 4,
+      "monthly": 70.5,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "n4d-standard-2",
+      "vcpu": 2,
+      "memoryGiB": 8,
+      "monthly": 72.99,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "custom-2-10240-ext",
+      "vcpu": 2,
+      "memoryGiB": 10,
+      "monthly": 72.99,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "n2-standard-2",
+      "vcpu": 2,
+      "memoryGiB": 8,
+      "monthly": 73.09,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "c4-highcpu-2",
+      "vcpu": 2,
+      "memoryGiB": 4,
+      "monthly": 73.26,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c4a-standard-2",
+      "vcpu": 2,
+      "memoryGiB": 8,
+      "monthly": 77.36,
+      "category": "compute",
+      "arch": "arm"
+    },
+    {
+      "name": "n1-highmem-2",
+      "vcpu": 2,
+      "memoryGiB": 13,
+      "monthly": 77.88,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "n4-standard-2",
+      "vcpu": 2,
+      "memoryGiB": 8,
+      "monthly": 78.13,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "c4d-standard-2",
+      "vcpu": 2,
+      "memoryGiB": 7,
+      "monthly": 78.97,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "t2d-standard-2",
+      "vcpu": 2,
+      "memoryGiB": 8,
+      "monthly": 79.46,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "c4-standard-2",
+      "vcpu": 2,
+      "memoryGiB": 7,
+      "monthly": 83.44,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "e2-highmem-2",
+      "vcpu": 2,
+      "memoryGiB": 16,
+      "monthly": 85.02,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "c2d-standard-2",
+      "vcpu": 2,
+      "memoryGiB": 8,
+      "monthly": 85.39,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "n2d-highmem-2",
+      "vcpu": 2,
+      "memoryGiB": 16,
+      "monthly": 85.77,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "n4a-highmem-2",
+      "vcpu": 2,
+      "memoryGiB": 16,
+      "monthly": 87.05,
+      "category": "memory",
+      "arch": "arm"
+    },
+    {
+      "name": "e2-highcpu-4",
+      "vcpu": 4,
+      "memoryGiB": 4,
+      "monthly": 93.06,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "n1-highcpu-4",
+      "vcpu": 4,
+      "memoryGiB": 3.6,
+      "monthly": 93.29,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "n2d-highcpu-4",
+      "vcpu": 4,
+      "memoryGiB": 4,
+      "monthly": 93.89,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "n4d-highmem-2",
+      "vcpu": 2,
+      "memoryGiB": 16,
+      "monthly": 95.82,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "n2-highmem-2",
+      "vcpu": 2,
+      "memoryGiB": 16,
+      "monthly": 98.6,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "c4a-highmem-2",
+      "vcpu": 2,
+      "memoryGiB": 16,
+      "monthly": 101.54,
+      "category": "memory",
+      "arch": "arm"
+    },
+    {
+      "name": "n4-highmem-2",
+      "vcpu": 2,
+      "memoryGiB": 16,
+      "monthly": 102.52,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "c4d-highmem-2",
+      "vcpu": 2,
+      "memoryGiB": 15,
+      "monthly": 104.84,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "n2-highcpu-4",
+      "vcpu": 4,
+      "memoryGiB": 4,
+      "monthly": 107.92,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c4-highmem-2",
+      "vcpu": 2,
+      "memoryGiB": 15,
+      "monthly": 110.58,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "n4a-highcpu-4",
+      "vcpu": 4,
+      "memoryGiB": 8,
+      "monthly": 111.89,
+      "category": "compute",
+      "arch": "arm"
+    },
+    {
+      "name": "c2d-highmem-2",
+      "vcpu": 2,
+      "memoryGiB": 16,
+      "monthly": 115.18,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "c4n-highcpu-2",
+      "vcpu": 2,
+      "memoryGiB": 4,
+      "monthly": 117.22,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "n4d-highcpu-4",
+      "vcpu": 4,
+      "memoryGiB": 8,
+      "monthly": 123.14,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "n1-standard-4",
+      "vcpu": 4,
+      "memoryGiB": 15,
+      "monthly": 125.09,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "e2-standard-4",
+      "vcpu": 4,
+      "memoryGiB": 16,
+      "monthly": 126.05,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "n2d-standard-4",
+      "vcpu": 4,
+      "memoryGiB": 16,
+      "monthly": 127.17,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "c3d-highcpu-4",
+      "vcpu": 4,
+      "memoryGiB": 8,
+      "monthly": 129.14,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c4a-highcpu-4",
+      "vcpu": 4,
+      "memoryGiB": 8,
+      "monthly": 130.52,
+      "category": "compute",
+      "arch": "arm"
+    },
+    {
+      "name": "n4-highcpu-4",
+      "vcpu": 4,
+      "memoryGiB": 8,
+      "monthly": 131.86,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "n4a-standard-4",
+      "vcpu": 4,
+      "memoryGiB": 16,
+      "monthly": 132.63,
+      "category": "general",
+      "arch": "arm"
+    },
+    {
+      "name": "c4n-standard-2",
+      "vcpu": 2,
+      "memoryGiB": 7,
+      "monthly": 133.51,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c4d-highcpu-4",
+      "vcpu": 4,
+      "memoryGiB": 7,
+      "monthly": 135.32,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c2d-highcpu-4",
+      "vcpu": 4,
+      "memoryGiB": 8,
+      "monthly": 141,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "n4d-standard-4",
+      "vcpu": 4,
+      "memoryGiB": 16,
+      "monthly": 145.97,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "n2-standard-4",
+      "vcpu": 4,
+      "memoryGiB": 16,
+      "monthly": 146.18,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "c3-highcpu-4",
+      "vcpu": 4,
+      "memoryGiB": 8,
+      "monthly": 146.53,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c4-highcpu-4",
+      "vcpu": 4,
+      "memoryGiB": 8,
+      "monthly": 146.53,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c4a-standard-4",
+      "vcpu": 4,
+      "memoryGiB": 16,
+      "monthly": 154.71,
+      "category": "compute",
+      "arch": "arm"
+    },
+    {
+      "name": "n1-highmem-4",
+      "vcpu": 4,
+      "memoryGiB": 26,
+      "monthly": 155.77,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "n4-standard-4",
+      "vcpu": 4,
+      "memoryGiB": 16,
+      "monthly": 156.26,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "c3d-standard-4",
+      "vcpu": 4,
+      "memoryGiB": 16,
+      "monthly": 156.43,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c2-standard-4",
+      "vcpu": 4,
+      "memoryGiB": 16,
+      "monthly": 157.14,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "t2d-standard-4",
+      "vcpu": 4,
+      "memoryGiB": 16,
+      "monthly": 158.93,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "c4d-standard-4",
+      "vcpu": 4,
+      "memoryGiB": 15,
+      "monthly": 161.18,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "e2-highmem-4",
+      "vcpu": 4,
+      "memoryGiB": 32,
+      "monthly": 170.04,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "c4-standard-4",
+      "vcpu": 4,
+      "memoryGiB": 15,
+      "monthly": 170.27,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c2d-standard-4",
+      "vcpu": 4,
+      "memoryGiB": 16,
+      "monthly": 170.78,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "n2d-highmem-4",
+      "vcpu": 4,
+      "memoryGiB": 32,
+      "monthly": 171.55,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "c3-standard-4",
+      "vcpu": 4,
+      "memoryGiB": 16,
+      "monthly": 173.67,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "n4a-highmem-4",
+      "vcpu": 4,
+      "memoryGiB": 32,
+      "monthly": 174.09,
+      "category": "memory",
+      "arch": "arm"
+    },
+    {
+      "name": "custom-4-30720-ext",
+      "vcpu": 4,
+      "memoryGiB": 30,
+      "monthly": 175.27,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c4n-highmem-2",
+      "vcpu": 2,
+      "memoryGiB": 15,
+      "monthly": 176.93,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "e2-highcpu-8",
+      "vcpu": 8,
+      "memoryGiB": 8,
+      "monthly": 186.12,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "n1-highcpu-8",
+      "vcpu": 8,
+      "memoryGiB": 7.2,
+      "monthly": 186.59,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "n2d-highcpu-8",
+      "vcpu": 8,
+      "memoryGiB": 8,
+      "monthly": 187.78,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "n4d-highmem-4",
+      "vcpu": 4,
+      "memoryGiB": 32,
+      "monthly": 191.64,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "n2-highmem-4",
+      "vcpu": 4,
+      "memoryGiB": 32,
+      "monthly": 197.19,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "c4a-highmem-4",
+      "vcpu": 4,
+      "memoryGiB": 32,
+      "monthly": 203.09,
+      "category": "memory",
+      "arch": "arm"
+    },
+    {
+      "name": "n4-highmem-4",
+      "vcpu": 4,
+      "memoryGiB": 32,
+      "monthly": 205.05,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "c4a-standard-4-lssd",
+      "vcpu": 4,
+      "memoryGiB": 16,
+      "monthly": 207.81,
+      "category": "compute",
+      "arch": "arm"
+    },
+    {
+      "name": "c3-standard-4-lssd",
+      "vcpu": 4,
+      "memoryGiB": 16,
+      "monthly": 209.67,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c3d-highmem-4",
+      "vcpu": 4,
+      "memoryGiB": 32,
+      "monthly": 210.99,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "c4d-highmem-4",
+      "vcpu": 4,
+      "memoryGiB": 31,
+      "monthly": 212.91,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "n2-highcpu-8",
+      "vcpu": 8,
+      "memoryGiB": 8,
+      "monthly": 215.84,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "n4a-highcpu-8",
+      "vcpu": 8,
+      "memoryGiB": 16,
+      "monthly": 223.79,
+      "category": "compute",
+      "arch": "arm"
+    },
+    {
+      "name": "c4-highmem-4",
+      "vcpu": 4,
+      "memoryGiB": 31,
+      "monthly": 224.55,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "c3-highmem-4",
+      "vcpu": 4,
+      "memoryGiB": 32,
+      "monthly": 227.94,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "c2d-highmem-4",
+      "vcpu": 4,
+      "memoryGiB": 32,
+      "monthly": 230.35,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "c4n-highcpu-4",
+      "vcpu": 4,
+      "memoryGiB": 8,
+      "monthly": 234.45,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c4-standard-4-lssd",
+      "vcpu": 4,
+      "memoryGiB": 15,
+      "monthly": 241.07,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "n4d-highcpu-8",
+      "vcpu": 8,
+      "memoryGiB": 16,
+      "monthly": 246.27,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "n1-standard-8",
+      "vcpu": 8,
+      "memoryGiB": 30,
+      "monthly": 250.18,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "e2-standard-8",
+      "vcpu": 8,
+      "memoryGiB": 32,
+      "monthly": 252.1,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "n2d-standard-8",
+      "vcpu": 8,
+      "memoryGiB": 32,
+      "monthly": 254.35,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "c4a-highmem-4-lssd",
+      "vcpu": 4,
+      "memoryGiB": 32,
+      "monthly": 256.19,
+      "category": "memory",
+      "arch": "arm"
+    },
+    {
+      "name": "c3d-highcpu-8",
+      "vcpu": 8,
+      "memoryGiB": 16,
+      "monthly": 258.29,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c4a-highcpu-8",
+      "vcpu": 8,
+      "memoryGiB": 16,
+      "monthly": 261.04,
+      "category": "compute",
+      "arch": "arm"
+    },
+    {
+      "name": "n4-highcpu-8",
+      "vcpu": 8,
+      "memoryGiB": 16,
+      "monthly": 263.73,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "n4a-standard-8",
+      "vcpu": 8,
+      "memoryGiB": 32,
+      "monthly": 265.25,
+      "category": "general",
+      "arch": "arm"
+    },
+    {
+      "name": "c4n-standard-4",
+      "vcpu": 4,
+      "memoryGiB": 15,
+      "monthly": 272.44,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c4d-highcpu-8",
+      "vcpu": 8,
+      "memoryGiB": 15,
+      "monthly": 273.86,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c2d-highcpu-8",
+      "vcpu": 8,
+      "memoryGiB": 16,
+      "monthly": 282,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "n4d-standard-8",
+      "vcpu": 8,
+      "memoryGiB": 32,
+      "monthly": 291.94,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "n2-standard-8",
+      "vcpu": 8,
+      "memoryGiB": 32,
+      "monthly": 292.36,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "c3-highcpu-8",
+      "vcpu": 8,
+      "memoryGiB": 16,
+      "monthly": 293.06,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c4-highcpu-8",
+      "vcpu": 8,
+      "memoryGiB": 16,
+      "monthly": 293.06,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c4-highmem-4-lssd",
+      "vcpu": 4,
+      "memoryGiB": 31,
+      "monthly": 295.35,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "c4n-standard-4-lssd",
+      "vcpu": 4,
+      "memoryGiB": 15,
+      "monthly": 308.44,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c4a-standard-8",
+      "vcpu": 8,
+      "memoryGiB": 32,
+      "monthly": 309.42,
+      "category": "compute",
+      "arch": "arm"
+    },
+    {
+      "name": "n1-highmem-8",
+      "vcpu": 8,
+      "memoryGiB": 52,
+      "monthly": 311.53,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "n4-standard-8",
+      "vcpu": 8,
+      "memoryGiB": 32,
+      "monthly": 312.52,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "c3d-standard-8",
+      "vcpu": 8,
+      "memoryGiB": 32,
+      "monthly": 312.85,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c2-standard-8",
+      "vcpu": 8,
+      "memoryGiB": 32,
+      "monthly": 314.28,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "t2d-standard-8",
+      "vcpu": 8,
+      "memoryGiB": 32,
+      "monthly": 317.85,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "c4d-standard-8",
+      "vcpu": 8,
+      "memoryGiB": 31,
+      "monthly": 325.59,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "e2-highmem-8",
+      "vcpu": 8,
+      "memoryGiB": 64,
+      "monthly": 340.07,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "c4-standard-8",
+      "vcpu": 8,
+      "memoryGiB": 30,
+      "monthly": 340.55,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c2d-standard-8",
+      "vcpu": 8,
+      "memoryGiB": 32,
+      "monthly": 341.57,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "n2d-highmem-8",
+      "vcpu": 8,
+      "memoryGiB": 64,
+      "monthly": 343.1,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "c3-standard-8",
+      "vcpu": 8,
+      "memoryGiB": 32,
+      "monthly": 347.33,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "n4a-highmem-8",
+      "vcpu": 8,
+      "memoryGiB": 64,
+      "monthly": 348.18,
+      "category": "memory",
+      "arch": "arm"
+    },
+    {
+      "name": "c3d-standard-8-lssd",
+      "vcpu": 8,
+      "memoryGiB": 32,
+      "monthly": 348.85,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c4n-highmem-4",
+      "vcpu": 4,
+      "memoryGiB": 31,
+      "monthly": 359.28,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "e2-highcpu-16",
+      "vcpu": 16,
+      "memoryGiB": 16,
+      "monthly": 372.24,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "n1-highcpu-16",
+      "vcpu": 16,
+      "memoryGiB": 14.4,
+      "monthly": 373.17,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "n2d-highcpu-16",
+      "vcpu": 16,
+      "memoryGiB": 16,
+      "monthly": 375.56,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "n4d-highmem-8",
+      "vcpu": 8,
+      "memoryGiB": 64,
+      "monthly": 383.28,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "n2-highmem-8",
+      "vcpu": 8,
+      "memoryGiB": 64,
+      "monthly": 394.39,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "c4n-highmem-4-lssd",
+      "vcpu": 4,
+      "memoryGiB": 31,
+      "monthly": 395.28,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "c4d-standard-8-lssd",
+      "vcpu": 8,
+      "memoryGiB": 31,
+      "monthly": 396.39,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c4a-highmem-8",
+      "vcpu": 8,
+      "memoryGiB": 64,
+      "monthly": 406.18,
+      "category": "memory",
+      "arch": "arm"
+    },
+    {
+      "name": "n4-highmem-8",
+      "vcpu": 8,
+      "memoryGiB": 64,
+      "monthly": 410.1,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "c4-standard-8-lssd",
+      "vcpu": 8,
+      "memoryGiB": 30,
+      "monthly": 411.35,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c4a-standard-8-lssd",
+      "vcpu": 8,
+      "memoryGiB": 32,
+      "monthly": 415.62,
+      "category": "compute",
+      "arch": "arm"
+    },
+    {
+      "name": "c3-standard-8-lssd",
+      "vcpu": 8,
+      "memoryGiB": 32,
+      "monthly": 419.33,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c3d-highmem-8",
+      "vcpu": 8,
+      "memoryGiB": 64,
+      "monthly": 421.98,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "c4d-highmem-8",
+      "vcpu": 8,
+      "memoryGiB": 63,
+      "monthly": 429.05,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "n2-highcpu-16",
+      "vcpu": 16,
+      "memoryGiB": 16,
+      "monthly": 431.69,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "n4a-highcpu-16",
+      "vcpu": 16,
+      "memoryGiB": 32,
+      "monthly": 447.58,
+      "category": "compute",
+      "arch": "arm"
+    },
+    {
+      "name": "c4-highmem-8",
+      "vcpu": 8,
+      "memoryGiB": 62,
+      "monthly": 449.1,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "c3-highmem-8",
+      "vcpu": 8,
+      "memoryGiB": 64,
+      "monthly": 455.88,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "c3d-highmem-8-lssd",
+      "vcpu": 8,
+      "memoryGiB": 64,
+      "monthly": 457.98,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "c2d-highmem-8",
+      "vcpu": 8,
+      "memoryGiB": 64,
+      "monthly": 460.71,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "c4n-highcpu-8",
+      "vcpu": 8,
+      "memoryGiB": 16,
+      "monthly": 468.89,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "n4d-highcpu-16",
+      "vcpu": 16,
+      "memoryGiB": 32,
+      "monthly": 492.55,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c4d-highmem-8-lssd",
+      "vcpu": 8,
+      "memoryGiB": 63,
+      "monthly": 499.85,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "n1-standard-16",
+      "vcpu": 16,
+      "memoryGiB": 60,
+      "monthly": 500.35,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "e2-standard-16",
+      "vcpu": 16,
+      "memoryGiB": 64,
+      "monthly": 504.2,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "n2d-standard-16",
+      "vcpu": 16,
+      "memoryGiB": 64,
+      "monthly": 508.69,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "c4a-highmem-8-lssd",
+      "vcpu": 8,
+      "memoryGiB": 64,
+      "monthly": 512.38,
+      "category": "memory",
+      "arch": "arm"
+    },
+    {
+      "name": "c3d-highcpu-16",
+      "vcpu": 16,
+      "memoryGiB": 32,
+      "monthly": 516.58,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c4-highmem-8-lssd",
+      "vcpu": 8,
+      "memoryGiB": 62,
+      "monthly": 519.9,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "c4a-highcpu-16",
+      "vcpu": 16,
+      "memoryGiB": 32,
+      "monthly": 522.08,
+      "category": "compute",
+      "arch": "arm"
+    },
+    {
+      "name": "n4-highcpu-16",
+      "vcpu": 16,
+      "memoryGiB": 32,
+      "monthly": 527.45,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "n4a-standard-16",
+      "vcpu": 16,
+      "memoryGiB": 64,
+      "monthly": 530.51,
+      "category": "general",
+      "arch": "arm"
+    },
+    {
+      "name": "c4n-standard-8",
+      "vcpu": 8,
+      "memoryGiB": 30,
+      "monthly": 544.88,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c4d-highcpu-16",
+      "vcpu": 16,
+      "memoryGiB": 30,
+      "monthly": 547.73,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c2d-highcpu-16",
+      "vcpu": 16,
+      "memoryGiB": 32,
+      "monthly": 564,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c4n-standard-8-lssd",
+      "vcpu": 8,
+      "memoryGiB": 30,
+      "monthly": 580.88,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "n4d-standard-16",
+      "vcpu": 16,
+      "memoryGiB": 64,
+      "monthly": 583.88,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "n2-standard-16",
+      "vcpu": 16,
+      "memoryGiB": 64,
+      "monthly": 584.73,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "c4-highcpu-16",
+      "vcpu": 16,
+      "memoryGiB": 32,
+      "monthly": 586.11,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "g2-standard-4",
+      "vcpu": 4,
+      "memoryGiB": 16,
+      "monthly": 608.11,
+      "category": "other",
+      "arch": "x86"
+    },
+    {
+      "name": "c4a-standard-16",
+      "vcpu": 16,
+      "memoryGiB": 64,
+      "monthly": 618.84,
+      "category": "compute",
+      "arch": "arm"
+    },
+    {
+      "name": "n1-highmem-16",
+      "vcpu": 16,
+      "memoryGiB": 104,
+      "monthly": 623.07,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "n4-standard-16",
+      "vcpu": 16,
+      "memoryGiB": 64,
+      "monthly": 625.03,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "c3d-standard-16",
+      "vcpu": 16,
+      "memoryGiB": 64,
+      "monthly": 625.71,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c2-standard-16",
+      "vcpu": 16,
+      "memoryGiB": 64,
+      "monthly": 628.57,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "t2d-standard-16",
+      "vcpu": 16,
+      "memoryGiB": 64,
+      "monthly": 635.71,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "c4d-standard-16",
+      "vcpu": 16,
+      "memoryGiB": 62,
+      "monthly": 651.19,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c3d-standard-16-lssd",
+      "vcpu": 16,
+      "memoryGiB": 64,
+      "monthly": 661.71,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "e2-highmem-16",
+      "vcpu": 16,
+      "memoryGiB": 128,
+      "monthly": 680.15,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "c4-standard-16",
+      "vcpu": 16,
+      "memoryGiB": 60,
+      "monthly": 681.09,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c2d-standard-16",
+      "vcpu": 16,
+      "memoryGiB": 64,
+      "monthly": 683.14,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "n2d-highmem-16",
+      "vcpu": 16,
+      "memoryGiB": 128,
+      "monthly": 686.2,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "n4a-highmem-16",
+      "vcpu": 16,
+      "memoryGiB": 128,
+      "monthly": 696.36,
+      "category": "memory",
+      "arch": "arm"
+    },
+    {
+      "name": "c4n-highmem-8",
+      "vcpu": 8,
+      "memoryGiB": 62,
+      "monthly": 718.57,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "c4d-standard-16-lssd",
+      "vcpu": 16,
+      "memoryGiB": 62,
+      "monthly": 721.99,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "g2-standard-8",
+      "vcpu": 8,
+      "memoryGiB": 32,
+      "monthly": 734.4,
+      "category": "other",
+      "arch": "x86"
+    },
+    {
+      "name": "e2-highcpu-32",
+      "vcpu": 32,
+      "memoryGiB": 32,
+      "monthly": 744.48,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "n1-highcpu-32",
+      "vcpu": 32,
+      "memoryGiB": 28.8,
+      "monthly": 746.34,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "n2d-highcpu-32",
+      "vcpu": 32,
+      "memoryGiB": 32,
+      "monthly": 751.13,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c4n-highmem-8-lssd",
+      "vcpu": 8,
+      "memoryGiB": 62,
+      "monthly": 754.57,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "n4d-highmem-16",
+      "vcpu": 16,
+      "memoryGiB": 128,
+      "monthly": 766.56,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "n2-highmem-16",
+      "vcpu": 16,
+      "memoryGiB": 128,
+      "monthly": 788.77,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "c3-highcpu-22",
+      "vcpu": 22,
+      "memoryGiB": 44,
+      "monthly": 805.9,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c4a-highmem-16",
+      "vcpu": 16,
+      "memoryGiB": 128,
+      "monthly": 812.36,
+      "category": "memory",
+      "arch": "arm"
+    },
+    {
+      "name": "n4-highmem-16",
+      "vcpu": 16,
+      "memoryGiB": 128,
+      "monthly": 820.19,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "c4-standard-16-lssd",
+      "vcpu": 16,
+      "memoryGiB": 60,
+      "monthly": 822.69,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c4a-standard-16-lssd",
+      "vcpu": 16,
+      "memoryGiB": 64,
+      "monthly": 831.24,
+      "category": "compute",
+      "arch": "arm"
+    },
+    {
+      "name": "c3d-highmem-16",
+      "vcpu": 16,
+      "memoryGiB": 128,
+      "monthly": 843.97,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "c4d-highmem-16",
+      "vcpu": 16,
+      "memoryGiB": 126,
+      "monthly": 858.11,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "g2-standard-12",
+      "vcpu": 12,
+      "memoryGiB": 48,
+      "monthly": 860.69,
+      "category": "other",
+      "arch": "x86"
+    },
+    {
+      "name": "n2-highcpu-32",
+      "vcpu": 32,
+      "memoryGiB": 32,
+      "monthly": 863.38,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c4-highcpu-24",
+      "vcpu": 24,
+      "memoryGiB": 48,
+      "monthly": 879.17,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c3d-highmem-16-lssd",
+      "vcpu": 16,
+      "memoryGiB": 128,
+      "monthly": 879.97,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "n4a-highcpu-32",
+      "vcpu": 32,
+      "memoryGiB": 64,
+      "monthly": 895.16,
+      "category": "compute",
+      "arch": "arm"
+    },
+    {
+      "name": "c4-highmem-16",
+      "vcpu": 16,
+      "memoryGiB": 124,
+      "monthly": 898.19,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "c2d-highmem-16",
+      "vcpu": 16,
+      "memoryGiB": 128,
+      "monthly": 921.41,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "c4d-highmem-16-lssd",
+      "vcpu": 16,
+      "memoryGiB": 126,
+      "monthly": 928.91,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "c4n-highcpu-16",
+      "vcpu": 16,
+      "memoryGiB": 32,
+      "monthly": 937.78,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c3-standard-22",
+      "vcpu": 22,
+      "memoryGiB": 88,
+      "monthly": 955.16,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c3d-highcpu-30",
+      "vcpu": 30,
+      "memoryGiB": 59,
+      "monthly": 965.17,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "n4d-highcpu-32",
+      "vcpu": 32,
+      "memoryGiB": 64,
+      "monthly": 985.09,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "g2-standard-16",
+      "vcpu": 16,
+      "memoryGiB": 64,
+      "monthly": 986.98,
+      "category": "other",
+      "arch": "x86"
+    },
+    {
+      "name": "z3-highmem-8-highlssd",
+      "vcpu": 8,
+      "memoryGiB": 64,
+      "monthly": 997.07,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "n1-standard-32",
+      "vcpu": 32,
+      "memoryGiB": 120,
+      "monthly": 1000.7,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "e2-standard-32",
+      "vcpu": 32,
+      "memoryGiB": 128,
+      "monthly": 1008.4,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "n2d-standard-32",
+      "vcpu": 32,
+      "memoryGiB": 128,
+      "monthly": 1017.39,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "c4-standard-24",
+      "vcpu": 24,
+      "memoryGiB": 90,
+      "monthly": 1021.64,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c4a-highmem-16-lssd",
+      "vcpu": 16,
+      "memoryGiB": 128,
+      "monthly": 1024.76,
+      "category": "memory",
+      "arch": "arm"
+    },
+    {
+      "name": "c4-highmem-16-lssd",
+      "vcpu": 16,
+      "memoryGiB": 124,
+      "monthly": 1039.79,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "c4a-highcpu-32",
+      "vcpu": 32,
+      "memoryGiB": 64,
+      "monthly": 1044.17,
+      "category": "compute",
+      "arch": "arm"
+    },
+    {
+      "name": "n4-highcpu-32",
+      "vcpu": 32,
+      "memoryGiB": 64,
+      "monthly": 1054.9,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "n4a-standard-32",
+      "vcpu": 32,
+      "memoryGiB": 128,
+      "monthly": 1061.01,
+      "category": "general",
+      "arch": "arm"
+    },
+    {
+      "name": "c4n-standard-16",
+      "vcpu": 16,
+      "memoryGiB": 60,
+      "monthly": 1089.76,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c4d-highcpu-32",
+      "vcpu": 32,
+      "memoryGiB": 60,
+      "monthly": 1095.45,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c3-standard-22-lssd",
+      "vcpu": 22,
+      "memoryGiB": 88,
+      "monthly": 1099.16,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "n2d-highcpu-48",
+      "vcpu": 48,
+      "memoryGiB": 48,
+      "monthly": 1126.69,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c2d-highcpu-32",
+      "vcpu": 32,
+      "memoryGiB": 64,
+      "monthly": 1128.01,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c4n-standard-16-lssd",
+      "vcpu": 16,
+      "memoryGiB": 60,
+      "monthly": 1161.76,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "n4d-standard-32",
+      "vcpu": 32,
+      "memoryGiB": 128,
+      "monthly": 1167.77,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "n2-standard-32",
+      "vcpu": 32,
+      "memoryGiB": 128,
+      "monthly": 1169.45,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "c4-highcpu-32",
+      "vcpu": 32,
+      "memoryGiB": 64,
+      "monthly": 1172.22,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c3d-standard-30",
+      "vcpu": 30,
+      "memoryGiB": 120,
+      "monthly": 1173.2,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c2-standard-30",
+      "vcpu": 30,
+      "memoryGiB": 120,
+      "monthly": 1178.57,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "m4-hypermem-16",
+      "vcpu": 16,
+      "memoryGiB": 248,
+      "monthly": 1186.56,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "c4a-standard-32",
+      "vcpu": 32,
+      "memoryGiB": 128,
+      "monthly": 1237.68,
+      "category": "compute",
+      "arch": "arm"
+    },
+    {
+      "name": "c3d-standard-30-lssd",
+      "vcpu": 30,
+      "memoryGiB": 120,
+      "monthly": 1245.2,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "n1-highmem-32",
+      "vcpu": 32,
+      "memoryGiB": 208,
+      "monthly": 1246.14,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "n4-standard-32",
+      "vcpu": 32,
+      "memoryGiB": 128,
+      "monthly": 1250.06,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "c3-highmem-22",
+      "vcpu": 22,
+      "memoryGiB": 176,
+      "monthly": 1253.67,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "t2d-standard-32",
+      "vcpu": 32,
+      "memoryGiB": 128,
+      "monthly": 1271.41,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "n2-highcpu-48",
+      "vcpu": 48,
+      "memoryGiB": 48,
+      "monthly": 1295.07,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c4d-standard-32",
+      "vcpu": 32,
+      "memoryGiB": 124,
+      "monthly": 1302.37,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c4-standard-24-lssd",
+      "vcpu": 24,
+      "memoryGiB": 90,
+      "monthly": 1304.84,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "n4a-highcpu-48",
+      "vcpu": 48,
+      "memoryGiB": 96,
+      "monthly": 1342.73,
+      "category": "compute",
+      "arch": "arm"
+    },
+    {
+      "name": "c4-highmem-24",
+      "vcpu": 24,
+      "memoryGiB": 186,
+      "monthly": 1347.29,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "c4-standard-32",
+      "vcpu": 32,
+      "memoryGiB": 120,
+      "monthly": 1362.18,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c2d-standard-32",
+      "vcpu": 32,
+      "memoryGiB": 128,
+      "monthly": 1366.28,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "n2d-highmem-32",
+      "vcpu": 32,
+      "memoryGiB": 256,
+      "monthly": 1372.4,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "n4a-highmem-32",
+      "vcpu": 32,
+      "memoryGiB": 256,
+      "monthly": 1392.72,
+      "category": "memory",
+      "arch": "arm"
+    },
+    {
+      "name": "c4n-highcpu-24",
+      "vcpu": 24,
+      "memoryGiB": 48,
+      "monthly": 1406.67,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c4n-highmem-16",
+      "vcpu": 16,
+      "memoryGiB": 124,
+      "monthly": 1437.13,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "c4d-standard-32-lssd",
+      "vcpu": 32,
+      "memoryGiB": 124,
+      "monthly": 1443.97,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "n4d-highcpu-48",
+      "vcpu": 48,
+      "memoryGiB": 96,
+      "monthly": 1477.64,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "g2-standard-32",
+      "vcpu": 32,
+      "memoryGiB": 128,
+      "monthly": 1492.14,
+      "category": "other",
+      "arch": "x86"
+    },
+    {
+      "name": "n1-highcpu-64",
+      "vcpu": 64,
+      "memoryGiB": 57.6,
+      "monthly": 1492.68,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "n2d-highcpu-64",
+      "vcpu": 64,
+      "memoryGiB": 64,
+      "monthly": 1502.26,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c4n-highmem-16-lssd",
+      "vcpu": 16,
+      "memoryGiB": 124,
+      "monthly": 1509.13,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "n2d-standard-48",
+      "vcpu": 48,
+      "memoryGiB": 192,
+      "monthly": 1526.08,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "z3-highmem-14-standardlssd",
+      "vcpu": 14,
+      "memoryGiB": 112,
+      "monthly": 1528.88,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "n4d-highmem-32",
+      "vcpu": 32,
+      "memoryGiB": 256,
+      "monthly": 1533.12,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "c4a-standard-32-lssd",
+      "vcpu": 32,
+      "memoryGiB": 128,
+      "monthly": 1556.28,
+      "category": "compute",
+      "arch": "arm"
+    },
+    {
+      "name": "c4a-highcpu-48",
+      "vcpu": 48,
+      "memoryGiB": 96,
+      "monthly": 1566.25,
+      "category": "compute",
+      "arch": "arm"
+    },
+    {
+      "name": "n2-highmem-32",
+      "vcpu": 32,
+      "memoryGiB": 256,
+      "monthly": 1577.55,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "n4-highcpu-48",
+      "vcpu": 48,
+      "memoryGiB": 96,
+      "monthly": 1582.36,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c3d-highmem-30",
+      "vcpu": 30,
+      "memoryGiB": 240,
+      "monthly": 1582.43,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "n4a-standard-48",
+      "vcpu": 48,
+      "memoryGiB": 192,
+      "monthly": 1591.52,
+      "category": "general",
+      "arch": "arm"
+    },
+    {
+      "name": "c3-highcpu-44",
+      "vcpu": 44,
+      "memoryGiB": 88,
+      "monthly": 1611.8,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c4a-highmem-32",
+      "vcpu": 32,
+      "memoryGiB": 256,
+      "monthly": 1624.71,
+      "category": "memory",
+      "arch": "arm"
+    },
+    {
+      "name": "c4-highmem-24-lssd",
+      "vcpu": 24,
+      "memoryGiB": 186,
+      "monthly": 1630.49,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "c4n-standard-24",
+      "vcpu": 24,
+      "memoryGiB": 90,
+      "monthly": 1634.64,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "n4-highmem-32",
+      "vcpu": 32,
+      "memoryGiB": 256,
+      "monthly": 1640.38,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "c4d-highcpu-48",
+      "vcpu": 48,
+      "memoryGiB": 90,
+      "monthly": 1643.18,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c3d-highmem-30-lssd",
+      "vcpu": 30,
+      "memoryGiB": 240,
+      "monthly": 1654.43,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "c4-standard-32-lssd",
+      "vcpu": 32,
+      "memoryGiB": 120,
+      "monthly": 1716.18,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c4d-highmem-32",
+      "vcpu": 32,
+      "memoryGiB": 252,
+      "monthly": 1716.21,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "g2-standard-24",
+      "vcpu": 24,
+      "memoryGiB": 96,
+      "monthly": 1721.38,
+      "category": "other",
+      "arch": "x86"
+    },
+    {
+      "name": "n2-highcpu-64",
+      "vcpu": 64,
+      "memoryGiB": 64,
+      "monthly": 1726.75,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "n4d-standard-48",
+      "vcpu": 48,
+      "memoryGiB": 192,
+      "monthly": 1751.65,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "n2-standard-48",
+      "vcpu": 48,
+      "memoryGiB": 192,
+      "monthly": 1754.18,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "c4-highcpu-48",
+      "vcpu": 48,
+      "memoryGiB": 96,
+      "monthly": 1758.33,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c4n-standard-24-lssd",
+      "vcpu": 24,
+      "memoryGiB": 90,
+      "monthly": 1778.64,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "n4a-highcpu-64",
+      "vcpu": 64,
+      "memoryGiB": 128,
+      "monthly": 1790.31,
+      "category": "compute",
+      "arch": "arm"
+    },
+    {
+      "name": "c4-highmem-32",
+      "vcpu": 32,
+      "memoryGiB": 248,
+      "monthly": 1796.38,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "m4-megamem-28",
+      "vcpu": 28,
+      "memoryGiB": 372,
+      "monthly": 1840.69,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "c2d-highmem-32",
+      "vcpu": 32,
+      "memoryGiB": 256,
+      "monthly": 1842.82,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "c4a-standard-48",
+      "vcpu": 48,
+      "memoryGiB": 192,
+      "monthly": 1856.52,
+      "category": "compute",
+      "arch": "arm"
+    },
+    {
+      "name": "c4d-highmem-32-lssd",
+      "vcpu": 32,
+      "memoryGiB": 252,
+      "monthly": 1857.81,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "n4-standard-48",
+      "vcpu": 48,
+      "memoryGiB": 192,
+      "monthly": 1875.1,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "n2d-highcpu-80",
+      "vcpu": 80,
+      "memoryGiB": 80,
+      "monthly": 1877.82,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "t2d-standard-48",
+      "vcpu": 48,
+      "memoryGiB": 192,
+      "monthly": 1907.12,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "c3-standard-44",
+      "vcpu": 44,
+      "memoryGiB": 176,
+      "monthly": 1910.32,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c3d-highcpu-60",
+      "vcpu": 60,
+      "memoryGiB": 118,
+      "monthly": 1930.35,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c4a-highmem-32-lssd",
+      "vcpu": 32,
+      "memoryGiB": 256,
+      "monthly": 1943.31,
+      "category": "memory",
+      "arch": "arm"
+    },
+    {
+      "name": "c4d-standard-48",
+      "vcpu": 48,
+      "memoryGiB": 186,
+      "monthly": 1953.56,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "n4d-highcpu-64",
+      "vcpu": 64,
+      "memoryGiB": 128,
+      "monthly": 1970.18,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c2d-highcpu-56",
+      "vcpu": 56,
+      "memoryGiB": 112,
+      "monthly": 1974.01,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "z3-highmem-16-highlssd",
+      "vcpu": 16,
+      "memoryGiB": 128,
+      "monthly": 1994.15,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "n1-standard-64",
+      "vcpu": 64,
+      "memoryGiB": 240,
+      "monthly": 2001.4,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "n2d-standard-64",
+      "vcpu": 64,
+      "memoryGiB": 256,
+      "monthly": 2034.77,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "c4-standard-48",
+      "vcpu": 48,
+      "memoryGiB": 180,
+      "monthly": 2043.28,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "n2d-highmem-48",
+      "vcpu": 48,
+      "memoryGiB": 384,
+      "monthly": 2058.6,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "c4a-highcpu-64",
+      "vcpu": 64,
+      "memoryGiB": 128,
+      "monthly": 2088.34,
+      "category": "compute",
+      "arch": "arm"
+    },
+    {
+      "name": "n4a-highmem-48",
+      "vcpu": 48,
+      "memoryGiB": 384,
+      "monthly": 2089.08,
+      "category": "memory",
+      "arch": "arm"
+    },
+    {
+      "name": "n4-highcpu-64",
+      "vcpu": 64,
+      "memoryGiB": 128,
+      "monthly": 2109.81,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "n4a-standard-64",
+      "vcpu": 64,
+      "memoryGiB": 256,
+      "monthly": 2122.02,
+      "category": "general",
+      "arch": "arm"
+    },
+    {
+      "name": "c4-highmem-32-lssd",
+      "vcpu": 32,
+      "memoryGiB": 248,
+      "monthly": 2150.38,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "c4n-highmem-24",
+      "vcpu": 24,
+      "memoryGiB": 186,
+      "monthly": 2155.7,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "n2-highcpu-80",
+      "vcpu": 80,
+      "memoryGiB": 80,
+      "monthly": 2158.44,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c4d-highcpu-64",
+      "vcpu": 64,
+      "memoryGiB": 120,
+      "monthly": 2190.91,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c3-standard-44-lssd",
+      "vcpu": 44,
+      "memoryGiB": 176,
+      "monthly": 2198.32,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "m4n-hypermem-16",
+      "vcpu": 16,
+      "memoryGiB": 248,
+      "monthly": 2210.81,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "c4d-standard-48-lssd",
+      "vcpu": 48,
+      "memoryGiB": 186,
+      "monthly": 2236.76,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "n1-highcpu-96",
+      "vcpu": 96,
+      "memoryGiB": 86.4,
+      "monthly": 2239.02,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "n2d-highcpu-96",
+      "vcpu": 96,
+      "memoryGiB": 96,
+      "monthly": 2253.38,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "n4d-highmem-48",
+      "vcpu": 48,
+      "memoryGiB": 384,
+      "monthly": 2299.68,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "c4n-highmem-24-lssd",
+      "vcpu": 24,
+      "memoryGiB": 186,
+      "monthly": 2299.7,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "n4d-standard-64",
+      "vcpu": 64,
+      "memoryGiB": 256,
+      "monthly": 2335.53,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "n2-standard-64",
+      "vcpu": 64,
+      "memoryGiB": 256,
+      "monthly": 2338.9,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "c3d-standard-60",
+      "vcpu": 60,
+      "memoryGiB": 240,
+      "monthly": 2346.4,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c4a-highcpu-72",
+      "vcpu": 72,
+      "memoryGiB": 144,
+      "monthly": 2349.38,
+      "category": "compute",
+      "arch": "arm"
+    },
+    {
+      "name": "c2-standard-60",
+      "vcpu": 60,
+      "memoryGiB": 240,
+      "monthly": 2357.13,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "n2-highmem-48",
+      "vcpu": 48,
+      "memoryGiB": 384,
+      "monthly": 2366.32,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "m4-hypermem-32",
+      "vcpu": 32,
+      "memoryGiB": 496,
+      "monthly": 2373.13,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "t2d-standard-60",
+      "vcpu": 60,
+      "memoryGiB": 240,
+      "monthly": 2383.9,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "c4a-standard-48-lssd",
+      "vcpu": 48,
+      "memoryGiB": 192,
+      "monthly": 2387.52,
+      "category": "compute",
+      "arch": "arm"
+    },
+    {
+      "name": "c2d-standard-56",
+      "vcpu": 56,
+      "memoryGiB": 224,
+      "monthly": 2390.99,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c4a-highmem-48",
+      "vcpu": 48,
+      "memoryGiB": 384,
+      "monthly": 2437.07,
+      "category": "memory",
+      "arch": "arm"
+    },
+    {
+      "name": "n4-highmem-48",
+      "vcpu": 48,
+      "memoryGiB": 384,
+      "monthly": 2460.57,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "n4d-highcpu-80",
+      "vcpu": 80,
+      "memoryGiB": 160,
+      "monthly": 2462.73,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c4a-standard-64",
+      "vcpu": 64,
+      "memoryGiB": 256,
+      "monthly": 2475.37,
+      "category": "compute",
+      "arch": "arm"
+    },
+    {
+      "name": "c3d-standard-60-lssd",
+      "vcpu": 60,
+      "memoryGiB": 240,
+      "monthly": 2490.4,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "n1-highmem-64",
+      "vcpu": 64,
+      "memoryGiB": 416,
+      "monthly": 2492.27,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "n4-standard-64",
+      "vcpu": 64,
+      "memoryGiB": 256,
+      "monthly": 2500.13,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "c3-highmem-44",
+      "vcpu": 44,
+      "memoryGiB": 352,
+      "monthly": 2507.34,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "z3-highmem-22-standardlssd",
+      "vcpu": 22,
+      "memoryGiB": 176,
+      "monthly": 2525.95,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "n2d-standard-80",
+      "vcpu": 80,
+      "memoryGiB": 320,
+      "monthly": 2543.47,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "c4d-highmem-48",
+      "vcpu": 48,
+      "memoryGiB": 378,
+      "monthly": 2574.32,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "n2-highcpu-96",
+      "vcpu": 96,
+      "memoryGiB": 96,
+      "monthly": 2590.13,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c4d-standard-64",
+      "vcpu": 64,
+      "memoryGiB": 248,
+      "monthly": 2604.75,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c4-standard-48-lssd",
+      "vcpu": 48,
+      "memoryGiB": 180,
+      "monthly": 2609.68,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "n4-highcpu-80",
+      "vcpu": 80,
+      "memoryGiB": 160,
+      "monthly": 2637.26,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c4-highmem-48",
+      "vcpu": 48,
+      "memoryGiB": 372,
+      "monthly": 2694.58,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "n2d-highmem-64",
+      "vcpu": 64,
+      "memoryGiB": 512,
+      "monthly": 2744.79,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "c4a-standard-72",
+      "vcpu": 72,
+      "memoryGiB": 288,
+      "monthly": 2784.79,
+      "category": "compute",
+      "arch": "arm"
+    },
+    {
+      "name": "n4a-highmem-64",
+      "vcpu": 64,
+      "memoryGiB": 512,
+      "monthly": 2785.45,
+      "category": "memory",
+      "arch": "arm"
+    },
+    {
+      "name": "c4n-highcpu-48",
+      "vcpu": 48,
+      "memoryGiB": 96,
+      "monthly": 2813.35,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "z3-highmem-22-highlssd",
+      "vcpu": 22,
+      "memoryGiB": 176,
+      "monthly": 2813.95,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "c4d-highmem-48-lssd",
+      "vcpu": 48,
+      "memoryGiB": 378,
+      "monthly": 2857.52,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "c3d-highcpu-90",
+      "vcpu": 90,
+      "memoryGiB": 177,
+      "monthly": 2895.52,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "n4d-standard-80",
+      "vcpu": 80,
+      "memoryGiB": 320,
+      "monthly": 2919.42,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "n2-standard-80",
+      "vcpu": 80,
+      "memoryGiB": 320,
+      "monthly": 2923.63,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "n4d-highcpu-96",
+      "vcpu": 96,
+      "memoryGiB": 192,
+      "monthly": 2955.27,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c4a-highmem-48-lssd",
+      "vcpu": 48,
+      "memoryGiB": 384,
+      "monthly": 2968.07,
+      "category": "memory",
+      "arch": "arm"
+    },
+    {
+      "name": "n1-standard-96",
+      "vcpu": 96,
+      "memoryGiB": 360,
+      "monthly": 3002.1,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "n2d-highcpu-128",
+      "vcpu": 128,
+      "memoryGiB": 128,
+      "monthly": 3004.51,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c4d-standard-64-lssd",
+      "vcpu": 64,
+      "memoryGiB": 248,
+      "monthly": 3029.55,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "n2d-standard-96",
+      "vcpu": 96,
+      "memoryGiB": 384,
+      "monthly": 3052.16,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "n4d-highmem-64",
+      "vcpu": 64,
+      "memoryGiB": 512,
+      "monthly": 3066.23,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "n4-standard-80",
+      "vcpu": 80,
+      "memoryGiB": 320,
+      "monthly": 3125.16,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "n2-highmem-64",
+      "vcpu": 64,
+      "memoryGiB": 512,
+      "monthly": 3155.1,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "c3d-highmem-60",
+      "vcpu": 60,
+      "memoryGiB": 480,
+      "monthly": 3164.87,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "a2-highgpu-1g",
+      "vcpu": 12,
+      "memoryGiB": 85,
+      "monthly": 3204.37,
+      "category": "other",
+      "arch": "x86"
+    },
+    {
+      "name": "c4a-standard-64-lssd",
+      "vcpu": 64,
+      "memoryGiB": 256,
+      "monthly": 3218.77,
+      "category": "compute",
+      "arch": "arm"
+    },
+    {
+      "name": "c3-highcpu-88",
+      "vcpu": 88,
+      "memoryGiB": 176,
+      "monthly": 3223.61,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c2d-highmem-56",
+      "vcpu": 56,
+      "memoryGiB": 448,
+      "monthly": 3224.94,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "c4a-highmem-64",
+      "vcpu": 64,
+      "memoryGiB": 512,
+      "monthly": 3249.42,
+      "category": "memory",
+      "arch": "arm"
+    },
+    {
+      "name": "c4-highmem-48-lssd",
+      "vcpu": 48,
+      "memoryGiB": 372,
+      "monthly": 3260.98,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "c4n-standard-48",
+      "vcpu": 48,
+      "memoryGiB": 180,
+      "monthly": 3269.27,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "n4-highmem-64",
+      "vcpu": 64,
+      "memoryGiB": 512,
+      "monthly": 3280.76,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "c4d-highcpu-96",
+      "vcpu": 96,
+      "memoryGiB": 180,
+      "monthly": 3286.36,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c3d-highmem-60-lssd",
+      "vcpu": 60,
+      "memoryGiB": 480,
+      "monthly": 3308.87,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "m4n-megamem-28",
+      "vcpu": 28,
+      "memoryGiB": 372,
+      "monthly": 3429.58,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "n2d-highmem-80",
+      "vcpu": 80,
+      "memoryGiB": 640,
+      "monthly": 3430.99,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "c4d-highmem-64",
+      "vcpu": 64,
+      "memoryGiB": 504,
+      "monthly": 3432.43,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "g2-standard-48",
+      "vcpu": 48,
+      "memoryGiB": 192,
+      "monthly": 3442.76,
+      "category": "other",
+      "arch": "x86"
+    },
+    {
+      "name": "n4d-standard-96",
+      "vcpu": 96,
+      "memoryGiB": 384,
+      "monthly": 3503.3,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "n2-standard-96",
+      "vcpu": 96,
+      "memoryGiB": 384,
+      "monthly": 3508.35,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "c4-highcpu-96",
+      "vcpu": 96,
+      "memoryGiB": 192,
+      "monthly": 3516.66,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c3d-standard-90",
+      "vcpu": 90,
+      "memoryGiB": 360,
+      "monthly": 3519.6,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c4n-standard-48-lssd",
+      "vcpu": 48,
+      "memoryGiB": 180,
+      "monthly": 3557.27,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c4a-standard-72-lssd",
+      "vcpu": 72,
+      "memoryGiB": 288,
+      "monthly": 3634.39,
+      "category": "compute",
+      "arch": "arm"
+    },
+    {
+      "name": "c4a-highmem-72",
+      "vcpu": 72,
+      "memoryGiB": 576,
+      "monthly": 3655.6,
+      "category": "memory",
+      "arch": "arm"
+    },
+    {
+      "name": "m4-megamem-56",
+      "vcpu": 56,
+      "memoryGiB": 744,
+      "monthly": 3681.38,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "n1-highmem-96",
+      "vcpu": 96,
+      "memoryGiB": 624,
+      "monthly": 3738.41,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "c3d-standard-90-lssd",
+      "vcpu": 90,
+      "memoryGiB": 360,
+      "monthly": 3807.6,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c3-standard-88",
+      "vcpu": 88,
+      "memoryGiB": 352,
+      "monthly": 3820.63,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "n4d-highmem-80",
+      "vcpu": 80,
+      "memoryGiB": 640,
+      "monthly": 3832.79,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "c4d-highmem-64-lssd",
+      "vcpu": 64,
+      "memoryGiB": 504,
+      "monthly": 3857.23,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "c4d-standard-96",
+      "vcpu": 96,
+      "memoryGiB": 372,
+      "monthly": 3907.12,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "n2-highmem-80",
+      "vcpu": 80,
+      "memoryGiB": 640,
+      "monthly": 3943.87,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "c2d-highcpu-112",
+      "vcpu": 112,
+      "memoryGiB": 224,
+      "monthly": 3948.03,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "m1-ultramem-40",
+      "vcpu": 40,
+      "memoryGiB": 961,
+      "monthly": 3952.81,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "z3-highmem-32-highlssd",
+      "vcpu": 32,
+      "memoryGiB": 256,
+      "monthly": 3988.29,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "c4a-highmem-64-lssd",
+      "vcpu": 64,
+      "memoryGiB": 512,
+      "monthly": 3992.82,
+      "category": "memory",
+      "arch": "arm"
+    },
+    {
+      "name": "n2d-standard-128",
+      "vcpu": 128,
+      "memoryGiB": 512,
+      "monthly": 4069.54,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "c4-standard-96",
+      "vcpu": 96,
+      "memoryGiB": 360,
+      "monthly": 4086.55,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "n4-highmem-80",
+      "vcpu": 80,
+      "memoryGiB": 640,
+      "monthly": 4100.95,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "n2d-highmem-96",
+      "vcpu": 96,
+      "memoryGiB": 768,
+      "monthly": 4117.19,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "h3-standard-88",
+      "vcpu": 88,
+      "memoryGiB": 352,
+      "monthly": 4241.19,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c4n-highmem-48",
+      "vcpu": 48,
+      "memoryGiB": 372,
+      "monthly": 4311.39,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "c3-standard-88-lssd",
+      "vcpu": 88,
+      "memoryGiB": 352,
+      "monthly": 4396.63,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "m4n-hypermem-32",
+      "vcpu": 32,
+      "memoryGiB": 496,
+      "monthly": 4421.62,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "c4d-standard-96-lssd",
+      "vcpu": 96,
+      "memoryGiB": 372,
+      "monthly": 4473.52,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c4a-highmem-72-lssd",
+      "vcpu": 72,
+      "memoryGiB": 576,
+      "monthly": 4505.2,
+      "category": "memory",
+      "arch": "arm"
+    },
+    {
+      "name": "n4d-highmem-96",
+      "vcpu": 96,
+      "memoryGiB": 768,
+      "monthly": 4599.35,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "c4n-highmem-48-lssd",
+      "vcpu": 48,
+      "memoryGiB": 372,
+      "monthly": 4599.39,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "n2-standard-128",
+      "vcpu": 128,
+      "memoryGiB": 512,
+      "monthly": 4677.8,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "n2-highmem-96",
+      "vcpu": 96,
+      "memoryGiB": 768,
+      "monthly": 4732.65,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "m4-hypermem-64",
+      "vcpu": 64,
+      "memoryGiB": 992,
+      "monthly": 4746.25,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "c3d-highmem-90",
+      "vcpu": 90,
+      "memoryGiB": 720,
+      "monthly": 4747.3,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "z3-highmem-44-standardlssd",
+      "vcpu": 44,
+      "memoryGiB": 352,
+      "monthly": 4763.9,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "a2-ultragpu-1g",
+      "vcpu": 12,
+      "memoryGiB": 170,
+      "monthly": 4764.62,
+      "category": "other",
+      "arch": "x86"
+    },
+    {
+      "name": "c2d-standard-112",
+      "vcpu": 112,
+      "memoryGiB": 448,
+      "monthly": 4781.98,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c4a-highmem-96-metal",
+      "vcpu": 96,
+      "memoryGiB": 768,
+      "monthly": 4874.13,
+      "category": "memory",
+      "arch": "arm"
+    },
+    {
+      "name": "c3-highmem-88",
+      "vcpu": 88,
+      "memoryGiB": 704,
+      "monthly": 5014.68,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "c3d-highmem-90-lssd",
+      "vcpu": 90,
+      "memoryGiB": 720,
+      "monthly": 5035.3,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "c4d-highmem-96",
+      "vcpu": 96,
+      "memoryGiB": 756,
+      "monthly": 5148.64,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "c4-standard-96-lssd",
+      "vcpu": 96,
+      "memoryGiB": 360,
+      "monthly": 5219.35,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "m3-ultramem-32",
+      "vcpu": 32,
+      "memoryGiB": 976,
+      "monthly": 5240.45,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "n2d-highcpu-224",
+      "vcpu": 224,
+      "memoryGiB": 224,
+      "monthly": 5257.89,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c4-highcpu-144",
+      "vcpu": 144,
+      "memoryGiB": 288,
+      "monthly": 5274.99,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c4-highmem-96",
+      "vcpu": 96,
+      "memoryGiB": 744,
+      "monthly": 5389.15,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "c4n-highcpu-96",
+      "vcpu": 96,
+      "memoryGiB": 192,
+      "monthly": 5626.7,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "z3-highmem-44-highlssd",
+      "vcpu": 44,
+      "memoryGiB": 352,
+      "monthly": 5627.9,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "c4d-highmem-96-lssd",
+      "vcpu": 96,
+      "memoryGiB": 756,
+      "monthly": 5715.04,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "c3d-highcpu-180",
+      "vcpu": 180,
+      "memoryGiB": 354,
+      "monthly": 5791.04,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "n2-highmem-128",
+      "vcpu": 128,
+      "memoryGiB": 864,
+      "monthly": 5800.07,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "c4-standard-144",
+      "vcpu": 144,
+      "memoryGiB": 540,
+      "monthly": 6129.83,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "m3-megamem-64",
+      "vcpu": 64,
+      "memoryGiB": 976,
+      "monthly": 6198.52,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "a2-highgpu-2g",
+      "vcpu": 24,
+      "memoryGiB": 170,
+      "monthly": 6408.75,
+      "category": "other",
+      "arch": "x86"
+    },
+    {
+      "name": "c3-highcpu-176",
+      "vcpu": 176,
+      "memoryGiB": 352,
+      "monthly": 6447.21,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c2d-highmem-112",
+      "vcpu": 112,
+      "memoryGiB": 896,
+      "monthly": 6449.88,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "m4-ultramem-56",
+      "vcpu": 56,
+      "memoryGiB": 1488,
+      "monthly": 6510.93,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "c4-highmem-96-lssd",
+      "vcpu": 96,
+      "memoryGiB": 744,
+      "monthly": 6521.95,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "c4n-standard-96",
+      "vcpu": 96,
+      "memoryGiB": 360,
+      "monthly": 6538.55,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c4d-highcpu-192",
+      "vcpu": 192,
+      "memoryGiB": 360,
+      "monthly": 6572.72,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "m1-megamem-96",
+      "vcpu": 96,
+      "memoryGiB": 1433.6,
+      "monthly": 6689.9,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "m4n-megamem-56",
+      "vcpu": 56,
+      "memoryGiB": 744,
+      "monthly": 6859.16,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "g2-standard-96",
+      "vcpu": 96,
+      "memoryGiB": 384,
+      "monthly": 6885.52,
+      "category": "other",
+      "arch": "x86"
+    },
+    {
+      "name": "c4-highcpu-192",
+      "vcpu": 192,
+      "memoryGiB": 384,
+      "monthly": 7033.32,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c3d-standard-180",
+      "vcpu": 180,
+      "memoryGiB": 720,
+      "monthly": 7039.21,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c4n-standard-96-lssd",
+      "vcpu": 96,
+      "memoryGiB": 360,
+      "monthly": 7114.55,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "n2d-standard-224",
+      "vcpu": 224,
+      "memoryGiB": 896,
+      "monthly": 7121.7,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "m4-megamem-112",
+      "vcpu": 112,
+      "memoryGiB": 1488,
+      "monthly": 7362.76,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "c3-highcpu-192-metal",
+      "vcpu": 192,
+      "memoryGiB": 512,
+      "monthly": 7467.52,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c3d-standard-180-lssd",
+      "vcpu": 180,
+      "memoryGiB": 720,
+      "monthly": 7615.21,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c3-standard-176",
+      "vcpu": 176,
+      "memoryGiB": 704,
+      "monthly": 7641.27,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c4d-standard-192",
+      "vcpu": 192,
+      "memoryGiB": 744,
+      "monthly": 7814.24,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c4-standard-144-lssd",
+      "vcpu": 144,
+      "memoryGiB": 540,
+      "monthly": 7829.03,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "m1-ultramem-80",
+      "vcpu": 80,
+      "memoryGiB": 1922,
+      "monthly": 7905.63,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "c4-highmem-144",
+      "vcpu": 144,
+      "memoryGiB": 1116,
+      "monthly": 8083.73,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "c4-standard-192",
+      "vcpu": 192,
+      "memoryGiB": 720,
+      "monthly": 8173.1,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c3-standard-192-metal",
+      "vcpu": 192,
+      "memoryGiB": 768,
+      "monthly": 8335.93,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c4n-highmem-96",
+      "vcpu": 96,
+      "memoryGiB": 744,
+      "monthly": 8622.78,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "c3-standard-176-lssd",
+      "vcpu": 176,
+      "memoryGiB": 704,
+      "monthly": 8793.27,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "m4n-hypermem-64",
+      "vcpu": 64,
+      "memoryGiB": 992,
+      "monthly": 8843.25,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "c4d-standard-192-lssd",
+      "vcpu": 192,
+      "memoryGiB": 744,
+      "monthly": 8947.04,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c4n-highmem-96-lssd",
+      "vcpu": 96,
+      "memoryGiB": 744,
+      "monthly": 9198.78,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "c3d-highmem-180",
+      "vcpu": 180,
+      "memoryGiB": 1440,
+      "monthly": 9494.61,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "z3-highmem-88-standardlssd",
+      "vcpu": 88,
+      "memoryGiB": 704,
+      "monthly": 9527.81,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "a2-ultragpu-2g",
+      "vcpu": 24,
+      "memoryGiB": 340,
+      "monthly": 9529.23,
+      "category": "other",
+      "arch": "x86"
+    },
+    {
+      "name": "a3-highgpu-1g",
+      "vcpu": 26,
+      "memoryGiB": 234,
+      "monthly": 9529.36,
+      "category": "other",
+      "arch": "x86"
+    },
+    {
+      "name": "c4-highmem-144-lssd",
+      "vcpu": 144,
+      "memoryGiB": 1116,
+      "monthly": 9782.93,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "c3-highmem-176",
+      "vcpu": 176,
+      "memoryGiB": 1408,
+      "monthly": 10029.37,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "c3d-highmem-180-lssd",
+      "vcpu": 180,
+      "memoryGiB": 1440,
+      "monthly": 10070.61,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "c4d-highmem-192",
+      "vcpu": 192,
+      "memoryGiB": 1512,
+      "monthly": 10297.29,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "c4-standard-192-lssd",
+      "vcpu": 192,
+      "memoryGiB": 720,
+      "monthly": 10438.7,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "m3-ultramem-64",
+      "vcpu": 64,
+      "memoryGiB": 1952,
+      "monthly": 10480.9,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "c4-highcpu-288",
+      "vcpu": 288,
+      "memoryGiB": 576,
+      "monthly": 10549.99,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c4-highcpu-288-metal",
+      "vcpu": 288,
+      "memoryGiB": 576,
+      "monthly": 10549.99,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c4-highmem-192",
+      "vcpu": 192,
+      "memoryGiB": 1488,
+      "monthly": 10778.31,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "c3-highmem-192-metal",
+      "vcpu": 192,
+      "memoryGiB": 1536,
+      "monthly": 10941.13,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "c4n-highcpu-192",
+      "vcpu": 192,
+      "memoryGiB": 384,
+      "monthly": 11253.39,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "z3-highmem-88-highlssd",
+      "vcpu": 88,
+      "memoryGiB": 704,
+      "monthly": 11255.81,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "c4d-highmem-192-lssd",
+      "vcpu": 192,
+      "memoryGiB": 1512,
+      "monthly": 11430.09,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "c3d-highcpu-360",
+      "vcpu": 360,
+      "memoryGiB": 708,
+      "monthly": 11582.08,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "m4n-ultramem-56",
+      "vcpu": 56,
+      "memoryGiB": 1488,
+      "monthly": 12131.23,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "c4-standard-288",
+      "vcpu": 288,
+      "memoryGiB": 1080,
+      "monthly": 12259.65,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c4-standard-288-metal",
+      "vcpu": 288,
+      "memoryGiB": 1080,
+      "monthly": 12259.65,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "m3-megamem-128",
+      "vcpu": 128,
+      "memoryGiB": 1952,
+      "monthly": 12397.03,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "a2-highgpu-4g",
+      "vcpu": 48,
+      "memoryGiB": 340,
+      "monthly": 12817.5,
+      "category": "other",
+      "arch": "x86"
+    },
+    {
+      "name": "m4-ultramem-112",
+      "vcpu": 112,
+      "memoryGiB": 2976,
+      "monthly": 13021.85,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "c4-highmem-192-lssd",
+      "vcpu": 192,
+      "memoryGiB": 1488,
+      "monthly": 13043.91,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "c4n-standard-192",
+      "vcpu": 192,
+      "memoryGiB": 720,
+      "monthly": 13077.1,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c4d-highcpu-384",
+      "vcpu": 384,
+      "memoryGiB": 720,
+      "monthly": 13145.43,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c4d-highcpu-384-metal",
+      "vcpu": 384,
+      "memoryGiB": 768,
+      "monthly": 13300.62,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "m4n-megamem-112",
+      "vcpu": 112,
+      "memoryGiB": 1488,
+      "monthly": 13718.32,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "c3d-standard-360",
+      "vcpu": 360,
+      "memoryGiB": 1440,
+      "monthly": 14078.41,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c4n-standard-192-lssd",
+      "vcpu": 192,
+      "memoryGiB": 720,
+      "monthly": 14229.1,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "m4-megamem-224",
+      "vcpu": 224,
+      "memoryGiB": 2976,
+      "monthly": 14725.52,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "c3d-standard-360-lssd",
+      "vcpu": 360,
+      "memoryGiB": 1440,
+      "monthly": 15230.41,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c4d-standard-384",
+      "vcpu": 384,
+      "memoryGiB": 1488,
+      "monthly": 15628.48,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c4-standard-288-lssd",
+      "vcpu": 288,
+      "memoryGiB": 1080,
+      "monthly": 15658.05,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c4-standard-288-lssd-metal",
+      "vcpu": 288,
+      "memoryGiB": 1080,
+      "monthly": 15658.05,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c4d-standard-384-metal",
+      "vcpu": 384,
+      "memoryGiB": 1536,
+      "monthly": 15783.67,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "m1-ultramem-160",
+      "vcpu": 160,
+      "memoryGiB": 3844,
+      "monthly": 15811.25,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "c4-highmem-288",
+      "vcpu": 288,
+      "memoryGiB": 2232,
+      "monthly": 16167.46,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "c4-highmem-288-metal",
+      "vcpu": 288,
+      "memoryGiB": 2232,
+      "monthly": 16167.46,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "c4n-highmem-192",
+      "vcpu": 192,
+      "memoryGiB": 1488,
+      "monthly": 17245.57,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "c4d-standard-384-lssd",
+      "vcpu": 384,
+      "memoryGiB": 1488,
+      "monthly": 17894.08,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "c4n-highmem-192-lssd",
+      "vcpu": 192,
+      "memoryGiB": 1488,
+      "monthly": 18397.57,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "c3d-highmem-360",
+      "vcpu": 360,
+      "memoryGiB": 2880,
+      "monthly": 18989.22,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "z3-highmem-176-standardlssd",
+      "vcpu": 176,
+      "memoryGiB": 1408,
+      "monthly": 19055.62,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "a2-ultragpu-4g",
+      "vcpu": 48,
+      "memoryGiB": 680,
+      "monthly": 19058.47,
+      "category": "other",
+      "arch": "x86"
+    },
+    {
+      "name": "a3-highgpu-2g",
+      "vcpu": 52,
+      "memoryGiB": 468,
+      "monthly": 19058.72,
+      "category": "other",
+      "arch": "x86"
+    },
+    {
+      "name": "c4-highmem-288-lssd",
+      "vcpu": 288,
+      "memoryGiB": 2232,
+      "monthly": 19565.86,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "c4-highmem-288-lssd-metal",
+      "vcpu": 288,
+      "memoryGiB": 2232,
+      "monthly": 19565.86,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "c3d-highmem-360-lssd",
+      "vcpu": 360,
+      "memoryGiB": 2880,
+      "monthly": 20141.22,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "c4d-highmem-384",
+      "vcpu": 384,
+      "memoryGiB": 3024,
+      "monthly": 20594.57,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "c4d-highmem-384-metal",
+      "vcpu": 384,
+      "memoryGiB": 3072,
+      "monthly": 20749.77,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "m3-ultramem-128",
+      "vcpu": 128,
+      "memoryGiB": 3904,
+      "monthly": 20961.8,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "c4d-highmem-384-lssd",
+      "vcpu": 384,
+      "memoryGiB": 3024,
+      "monthly": 22860.17,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "z3-highmem-192-highlssd-metal",
+      "vcpu": 192,
+      "memoryGiB": 1536,
+      "monthly": 23929.76,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "m4n-ultramem-112",
+      "vcpu": 112,
+      "memoryGiB": 2976,
+      "monthly": 24262.46,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "a2-highgpu-8g",
+      "vcpu": 96,
+      "memoryGiB": 680,
+      "monthly": 25634.99,
+      "category": "other",
+      "arch": "x86"
+    },
+    {
+      "name": "m2-ultramem-208",
+      "vcpu": 208,
+      "memoryGiB": 5888,
+      "monthly": 26452.35,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "m2-megamem-416",
+      "vcpu": 416,
+      "memoryGiB": 5888,
+      "monthly": 31584.04,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "m4-ultramem-224",
+      "vcpu": 224,
+      "memoryGiB": 5952,
+      "monthly": 34505.81,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "a2-ultragpu-8g",
+      "vcpu": 96,
+      "memoryGiB": 1360,
+      "monthly": 38116.94,
+      "category": "other",
+      "arch": "x86"
+    },
+    {
+      "name": "a3-highgpu-4g",
+      "vcpu": 104,
+      "memoryGiB": 936,
+      "monthly": 38117.44,
+      "category": "other",
+      "arch": "x86"
+    },
+    {
+      "name": "m2-hypermem-416",
+      "vcpu": 416,
+      "memoryGiB": 8832,
+      "monthly": 42244.37,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "a2-megagpu-16g",
+      "vcpu": 96,
+      "memoryGiB": 1360,
+      "monthly": 48415.63,
+      "category": "other",
+      "arch": "x86"
+    },
+    {
+      "name": "m2-ultramem-416",
+      "vcpu": 416,
+      "memoryGiB": 11776,
+      "monthly": 52904.7,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "a3-highgpu-8g",
+      "vcpu": 208,
+      "memoryGiB": 1872,
+      "monthly": 76234.89,
+      "category": "other",
+      "arch": "x86"
+    },
+    {
+      "name": "a3-megagpu-8g",
+      "vcpu": 208,
+      "memoryGiB": 1872,
+      "monthly": 80009.4,
+      "category": "other",
+      "arch": "x86"
+    }
+  ]
+}

@@ -1,0 +1,969 @@
+{
+  "provider": "scaleway",
+  "region": "fr-par-1",
+  "currency": "EUR",
+  "generated": "2026-10-28",
+  "source": "https://api.scaleway.com/instance/v1/zones/fr-par-1/products/servers",
+  "servers": [
+    {
+      "name": "STARDUST1-S",
+      "vcpu": 1,
+      "memoryGiB": 1,
+      "monthly": 0.44,
+      "category": "shared",
+      "arch": "x86"
+    },
+    {
+      "name": "DEV1-S",
+      "vcpu": 2,
+      "memoryGiB": 2,
+      "monthly": 6.55,
+      "category": "shared",
+      "arch": "x86"
+    },
+    {
+      "name": "PLAY2-PICO",
+      "vcpu": 1,
+      "memoryGiB": 2,
+      "monthly": 10.42,
+      "category": "shared",
+      "arch": "x86"
+    },
+    {
+      "name": "DEV1-M",
+      "vcpu": 3,
+      "memoryGiB": 4,
+      "monthly": 14.74,
+      "category": "shared",
+      "arch": "x86"
+    },
+    {
+      "name": "BASIC2-A2C-4G",
+      "vcpu": 2,
+      "memoryGiB": 4,
+      "monthly": 16.79,
+      "category": "shared",
+      "arch": "arm"
+    },
+    {
+      "name": "PLAY2-NANO",
+      "vcpu": 2,
+      "memoryGiB": 4,
+      "monthly": 20.1,
+      "category": "shared",
+      "arch": "x86"
+    },
+    {
+      "name": "BASIC2-A2C-8G",
+      "vcpu": 2,
+      "memoryGiB": 8,
+      "monthly": 25.19,
+      "category": "shared",
+      "arch": "arm"
+    },
+    {
+      "name": "BASIC3-X2C-4G",
+      "vcpu": 2,
+      "memoryGiB": 4,
+      "monthly": 28.8,
+      "category": "shared",
+      "arch": "x86"
+    },
+    {
+      "name": "DEV1-L",
+      "vcpu": 4,
+      "memoryGiB": 8,
+      "monthly": 31.27,
+      "category": "shared",
+      "arch": "x86"
+    },
+    {
+      "name": "BASIC2-A4C-8G",
+      "vcpu": 4,
+      "memoryGiB": 8,
+      "monthly": 37.74,
+      "category": "shared",
+      "arch": "arm"
+    },
+    {
+      "name": "POP2-HC-2C-4G",
+      "vcpu": 2,
+      "memoryGiB": 4,
+      "monthly": 38.84,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "PLAY2-MICRO",
+      "vcpu": 4,
+      "memoryGiB": 8,
+      "monthly": 40.21,
+      "category": "shared",
+      "arch": "x86"
+    },
+    {
+      "name": "PRO2-XXS",
+      "vcpu": 2,
+      "memoryGiB": 8,
+      "monthly": 40.95,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "COMPUTE3-X2C-4G",
+      "vcpu": 2,
+      "memoryGiB": 4,
+      "monthly": 42.71,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "STANDARD2-A2C-8G",
+      "vcpu": 2,
+      "memoryGiB": 8,
+      "monthly": 42.78,
+      "category": "general",
+      "arch": "arm"
+    },
+    {
+      "name": "BASIC3-X2C-8G",
+      "vcpu": 2,
+      "memoryGiB": 8,
+      "monthly": 43.23,
+      "category": "shared",
+      "arch": "x86"
+    },
+    {
+      "name": "DEV1-XL",
+      "vcpu": 4,
+      "memoryGiB": 12,
+      "monthly": 47.51,
+      "category": "shared",
+      "arch": "x86"
+    },
+    {
+      "name": "BASIC2-A4C-16G",
+      "vcpu": 4,
+      "memoryGiB": 16,
+      "monthly": 50.3,
+      "category": "shared",
+      "arch": "arm"
+    },
+    {
+      "name": "POP2-2C-8G",
+      "vcpu": 2,
+      "memoryGiB": 8,
+      "monthly": 53.66,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "BASIC2-A6C-12G",
+      "vcpu": 6,
+      "memoryGiB": 12,
+      "monthly": 57.6,
+      "category": "shared",
+      "arch": "arm"
+    },
+    {
+      "name": "BASIC3-X4C-8G",
+      "vcpu": 4,
+      "memoryGiB": 8,
+      "monthly": 57.67,
+      "category": "shared",
+      "arch": "x86"
+    },
+    {
+      "name": "STANDARD3-X2C-8G",
+      "vcpu": 2,
+      "memoryGiB": 8,
+      "monthly": 59.06,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "BASIC2-A6C-24G",
+      "vcpu": 6,
+      "memoryGiB": 24,
+      "monthly": 65.92,
+      "category": "shared",
+      "arch": "arm"
+    },
+    {
+      "name": "GP1-XS",
+      "vcpu": 4,
+      "memoryGiB": 16,
+      "monthly": 67.76,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "POP2-HM-2C-16G",
+      "vcpu": 2,
+      "memoryGiB": 16,
+      "monthly": 75.19,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "BASIC2-A8C-16G",
+      "vcpu": 8,
+      "memoryGiB": 16,
+      "monthly": 75.48,
+      "category": "shared",
+      "arch": "arm"
+    },
+    {
+      "name": "POP2-HC-4C-8G",
+      "vcpu": 4,
+      "memoryGiB": 8,
+      "monthly": 77.67,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "PRO2-XS",
+      "vcpu": 4,
+      "memoryGiB": 16,
+      "monthly": 81.91,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "MEMORY3-X2C-16G",
+      "vcpu": 2,
+      "memoryGiB": 16,
+      "monthly": 82.71,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "COMPUTE3-X4C-8G",
+      "vcpu": 4,
+      "memoryGiB": 8,
+      "monthly": 85.41,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "STANDARD2-A4C-16G",
+      "vcpu": 4,
+      "memoryGiB": 16,
+      "monthly": 85.48,
+      "category": "general",
+      "arch": "arm"
+    },
+    {
+      "name": "BASIC3-X4C-16G",
+      "vcpu": 4,
+      "memoryGiB": 16,
+      "monthly": 86.47,
+      "category": "shared",
+      "arch": "x86"
+    },
+    {
+      "name": "BASIC3-X6C-12G",
+      "vcpu": 6,
+      "memoryGiB": 12,
+      "monthly": 98.99,
+      "category": "shared",
+      "arch": "x86"
+    },
+    {
+      "name": "BASIC2-A8C-32G",
+      "vcpu": 8,
+      "memoryGiB": 32,
+      "monthly": 100.59,
+      "category": "shared",
+      "arch": "arm"
+    },
+    {
+      "name": "POP2-4C-16G",
+      "vcpu": 4,
+      "memoryGiB": 16,
+      "monthly": 107.31,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "STANDARD2-A6C-24G",
+      "vcpu": 6,
+      "memoryGiB": 24,
+      "monthly": 111.91,
+      "category": "general",
+      "arch": "arm"
+    },
+    {
+      "name": "BASIC3-X6C-24G",
+      "vcpu": 6,
+      "memoryGiB": 24,
+      "monthly": 113.37,
+      "category": "shared",
+      "arch": "x86"
+    },
+    {
+      "name": "BASIC2-A12C-24G",
+      "vcpu": 12,
+      "memoryGiB": 24,
+      "monthly": 115.19,
+      "category": "shared",
+      "arch": "arm"
+    },
+    {
+      "name": "POP2-HC-6C-12G",
+      "vcpu": 6,
+      "memoryGiB": 12,
+      "monthly": 116.51,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "STANDARD3-X4C-16G",
+      "vcpu": 4,
+      "memoryGiB": 16,
+      "monthly": 118.04,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "COMPUTE3-X6C-12G",
+      "vcpu": 6,
+      "memoryGiB": 12,
+      "monthly": 128.16,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "BASIC3-X8C-16G",
+      "vcpu": 8,
+      "memoryGiB": 16,
+      "monthly": 129.7,
+      "category": "shared",
+      "arch": "x86"
+    },
+    {
+      "name": "BASIC2-A12C-48G",
+      "vcpu": 12,
+      "memoryGiB": 48,
+      "monthly": 131.91,
+      "category": "shared",
+      "arch": "arm"
+    },
+    {
+      "name": "POP2-2C-8G-WIN",
+      "vcpu": 2,
+      "memoryGiB": 8,
+      "monthly": 133.08,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "GP1-S",
+      "vcpu": 8,
+      "memoryGiB": 32,
+      "monthly": 139.24,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "POP2-HM-4C-32G",
+      "vcpu": 4,
+      "memoryGiB": 32,
+      "monthly": 150.38,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "BASIC2-A16C-32G",
+      "vcpu": 16,
+      "memoryGiB": 32,
+      "monthly": 150.89,
+      "category": "shared",
+      "arch": "arm"
+    },
+    {
+      "name": "POP2-HC-8C-16G",
+      "vcpu": 8,
+      "memoryGiB": 16,
+      "monthly": 155.34,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "POP2-6C-24G",
+      "vcpu": 6,
+      "memoryGiB": 24,
+      "monthly": 160.97,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "PRO2-S",
+      "vcpu": 8,
+      "memoryGiB": 32,
+      "monthly": 163.07,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "MEMORY3-X4C-32G",
+      "vcpu": 4,
+      "memoryGiB": 32,
+      "monthly": 165.42,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "COMPUTE3-X8C-16G",
+      "vcpu": 8,
+      "memoryGiB": 16,
+      "monthly": 170.89,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "STANDARD2-A8C-32G",
+      "vcpu": 8,
+      "memoryGiB": 32,
+      "monthly": 171.04,
+      "category": "general",
+      "arch": "arm"
+    },
+    {
+      "name": "BASIC3-X8C-32G",
+      "vcpu": 8,
+      "memoryGiB": 32,
+      "monthly": 172.86,
+      "category": "shared",
+      "arch": "x86"
+    },
+    {
+      "name": "STANDARD3-X6C-24G",
+      "vcpu": 6,
+      "memoryGiB": 24,
+      "monthly": 177.19,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "POP2-HN-3",
+      "vcpu": 2,
+      "memoryGiB": 4,
+      "monthly": 186.44,
+      "category": "other",
+      "arch": "x86"
+    },
+    {
+      "name": "BASIC3-X12C-24G",
+      "vcpu": 12,
+      "memoryGiB": 24,
+      "monthly": 197.9,
+      "category": "shared",
+      "arch": "x86"
+    },
+    {
+      "name": "BASIC2-A16C-64G",
+      "vcpu": 16,
+      "memoryGiB": 64,
+      "monthly": 201.19,
+      "category": "shared",
+      "arch": "arm"
+    },
+    {
+      "name": "POP2-8C-32G",
+      "vcpu": 8,
+      "memoryGiB": 32,
+      "monthly": 211.7,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "STANDARD2-A12C-48G",
+      "vcpu": 12,
+      "memoryGiB": 48,
+      "monthly": 223.96,
+      "category": "general",
+      "arch": "arm"
+    },
+    {
+      "name": "POP2-HM-6C-48G",
+      "vcpu": 6,
+      "memoryGiB": 48,
+      "monthly": 225.57,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "BASIC3-X12C-48G",
+      "vcpu": 12,
+      "memoryGiB": 48,
+      "monthly": 226.59,
+      "category": "shared",
+      "arch": "x86"
+    },
+    {
+      "name": "STANDARD3-X8C-32G",
+      "vcpu": 8,
+      "memoryGiB": 32,
+      "monthly": 232.87,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "POP2-HC-12C-24G",
+      "vcpu": 12,
+      "memoryGiB": 24,
+      "monthly": 233.02,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "MEMORY3-X6C-48G",
+      "vcpu": 6,
+      "memoryGiB": 48,
+      "monthly": 248.13,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "COMPUTE3-X12C-24G",
+      "vcpu": 12,
+      "memoryGiB": 24,
+      "monthly": 256.32,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "BASIC3-X16C-32G",
+      "vcpu": 16,
+      "memoryGiB": 32,
+      "monthly": 259.33,
+      "category": "shared",
+      "arch": "x86"
+    },
+    {
+      "name": "POP2-4C-16G-WIN",
+      "vcpu": 4,
+      "memoryGiB": 16,
+      "monthly": 265.5,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "GP1-M",
+      "vcpu": 16,
+      "memoryGiB": 64,
+      "monthly": 279.97,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "POP2-HM-8C-64G",
+      "vcpu": 8,
+      "memoryGiB": 64,
+      "monthly": 300.76,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "POP2-HC-16C-32G",
+      "vcpu": 16,
+      "memoryGiB": 32,
+      "monthly": 310.69,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "POP2-12C-48G",
+      "vcpu": 12,
+      "memoryGiB": 48,
+      "monthly": 317.55,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "PRO2-M",
+      "vcpu": 16,
+      "memoryGiB": 64,
+      "monthly": 326.13,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "POP2-HN-5",
+      "vcpu": 4,
+      "memoryGiB": 8,
+      "monthly": 330.25,
+      "category": "other",
+      "arch": "x86"
+    },
+    {
+      "name": "MEMORY3-X8C-64G",
+      "vcpu": 8,
+      "memoryGiB": 64,
+      "monthly": 330.84,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "STANDARD3-X12C-48G",
+      "vcpu": 12,
+      "memoryGiB": 48,
+      "monthly": 337.7,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "COMPUTE3-X16C-32G",
+      "vcpu": 16,
+      "memoryGiB": 32,
+      "monthly": 341.79,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "BASIC3-X16C-64G",
+      "vcpu": 16,
+      "memoryGiB": 64,
+      "monthly": 345.5,
+      "category": "shared",
+      "arch": "x86"
+    },
+    {
+      "name": "STANDARD2-A16C-64G",
+      "vcpu": 16,
+      "memoryGiB": 64,
+      "monthly": 367.85,
+      "category": "general",
+      "arch": "arm"
+    },
+    {
+      "name": "POP2-16C-64G",
+      "vcpu": 16,
+      "memoryGiB": 64,
+      "monthly": 430.7,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "POP2-HM-12C-96G",
+      "vcpu": 12,
+      "memoryGiB": 96,
+      "monthly": 451.14,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "POP2-HC-24C-48G",
+      "vcpu": 24,
+      "memoryGiB": 48,
+      "monthly": 466.03,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "STANDARD3-X16C-64G",
+      "vcpu": 16,
+      "memoryGiB": 64,
+      "monthly": 473.77,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "STANDARD2-A24C-96G",
+      "vcpu": 24,
+      "memoryGiB": 96,
+      "monthly": 478.22,
+      "category": "general",
+      "arch": "arm"
+    },
+    {
+      "name": "MEMORY3-X12C-96G",
+      "vcpu": 12,
+      "memoryGiB": 96,
+      "monthly": 496.25,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "COMPUTE3-X24C-48G",
+      "vcpu": 24,
+      "memoryGiB": 48,
+      "monthly": 512.32,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "POP2-8C-32G-WIN",
+      "vcpu": 8,
+      "memoryGiB": 32,
+      "monthly": 528.01,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "POP2-HN-10",
+      "vcpu": 4,
+      "memoryGiB": 8,
+      "monthly": 530.27,
+      "category": "other",
+      "arch": "x86"
+    },
+    {
+      "name": "GP1-L",
+      "vcpu": 32,
+      "memoryGiB": 128,
+      "monthly": 565.15,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "POP2-HM-16C-128G",
+      "vcpu": 16,
+      "memoryGiB": 128,
+      "monthly": 601.52,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "POP2-HC-32C-64G",
+      "vcpu": 32,
+      "memoryGiB": 64,
+      "monthly": 621.38,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "POP2-24C-96G",
+      "vcpu": 24,
+      "memoryGiB": 96,
+      "monthly": 643.05,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "PRO2-L",
+      "vcpu": 32,
+      "memoryGiB": 128,
+      "monthly": 653.01,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "MEMORY3-X16C-128G",
+      "vcpu": 16,
+      "memoryGiB": 128,
+      "monthly": 661.67,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "COMPUTE3-X32C-64G",
+      "vcpu": 32,
+      "memoryGiB": 64,
+      "monthly": 683.5,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "STANDARD3-X24C-96G",
+      "vcpu": 24,
+      "memoryGiB": 96,
+      "monthly": 687,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "POP2-32C-128G",
+      "vcpu": 32,
+      "memoryGiB": 128,
+      "monthly": 861.4,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "STANDARD2-A32C-128G",
+      "vcpu": 32,
+      "memoryGiB": 128,
+      "monthly": 874.39,
+      "category": "general",
+      "arch": "arm"
+    },
+    {
+      "name": "POP2-HM-24C-192G",
+      "vcpu": 24,
+      "memoryGiB": 192,
+      "monthly": 902.28,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "POP2-HC-48C-96G",
+      "vcpu": 48,
+      "memoryGiB": 96,
+      "monthly": 927.1,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "STANDARD3-X32C-128G",
+      "vcpu": 32,
+      "memoryGiB": 128,
+      "monthly": 947.54,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "MEMORY3-X24C-192G",
+      "vcpu": 24,
+      "memoryGiB": 192,
+      "monthly": 992.51,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "COMPUTE3-X48C-96G",
+      "vcpu": 48,
+      "memoryGiB": 96,
+      "monthly": 1019.81,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "POP2-16C-64G-WIN",
+      "vcpu": 16,
+      "memoryGiB": 64,
+      "monthly": 1063.39,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "STANDARD2-A48C-192G",
+      "vcpu": 48,
+      "memoryGiB": 192,
+      "monthly": 1103.54,
+      "category": "general",
+      "arch": "arm"
+    },
+    {
+      "name": "POP2-HM-32C-256G",
+      "vcpu": 32,
+      "memoryGiB": 256,
+      "monthly": 1203.04,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "GP1-XL",
+      "vcpu": 48,
+      "memoryGiB": 256,
+      "monthly": 1221.89,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "POP2-HC-64C-128G",
+      "vcpu": 64,
+      "memoryGiB": 128,
+      "monthly": 1242.75,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "POP2-48C-192G",
+      "vcpu": 48,
+      "memoryGiB": 192,
+      "monthly": 1292.1,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "MEMORY3-X32C-256G",
+      "vcpu": 32,
+      "memoryGiB": 256,
+      "monthly": 1323.34,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "COMPUTE3-X64C-128G",
+      "vcpu": 64,
+      "memoryGiB": 128,
+      "monthly": 1367,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "STANDARD3-X48C-192G",
+      "vcpu": 48,
+      "memoryGiB": 192,
+      "monthly": 1421.31,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "STANDARD2-A64C-256G",
+      "vcpu": 64,
+      "memoryGiB": 256,
+      "monthly": 1470.37,
+      "category": "general",
+      "arch": "arm"
+    },
+    {
+      "name": "POP2-64C-256G",
+      "vcpu": 64,
+      "memoryGiB": 256,
+      "monthly": 1715.5,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "POP2-HM-48C-384G",
+      "vcpu": 48,
+      "memoryGiB": 384,
+      "monthly": 1803.1,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "STANDARD3-X64C-256G",
+      "vcpu": 64,
+      "memoryGiB": 256,
+      "monthly": 1887.05,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "MEMORY3-X48C-384G",
+      "vcpu": 48,
+      "memoryGiB": 384,
+      "monthly": 1983.41,
+      "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "COMPUTE3-X96C-192G",
+      "vcpu": 96,
+      "memoryGiB": 192,
+      "monthly": 2039.62,
+      "category": "compute",
+      "arch": "x86"
+    },
+    {
+      "name": "POP2-32C-128G-WIN",
+      "vcpu": 32,
+      "memoryGiB": 128,
+      "monthly": 2126.71,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
+      "name": "POP2-HM-64C-512G",
+      "vcpu": 64,
+      "memoryGiB": 512,
+      "monthly": 2406.08,
+      "category": "memory",
+      "arch": "x86"
+    }
+  ]
+}
