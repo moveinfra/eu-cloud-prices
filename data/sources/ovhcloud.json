@@ -2,7 +2,7 @@
   "provider": "ovhcloud",
   "region": "DE",
   "currency": "EUR",
-  "generated": "2026-10-28",
+  "generated": "2026-11-05",
   "source": "https://eu.api.ovh.com/v1/order/catalog/public/cloud?ovhSubsidiary=DE",
   "note": "Hourly price x 730. OVHcloud also offers cheaper monthly billing for some ranges.",
   "servers": [

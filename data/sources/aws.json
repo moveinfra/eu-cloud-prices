@@ -2,7 +2,7 @@
   "provider": "aws",
   "region": "eu-central-1",
   "currency": "USD",
-  "generated": "2026-10-28",
+  "generated": "2026-11-05",
   "source": "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonEC2/current/eu-central-1/index.json",
   "servers": [
     {
@@ -7502,6 +7502,14 @@
       "arch": "x86"
     },
     {
+      "name": "p5.4xlarge",
+      "vcpu": 16,
+      "memoryGiB": 256,
+      "monthly": 6278,
+      "category": "other",
+      "arch": "x86"
+    },
+    {
       "name": "c8g.48xlarge",
       "vcpu": 192,
       "memoryGiB": 384,
@@ -8635,6 +8643,14 @@
       "memoryGiB": 6144,
       "monthly": 48082.91,
       "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "p5.48xlarge",
+      "vcpu": 192,
+      "memoryGiB": 2048,
+      "monthly": 50224,
+      "category": "other",
       "arch": "x86"
     },
     {

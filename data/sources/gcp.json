@@ -2,9 +2,9 @@
   "provider": "gcp",
   "region": "europe-west3",
   "currency": "USD",
-  "generated": "2026-10-28",
+  "generated": "2026-11-05",
   "source": "https://raw.githubusercontent.com/Cyclenerd/google-cloud-pricing-cost-calculator/master/pricing.yml",
-  "note": "Generated from the Google Cloud Billing Catalog API by github.com/Cyclenerd/google-cloud-pricing-cost-calculator on Thu Oct 22 08:56:36 2026.",
+  "note": "Generated from the Google Cloud Billing Catalog API by github.com/Cyclenerd/google-cloud-pricing-cost-calculator on Thu Nov  5 11:35:36 2026.",
   "servers": [
     {
       "name": "f1-micro",
