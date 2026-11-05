@@ -12,22 +12,22 @@ Scaleway and OVHcloud**, in euros, refreshed every month from the providers' own
 ## The index
 
 <!-- prices:start -->
-_EUR per month, excluding VAT. Server prices fetched 2026-10-28, other prices checked 2026-10-28, USD at 1.1133 per EUR (ECB, 2026-10-28). Lowest in bold._
+_EUR per month, excluding VAT. Server prices fetched 2026-11-05, other prices checked 2026-10-28, USD at 1.1224 per EUR (ECB, 2026-11-05). Lowest in bold._
 
 | | AWS | Azure | Google Cloud | UpCloud 🇪🇺 | Hetzner 🇪🇺 | Scaleway 🇪🇺 | OVHcloud 🇪🇺 | 
 |---|--:|--:|--:|--:|--:|--:|--:|
-| Server, 2 vCPU, 8 GB | €67.86 | €66.80 | €56.61 | €38.00 | €42.99 | €40.95 | **€37.38** | 
-| Server, 4 vCPU, 16 GB | €136 | €134 | €113 | €92.00 | €85.99 | **€67.76** | €74.68 | 
-| Server, 8 vCPU, 32 GB | €271 | €267 | €226 | €192 | **€138** | €139 | €149 | 
-| Server, 16 vCPU, 64 GB | €543 | €534 | €453 | €384 | **€276** | €280 | €299 | 
-| Block storage, 1 TB SSD | €85.50 | €85.20 | €108 | €220 | **€44.00** | €94.90 | €86.00 | 
-| Object storage, 1 TB | €22.00 | €17.60 | €20.70 | €20.00 | **€6.40** | €16.10 | €14.00 | 
-| Internet egress, 1 TB from one server | €72.72 | €70.29 | €108 | **included** | **included** | **included** | **included** | 
-| Internet egress, 10 TB from one server | €800 | €773 | €997 | **included** | **included** | **included** | **included** | 
-| Managed load balancer | €17.70 | €16.39 | €16.39 | €30.00 | €7.49 | €16.79 | **€6.00** | 
-| Managed Kubernetes control plane | €65.57 | €65.57 | €65.57 | **€60.00** | – | €80.30 | €65.70 | 
-| Managed PostgreSQL, 2 vCPU, 8 GB | €131 | €139 | €109 | **€60.00** | – | €80.30 | €143 | 
-| **Example stack**¹ | €774 | €765 | €747 | €496 | **€337** | €364 | €430 | 
+| Server, 2 vCPU, 8 GB | €67.31 | €68.18 | €56.15 | €38.00 | €42.99 | – | **€37.38** | 
+| Server, 4 vCPU, 16 GB | €135 | €136 | €112 | €92.00 | €85.99 | – | **€74.68** | 
+| Server, 8 vCPU, 32 GB | €269 | €273 | €225 | €192 | **€138** | – | €149 | 
+| Server, 16 vCPU, 64 GB | €539 | €545 | €449 | €384 | **€276** | – | €299 | 
+| Block storage, 1 TB SSD | €84.80 | €84.60 | €107 | €220 | **€44.00** | €94.90 | €86.00 | 
+| Object storage, 1 TB | €21.80 | €17.50 | €20.50 | €20.00 | **€6.40** | €16.10 | €14.00 | 
+| Internet egress, 1 TB from one server | €72.18 | €69.75 | €107 | **included** | **included** | **included** | **included** | 
+| Internet egress, 10 TB from one server | €794 | €767 | €989 | **included** | **included** | **included** | **included** | 
+| Managed load balancer | €17.56 | €16.26 | €16.26 | €30.00 | €7.49 | €16.79 | **€6.00** | 
+| Managed Kubernetes control plane | €65.04 | €65.04 | €65.04 | **€60.00** | – | €80.30 | €65.70 | 
+| Managed PostgreSQL, 2 vCPU, 8 GB | €130 | €138 | €108 | **€60.00** | – | €80.30 | €143 | 
+| **Example stack**¹ | €768 | €770 | €740 | €496 | **€337** | – | €430 | 
 
 ¹ 3 servers with 4 vCPU and 16 GB, 500 GB block storage, 1 TB object storage, 2 TB internet egress, one load balancer and managed PostgreSQL with 2 vCPU and 8 GB. Where a provider has no managed PostgreSQL, the stack runs it on one more server.
 
@@ -35,10 +35,10 @@ _EUR per month, excluding VAT. Server prices fetched 2026-10-28, other prices ch
 
 | | AWS | Azure | Google Cloud | UpCloud | Hetzner | Scaleway | OVHcloud | 
 |---|---|---|---|---|---|---|---|
-| Server, 2 vCPU, 8 GB | `m6a.large` | `Standard_D2a_v4` | `e2-standard-2` | `PREMIUM-2xCPU-8GB` | `CCX13` | `PRO2-XXS` | `b3-8` | 
-| Server, 4 vCPU, 16 GB | `m6a.xlarge` | `Standard_D4a_v4` | `e2-standard-4` | `PREMIUM-4xCPU-16GB` | `CCX23` | `GP1-XS` | `b3-16` | 
-| Server, 8 vCPU, 32 GB | `m6a.2xlarge` | `Standard_D8a_v4` | `e2-standard-8` | `PREMIUM-8xCPU-32GB` | `CCX33` | `GP1-S` | `b3-32` | 
-| Server, 16 vCPU, 64 GB | `m6a.4xlarge` | `Standard_D16a_v4` | `e2-standard-16` | `PREMIUM-16xCPU-64GB` | `CCX43` | `GP1-M` | `b3-64` | 
+| Server, 2 vCPU, 8 GB | `m6a.large` | `Standard_D2a_v4` | `e2-standard-2` | `PREMIUM-2xCPU-8GB` | `CCX13` | – | `b3-8` | 
+| Server, 4 vCPU, 16 GB | `m6a.xlarge` | `Standard_D4a_v4` | `e2-standard-4` | `PREMIUM-4xCPU-16GB` | `CCX23` | – | `b3-16` | 
+| Server, 8 vCPU, 32 GB | `m6a.2xlarge` | `Standard_D8a_v4` | `e2-standard-8` | `PREMIUM-8xCPU-32GB` | `CCX33` | – | `b3-32` | 
+| Server, 16 vCPU, 64 GB | `m6a.4xlarge` | `Standard_D16a_v4` | `e2-standard-16` | `PREMIUM-16xCPU-64GB` | `CCX43` | – | `b3-64` | 
 
 </details>
 <!-- prices:end -->
