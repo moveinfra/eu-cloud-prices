@@ -12,22 +12,22 @@ Scaleway and OVHcloud**, in euros, refreshed every month from the providers' own
 ## The index
 
 <!-- prices:start -->
-_EUR per month, excluding VAT. Server prices fetched 2026-10-28, other prices checked 2026-10-28, USD at 1.1133 per EUR (ECB, 2026-10-28). Lowest in bold._
+_EUR per month, excluding VAT. Server prices fetched 2026-11-21, other prices checked 2026-10-28, USD at 1.0990 per EUR (ECB, 2026-11-20). Lowest in bold._
 
 | | AWS | Azure | Google Cloud | UpCloud 🇪🇺 | Hetzner 🇪🇺 | Scaleway 🇪🇺 | OVHcloud 🇪🇺 | 
 |---|--:|--:|--:|--:|--:|--:|--:|
-| Server, 2 vCPU, 8 GB | €67.86 | €66.80 | €56.61 | €38.00 | €42.99 | €40.95 | **€37.38** | 
-| Server, 4 vCPU, 16 GB | €136 | €134 | €113 | €92.00 | €85.99 | **€67.76** | €74.68 | 
-| Server, 8 vCPU, 32 GB | €271 | €267 | €226 | €192 | **€138** | €139 | €149 | 
-| Server, 16 vCPU, 64 GB | €543 | €534 | €453 | €384 | **€276** | €280 | €299 | 
-| Block storage, 1 TB SSD | €85.50 | €85.20 | €108 | €220 | **€44.00** | €94.90 | €86.00 | 
-| Object storage, 1 TB | €22.00 | €17.60 | €20.70 | €20.00 | **€6.40** | €16.10 | €14.00 | 
-| Internet egress, 1 TB from one server | €72.72 | €70.29 | €108 | **included** | **included** | **included** | **included** | 
-| Internet egress, 10 TB from one server | €800 | €773 | €997 | **included** | **included** | **included** | **included** | 
-| Managed load balancer | €17.70 | €16.39 | €16.39 | €30.00 | €7.49 | €16.79 | **€6.00** | 
-| Managed Kubernetes control plane | €65.57 | €65.57 | €65.57 | **€60.00** | – | €80.30 | €65.70 | 
-| Managed PostgreSQL, 2 vCPU, 8 GB | €131 | €139 | €109 | **€60.00** | – | €80.30 | €143 | 
-| **Example stack**¹ | €774 | €765 | €747 | €496 | **€337** | €364 | €430 | 
+| Server, 2 vCPU, 8 GB | €68.74 | €68.18 | €57.34 | €38.00 | €42.99 | €40.95 | **€37.38** | 
+| Server, 4 vCPU, 16 GB | €138 | €136 | €115 | €92.00 | €85.99 | **€67.76** | €74.68 | 
+| Server, 8 vCPU, 32 GB | €275 | €273 | €229 | €192 | **€138** | €139 | €149 | 
+| Server, 16 vCPU, 64 GB | €550 | €545 | €459 | €384 | **€276** | €280 | €299 | 
+| Block storage, 1 TB SSD | €86.60 | €86.40 | €109 | €220 | **€44.00** | €94.90 | €86.00 | 
+| Object storage, 1 TB | €22.30 | €17.80 | €20.90 | €20.00 | **€6.40** | €16.10 | €14.00 | 
+| Internet egress, 1 TB from one server | €73.71 | €71.28 | €109 | **included** | **included** | **included** | **included** | 
+| Internet egress, 10 TB from one server | €811 | €784 | €1,010 | **included** | **included** | **included** | **included** | 
+| Managed load balancer | €17.93 | €16.61 | €16.61 | €30.00 | €7.49 | €16.79 | **€6.00** | 
+| Managed Kubernetes control plane | €66.42 | €66.42 | €66.42 | **€60.00** | – | €80.30 | €65.70 | 
+| Managed PostgreSQL, 2 vCPU, 8 GB | €133 | €141 | €111 | **€60.00** | – | €80.30 | €143 | 
+| **Example stack**¹ | €784 | €778 | €756 | €496 | **€337** | €364 | €430 | 
 
 ¹ 3 servers with 4 vCPU and 16 GB, 500 GB block storage, 1 TB object storage, 2 TB internet egress, one load balancer and managed PostgreSQL with 2 vCPU and 8 GB. Where a provider has no managed PostgreSQL, the stack runs it on one more server.
 

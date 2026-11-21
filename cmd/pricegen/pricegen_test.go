@@ -68,3 +68,29 @@ func TestCheapestServer(t *testing.T) {
 		t.Errorf("nothing fits, got %+v", s)
 	}
 }
+
+func TestScalewayHourly(t *testing.T) {
+	mk := func(sku, zone, status, unit string, nanos float64) scalewayProduct {
+		var p scalewayProduct
+		p.SKU, p.Status = sku, status
+		p.Locality.Zone, p.Unit.Unit = zone, unit
+		p.Price.Retail.Units, p.Price.Retail.Nanos = 0.0, nanos
+		return p
+	}
+	if h, ok := mk("/instance/server/gp1_xs/fr-par-1", "fr-par-1", "general_availability", "hour", 92820000).hourlyIn("fr-par-1"); !ok || round(h*scalewayHoursPerMonth, 2) != 67.76 {
+		t.Errorf("GP1-XS: got %v ok=%v, want 67.76 a month", h, ok)
+	}
+	if h, _ := mk("/instance/server/x/fr-par-1", "fr-par-1", "general_availability", "minute", 1000000).hourlyIn("fr-par-1"); round(h, 3) != 0.06 {
+		t.Errorf("per-minute price: got %v an hour, want 0.06", h)
+	}
+	for _, p := range []scalewayProduct{
+		mk("/instance/server/vc1l/fr-par-1", "fr-par-1", "retired", "hour", 11000000),
+		mk("/instance/server/gp1_xs/nl-ams-1", "nl-ams-1", "general_availability", "hour", 92820000),
+		mk("/compute/vc1l/run", "fr-par-1", "general_availability", "hour", 11000000),
+		mk("/instance/server/free/fr-par-1", "fr-par-1", "general_availability", "hour", 0),
+	} {
+		if _, ok := p.hourlyIn("fr-par-1"); ok {
+			t.Errorf("%s (%s, %s) should not be priced", p.SKU, p.Locality.Zone, p.Status)
+		}
+	}
+}

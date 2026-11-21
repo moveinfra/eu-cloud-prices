@@ -2,7 +2,7 @@
   "provider": "aws",
   "region": "eu-central-1",
   "currency": "USD",
-  "generated": "2026-10-28",
+  "generated": "2026-11-21",
   "source": "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonEC2/current/eu-central-1/index.json",
   "servers": [
     {
@@ -20,6 +20,14 @@
       "monthly": 3.94,
       "category": "burstable",
       "arch": "x86"
+    },
+    {
+      "name": "t9g.nano",
+      "vcpu": 2,
+      "memoryGiB": 0.5,
+      "monthly": 4.34,
+      "category": "burstable",
+      "arch": "arm"
     },
     {
       "name": "t3.nano",
@@ -62,6 +70,14 @@
       "arch": "x86"
     },
     {
+      "name": "t9g.micro",
+      "vcpu": 2,
+      "memoryGiB": 1,
+      "monthly": 8.69,
+      "category": "burstable",
+      "arch": "arm"
+    },
+    {
       "name": "t3.micro",
       "vcpu": 2,
       "memoryGiB": 1,
@@ -100,6 +116,14 @@
       "monthly": 15.77,
       "category": "burstable",
       "arch": "x86"
+    },
+    {
+      "name": "t9g.small",
+      "vcpu": 2,
+      "memoryGiB": 2,
+      "monthly": 17.38,
+      "category": "burstable",
+      "arch": "arm"
     },
     {
       "name": "t3.small",
@@ -187,6 +211,14 @@
       "memoryGiB": 4,
       "monthly": 33.58,
       "category": "general",
+      "arch": "arm"
+    },
+    {
+      "name": "t9g.medium",
+      "vcpu": 2,
+      "memoryGiB": 4,
+      "monthly": 34.76,
+      "category": "burstable",
       "arch": "arm"
     },
     {
@@ -7502,6 +7534,14 @@
       "arch": "x86"
     },
     {
+      "name": "p5.4xlarge",
+      "vcpu": 16,
+      "memoryGiB": 256,
+      "monthly": 6278,
+      "category": "other",
+      "arch": "x86"
+    },
+    {
       "name": "c8g.48xlarge",
       "vcpu": 192,
       "memoryGiB": 384,
@@ -8635,6 +8675,14 @@
       "memoryGiB": 6144,
       "monthly": 48082.91,
       "category": "memory",
+      "arch": "x86"
+    },
+    {
+      "name": "p5.48xlarge",
+      "vcpu": 192,
+      "memoryGiB": 2048,
+      "monthly": 50224,
+      "category": "other",
       "arch": "x86"
     },
     {

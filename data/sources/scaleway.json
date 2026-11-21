@@ -2,8 +2,8 @@
   "provider": "scaleway",
   "region": "fr-par-1",
   "currency": "EUR",
-  "generated": "2026-10-28",
-  "source": "https://api.scaleway.com/instance/v1/zones/fr-par-1/products/servers",
+  "generated": "2026-11-21",
+  "source": "https://api.scaleway.com/product-catalog/v2alpha1/public-catalog/products?product_types=instance",
   "servers": [
     {
       "name": "STARDUST1-S",
@@ -153,7 +153,7 @@
       "name": "POP2-2C-8G",
       "vcpu": 2,
       "memoryGiB": 8,
-      "monthly": 53.66,
+      "monthly": 53.65,
       "category": "general",
       "arch": "x86"
     },
@@ -329,7 +329,7 @@
       "name": "COMPUTE3-X6C-12G",
       "vcpu": 6,
       "memoryGiB": 12,
-      "monthly": 128.16,
+      "monthly": 128.19,
       "category": "compute",
       "arch": "x86"
     },
@@ -430,19 +430,19 @@
       "arch": "arm"
     },
     {
+      "name": "STANDARD3-X6C-24G",
+      "vcpu": 6,
+      "memoryGiB": 24,
+      "monthly": 171.19,
+      "category": "general",
+      "arch": "x86"
+    },
+    {
       "name": "BASIC3-X8C-32G",
       "vcpu": 8,
       "memoryGiB": 32,
       "monthly": 172.86,
       "category": "shared",
-      "arch": "x86"
-    },
-    {
-      "name": "STANDARD3-X6C-24G",
-      "vcpu": 6,
-      "memoryGiB": 24,
-      "monthly": 177.19,
-      "category": "general",
       "arch": "x86"
     },
     {
@@ -529,7 +529,7 @@
       "name": "COMPUTE3-X12C-24G",
       "vcpu": 12,
       "memoryGiB": 24,
-      "monthly": 256.32,
+      "monthly": 256.3,
       "category": "compute",
       "arch": "x86"
     },
@@ -689,7 +689,7 @@
       "name": "COMPUTE3-X24C-48G",
       "vcpu": 24,
       "memoryGiB": 48,
-      "monthly": 512.32,
+      "monthly": 512.61,
       "category": "compute",
       "arch": "x86"
     },
@@ -737,7 +737,7 @@
       "name": "POP2-24C-96G",
       "vcpu": 24,
       "memoryGiB": 96,
-      "monthly": 643.05,
+      "monthly": 646.05,
       "category": "general",
       "arch": "x86"
     },
@@ -774,20 +774,20 @@
       "arch": "x86"
     },
     {
+      "name": "STANDARD2-A32C-128G",
+      "vcpu": 32,
+      "memoryGiB": 128,
+      "monthly": 735.69,
+      "category": "general",
+      "arch": "arm"
+    },
+    {
       "name": "POP2-32C-128G",
       "vcpu": 32,
       "memoryGiB": 128,
       "monthly": 861.4,
       "category": "general",
       "arch": "x86"
-    },
-    {
-      "name": "STANDARD2-A32C-128G",
-      "vcpu": 32,
-      "memoryGiB": 128,
-      "monthly": 874.39,
-      "category": "general",
-      "arch": "arm"
     },
     {
       "name": "POP2-HM-24C-192G",

@@ -121,10 +121,35 @@ func fetchHetzner() (*Source, error) {
 	return src, nil
 }
 
-// fetchScaleway reads the public Instance product list for Paris 1.
+// Scaleway bills Instances by the hour; a month is 730 hours, the figure its own API used for monthly_price.
+const scalewayHoursPerMonth = 730
+
+// fetchScaleway reads Paris 1 Instances from two public endpoints: the Instance product list for the sizes, and the
+// public product catalogue for the prices. Since November 2026 the product list returns 0 for every price.
 func fetchScaleway() (*Source, error) {
-	const base = "https://api.scaleway.com/instance/v1/zones/fr-par-1/products/servers"
-	src := &Source{Currency: "EUR", Source: base}
+	const zone = "fr-par-1"
+	const base = "https://api.scaleway.com/instance/v1/zones/" + zone + "/products/servers"
+	const catalog = "https://api.scaleway.com/product-catalog/v2alpha1/public-catalog/products"
+
+	hourly := map[string]float64{} // server name -> EUR per hour
+	for page := 1; ; page++ {
+		var resp struct {
+			Products []scalewayProduct `json:"products"`
+		}
+		if err := getJSON(fmt.Sprintf("%s?product_types=instance&page_size=100&page=%d", catalog, page), nil, &resp); err != nil {
+			return nil, err
+		}
+		for _, p := range resp.Products {
+			if h, ok := p.hourlyIn(zone); ok {
+				hourly[p.Product] = h
+			}
+		}
+		if len(resp.Products) < 100 {
+			break
+		}
+	}
+
+	src := &Source{Currency: "EUR", Source: catalog + "?product_types=instance"}
 	for page := 1; ; page++ {
 		var resp struct {
 			Servers map[string]struct {
@@ -132,7 +157,6 @@ func fetchScaleway() (*Source, error) {
 				RAM          float64 `json:"ram"` // bytes
 				GPU          int     `json:"gpu"`
 				Arch         string  `json:"arch"`
-				MonthlyPrice float64 `json:"monthly_price"`
 				EndOfService bool    `json:"end_of_service"`
 			} `json:"servers"`
 		}
@@ -140,7 +164,8 @@ func fetchScaleway() (*Source, error) {
 			return nil, err
 		}
 		for name, s := range resp.Servers {
-			if s.GPU > 0 || s.EndOfService || s.MonthlyPrice <= 0 {
+			h := hourly[name]
+			if s.GPU > 0 || s.EndOfService || h <= 0 {
 				continue
 			}
 			arch := "x86"
@@ -148,12 +173,52 @@ func fetchScaleway() (*Source, error) {
 				arch = "arm"
 			}
 			src.Servers = append(src.Servers, Server{Name: name, VCPU: s.NCPUs, MemoryGiB: s.RAM / (1 << 30),
-				Monthly: s.MonthlyPrice, Category: scalewayCategory(name), Arch: arch})
+				Monthly: round(h*scalewayHoursPerMonth, 2), Category: scalewayCategory(name), Arch: arch})
 		}
 		if len(resp.Servers) < 100 {
-			return src, nil
+			break
 		}
 	}
+	if len(src.Servers) == 0 {
+		return nil, fmt.Errorf("scaleway: no priced servers in %s (%d prices in the catalogue): the API changed again", zone, len(hourly))
+	}
+	return src, nil
+}
+
+type scalewayProduct struct {
+	SKU      string `json:"sku"`
+	Product  string `json:"product"`
+	Status   string `json:"status"`
+	Locality struct {
+		Zone string `json:"zone"`
+	} `json:"locality"`
+	Price struct {
+		Retail struct {
+			Units any     `json:"units"` // number or string, depending on the API version
+			Nanos float64 `json:"nanos"`
+		} `json:"retail_price"`
+	} `json:"price"`
+	Unit struct {
+		Unit string `json:"unit"`
+	} `json:"unit_of_measure"`
+}
+
+// hourlyIn returns the EUR price per hour of an Instance that is on sale in the zone.
+func (p scalewayProduct) hourlyIn(zone string) (float64, bool) {
+	if p.Locality.Zone != zone || p.Status == "retired" || !strings.HasPrefix(p.SKU, "/instance/server/") {
+		return 0, false
+	}
+	var units float64
+	fmt.Sscan(fmt.Sprint(p.Price.Retail.Units), &units)
+	price := units + p.Price.Retail.Nanos/1e9
+	switch p.Unit.Unit {
+	case "hour":
+	case "minute":
+		price *= 60
+	default:
+		return 0, false
+	}
+	return price, price > 0
 }
 
 func scalewayCategory(name string) string {
