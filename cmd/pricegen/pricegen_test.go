@@ -94,3 +94,13 @@ func TestScalewayHourly(t *testing.T) {
 		}
 	}
 }
+
+func TestUpCloudCategory(t *testing.T) {
+	for name, want := range map[string]string{
+		"STARTER-2xCPU-8GB": "shared", "DEV-2xCPU-8GB": "shared", "PREMIUM-2xCPU-8GB": "general", "2xCPU-4GB": "general",
+	} {
+		if got := upcloudCategory(name); got != want {
+			t.Errorf("%s: got %s, want %s", name, got, want)
+		}
+	}
+}

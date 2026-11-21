@@ -61,7 +61,9 @@ func fetchUpCloud() (*Source, error) {
 
 func upcloudCategory(name string) string {
 	switch {
-	case strings.HasPrefix(name, "DEV-"):
+	// Starter plans replaced the Developer plans in April 2026; both are shared-CPU, so they stay out of the
+	// like-for-like baskets, which compare dedicated general-purpose servers.
+	case strings.HasPrefix(name, "DEV-"), strings.HasPrefix(name, "STARTER-"):
 		return "shared"
 	case strings.HasPrefix(name, "HICPU-"):
 		return "compute"

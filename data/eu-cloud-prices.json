@@ -55,7 +55,7 @@
       "location": "Frankfurt",
       "sourceCurrency": "EUR",
       "serverSource": "https://api.upcloud.com/1.3/price",
-      "serversFetched": "2026-10-28",
+      "serversFetched": "2026-11-21",
       "note": "Monthly price is 672 hours, UpCloud's monthly cap."
     },
     {
@@ -29073,6 +29073,14 @@
         "arch": "x86"
       },
       {
+        "name": "STARTER-1xCPU-1GB",
+        "vcpu": 1,
+        "memoryGiB": 1,
+        "monthly": 3,
+        "category": "shared",
+        "arch": "x86"
+      },
+      {
         "name": "DEV-1xCPU-1GB",
         "vcpu": 1,
         "memoryGiB": 1,
@@ -29089,11 +29097,11 @@
         "arch": "x86"
       },
       {
-        "name": "1xCPU-1GB",
+        "name": "STARTER-1xCPU-2GB",
         "vcpu": 1,
-        "memoryGiB": 1,
-        "monthly": 7.6,
-        "category": "general",
+        "memoryGiB": 2,
+        "monthly": 6,
+        "category": "shared",
         "arch": "x86"
       },
       {
@@ -29101,6 +29109,30 @@
         "vcpu": 1,
         "memoryGiB": 2,
         "monthly": 8,
+        "category": "shared",
+        "arch": "x86"
+      },
+      {
+        "name": "STARTER-2xCPU-2GB",
+        "vcpu": 2,
+        "memoryGiB": 2,
+        "monthly": 8,
+        "category": "shared",
+        "arch": "x86"
+      },
+      {
+        "name": "1xCPU-1GB",
+        "vcpu": 1,
+        "memoryGiB": 1,
+        "monthly": 8.3,
+        "category": "general",
+        "arch": "x86"
+      },
+      {
+        "name": "STARTER-1xCPU-4GB",
+        "vcpu": 1,
+        "memoryGiB": 4,
+        "monthly": 10,
         "category": "shared",
         "arch": "x86"
       },
@@ -29121,11 +29153,11 @@
         "arch": "x86"
       },
       {
-        "name": "1xCPU-2GB",
-        "vcpu": 1,
-        "memoryGiB": 2,
-        "monthly": 14.2,
-        "category": "general",
+        "name": "STARTER-2xCPU-4GB",
+        "vcpu": 2,
+        "memoryGiB": 4,
+        "monthly": 12,
+        "category": "shared",
         "arch": "x86"
       },
       {
@@ -29145,6 +29177,14 @@
         "arch": "x86"
       },
       {
+        "name": "1xCPU-2GB",
+        "vcpu": 1,
+        "memoryGiB": 2,
+        "monthly": 15.4,
+        "category": "general",
+        "arch": "x86"
+      },
+      {
         "name": "PREMIUM-2xCPU-2GB",
         "vcpu": 2,
         "memoryGiB": 2,
@@ -29161,11 +29201,11 @@
         "arch": "x86"
       },
       {
-        "name": "2xCPU-2GB",
+        "name": "STARTER-2xCPU-8GB",
         "vcpu": 2,
-        "memoryGiB": 2,
-        "monthly": 19.5,
-        "category": "general",
+        "memoryGiB": 8,
+        "monthly": 18,
+        "category": "shared",
         "arch": "x86"
       },
       {
@@ -29177,11 +29217,35 @@
         "arch": "x86"
       },
       {
+        "name": "STARTER-4xCPU-8GB",
+        "vcpu": 4,
+        "memoryGiB": 8,
+        "monthly": 20,
+        "category": "shared",
+        "arch": "x86"
+      },
+      {
+        "name": "2xCPU-2GB",
+        "vcpu": 2,
+        "memoryGiB": 2,
+        "monthly": 21.1,
+        "category": "general",
+        "arch": "x86"
+      },
+      {
         "name": "CLOUDNATIVE-2xCPU-8GB",
         "vcpu": 2,
         "memoryGiB": 8,
         "monthly": 24,
         "category": "other",
+        "arch": "x86"
+      },
+      {
+        "name": "STARTER-2xCPU-16GB",
+        "vcpu": 2,
+        "memoryGiB": 16,
+        "monthly": 24,
+        "category": "shared",
         "arch": "x86"
       },
       {
@@ -29201,10 +29265,18 @@
         "arch": "x86"
       },
       {
+        "name": "STARTER-4xCPU-16GB",
+        "vcpu": 4,
+        "memoryGiB": 16,
+        "monthly": 28,
+        "category": "shared",
+        "arch": "x86"
+      },
+      {
         "name": "2xCPU-4GB",
         "vcpu": 2,
         "memoryGiB": 4,
-        "monthly": 28.5,
+        "monthly": 30.8,
         "category": "general",
         "arch": "x86"
       },
@@ -29244,7 +29316,7 @@
         "name": "HIMEM-2xCPU-8GB",
         "vcpu": 2,
         "memoryGiB": 8,
-        "monthly": 43.5,
+        "monthly": 47,
         "category": "memory",
         "arch": "x86"
       },
@@ -29260,7 +29332,7 @@
         "name": "4xCPU-8GB",
         "vcpu": 4,
         "memoryGiB": 8,
-        "monthly": 56.5,
+        "monthly": 62,
         "category": "general",
         "arch": "x86"
       },
@@ -29270,14 +29342,6 @@
         "memoryGiB": 16,
         "monthly": 68,
         "category": "other",
-        "arch": "x86"
-      },
-      {
-        "name": "HIMEM-2xCPU-16GB",
-        "vcpu": 2,
-        "memoryGiB": 16,
-        "monthly": 70.5,
-        "category": "memory",
         "arch": "x86"
       },
       {
@@ -29302,6 +29366,14 @@
         "memoryGiB": 16,
         "monthly": 74,
         "category": "other",
+        "arch": "x86"
+      },
+      {
+        "name": "HIMEM-2xCPU-16GB",
+        "vcpu": 2,
+        "memoryGiB": 16,
+        "monthly": 77,
+        "category": "memory",
         "arch": "x86"
       },
       {
@@ -29356,7 +29428,7 @@
         "name": "6xCPU-16GB",
         "vcpu": 6,
         "memoryGiB": 16,
-        "monthly": 104,
+        "monthly": 113,
         "category": "general",
         "arch": "x86"
       },
@@ -29369,27 +29441,11 @@
         "arch": "x86"
       },
       {
-        "name": "HICPU-8xCPU-12GB",
-        "vcpu": 8,
-        "memoryGiB": 12,
-        "monthly": 140.5,
-        "category": "compute",
-        "arch": "x86"
-      },
-      {
         "name": "PREMIUM-4xCPU-32GB",
         "vcpu": 4,
         "memoryGiB": 32,
         "monthly": 142,
         "category": "general",
-        "arch": "x86"
-      },
-      {
-        "name": "HIMEM-4xCPU-32GB",
-        "vcpu": 4,
-        "memoryGiB": 32,
-        "monthly": 144,
-        "category": "memory",
         "arch": "x86"
       },
       {
@@ -29406,6 +29462,22 @@
         "memoryGiB": 16,
         "monthly": 148,
         "category": "general",
+        "arch": "x86"
+      },
+      {
+        "name": "HICPU-8xCPU-12GB",
+        "vcpu": 8,
+        "memoryGiB": 12,
+        "monthly": 152,
+        "category": "compute",
+        "arch": "x86"
+      },
+      {
+        "name": "HIMEM-4xCPU-32GB",
+        "vcpu": 4,
+        "memoryGiB": 32,
+        "monthly": 156,
+        "category": "memory",
         "arch": "x86"
       },
       {
@@ -29428,7 +29500,7 @@
         "name": "HICPU-8xCPU-16GB",
         "vcpu": 8,
         "memoryGiB": 16,
-        "monthly": 174,
+        "monthly": 188,
         "category": "compute",
         "arch": "x86"
       },
@@ -29449,19 +29521,19 @@
         "arch": "x86"
       },
       {
-        "name": "8xCPU-32GB",
-        "vcpu": 8,
-        "memoryGiB": 32,
-        "monthly": 208,
-        "category": "general",
-        "arch": "x86"
-      },
-      {
         "name": "CLOUDNATIVE-8xCPU-64GB",
         "vcpu": 8,
         "memoryGiB": 64,
         "monthly": 220,
         "category": "other",
+        "arch": "x86"
+      },
+      {
+        "name": "8xCPU-32GB",
+        "vcpu": 8,
+        "memoryGiB": 32,
+        "monthly": 225,
+        "category": "general",
         "arch": "x86"
       },
       {
@@ -29481,14 +29553,6 @@
         "arch": "x86"
       },
       {
-        "name": "HIMEM-4xCPU-64GB",
-        "vcpu": 4,
-        "memoryGiB": 64,
-        "monthly": 260,
-        "category": "memory",
-        "arch": "x86"
-      },
-      {
         "name": "PREMIUM-8xCPU-64GB",
         "vcpu": 8,
         "memoryGiB": 64,
@@ -29505,11 +29569,11 @@
         "arch": "x86"
       },
       {
-        "name": "HICPU-16xCPU-24GB",
-        "vcpu": 16,
-        "memoryGiB": 24,
-        "monthly": 282,
-        "category": "compute",
+        "name": "HIMEM-4xCPU-64GB",
+        "vcpu": 4,
+        "memoryGiB": 64,
+        "monthly": 281,
+        "category": "memory",
         "arch": "x86"
       },
       {
@@ -29529,6 +29593,14 @@
         "arch": "x86"
       },
       {
+        "name": "HICPU-16xCPU-24GB",
+        "vcpu": 16,
+        "memoryGiB": 24,
+        "monthly": 305,
+        "category": "compute",
+        "arch": "x86"
+      },
+      {
         "name": "PREMIUM-16xCPU-32GB",
         "vcpu": 16,
         "memoryGiB": 32,
@@ -29540,16 +29612,8 @@
         "name": "12xCPU-48GB",
         "vcpu": 12,
         "memoryGiB": 48,
-        "monthly": 312,
+        "monthly": 337,
         "category": "general",
-        "arch": "x86"
-      },
-      {
-        "name": "HICPU-16xCPU-32GB",
-        "vcpu": 16,
-        "memoryGiB": 32,
-        "monthly": 336,
-        "category": "compute",
         "arch": "x86"
       },
       {
@@ -29566,6 +29630,14 @@
         "memoryGiB": 128,
         "monthly": 340,
         "category": "other",
+        "arch": "x86"
+      },
+      {
+        "name": "HICPU-16xCPU-32GB",
+        "vcpu": 16,
+        "memoryGiB": 32,
+        "monthly": 363,
+        "category": "compute",
         "arch": "x86"
       },
       {
@@ -29596,7 +29668,7 @@
         "name": "16xCPU-64GB",
         "vcpu": 16,
         "memoryGiB": 64,
-        "monthly": 416,
+        "monthly": 450,
         "category": "general",
         "arch": "x86"
       },
@@ -29617,14 +29689,6 @@
         "arch": "x86"
       },
       {
-        "name": "HIMEM-6xCPU-128GB",
-        "vcpu": 6,
-        "memoryGiB": 128,
-        "monthly": 520,
-        "category": "memory",
-        "arch": "x86"
-      },
-      {
         "name": "CLOUDNATIVE-16xCPU-192GB",
         "vcpu": 16,
         "memoryGiB": 192,
@@ -29633,11 +29697,11 @@
         "arch": "x86"
       },
       {
-        "name": "HICPU-32xCPU-48GB",
-        "vcpu": 32,
-        "memoryGiB": 48,
-        "monthly": 574,
-        "category": "compute",
+        "name": "HIMEM-6xCPU-128GB",
+        "vcpu": 6,
+        "memoryGiB": 128,
+        "monthly": 562,
+        "category": "memory",
         "arch": "x86"
       },
       {
@@ -29649,18 +29713,18 @@
         "arch": "x86"
       },
       {
+        "name": "HICPU-32xCPU-48GB",
+        "vcpu": 32,
+        "memoryGiB": 48,
+        "monthly": 620,
+        "category": "compute",
+        "arch": "x86"
+      },
+      {
         "name": "PREMIUM-32xCPU-64GB",
         "vcpu": 32,
         "memoryGiB": 64,
         "monthly": 620,
-        "category": "general",
-        "arch": "x86"
-      },
-      {
-        "name": "24xCPU-96GB",
-        "vcpu": 24,
-        "memoryGiB": 96,
-        "monthly": 622,
         "category": "general",
         "arch": "x86"
       },
@@ -29673,11 +29737,11 @@
         "arch": "x86"
       },
       {
-        "name": "HICPU-32xCPU-64GB",
-        "vcpu": 32,
-        "memoryGiB": 64,
-        "monthly": 670,
-        "category": "compute",
+        "name": "24xCPU-96GB",
+        "vcpu": 24,
+        "memoryGiB": 96,
+        "monthly": 672,
+        "category": "general",
         "arch": "x86"
       },
       {
@@ -29694,6 +29758,14 @@
         "memoryGiB": 256,
         "monthly": 720,
         "category": "other",
+        "arch": "x86"
+      },
+      {
+        "name": "HICPU-32xCPU-64GB",
+        "vcpu": 32,
+        "memoryGiB": 64,
+        "monthly": 724,
+        "category": "compute",
         "arch": "x86"
       },
       {
@@ -29721,14 +29793,6 @@
         "arch": "x86"
       },
       {
-        "name": "32xCPU-128GB",
-        "vcpu": 32,
-        "memoryGiB": 128,
-        "monthly": 830,
-        "category": "general",
-        "arch": "x86"
-      },
-      {
         "name": "CLOUDNATIVE-32xCPU-384GB",
         "vcpu": 32,
         "memoryGiB": 384,
@@ -29737,11 +29801,11 @@
         "arch": "x86"
       },
       {
-        "name": "HIMEM-8xCPU-192GB",
-        "vcpu": 8,
-        "memoryGiB": 192,
-        "monthly": 908,
-        "category": "memory",
+        "name": "32xCPU-128GB",
+        "vcpu": 32,
+        "memoryGiB": 128,
+        "monthly": 897,
+        "category": "general",
         "arch": "x86"
       },
       {
@@ -29758,6 +29822,14 @@
         "memoryGiB": 384,
         "monthly": 980,
         "category": "other",
+        "arch": "x86"
+      },
+      {
+        "name": "HIMEM-8xCPU-192GB",
+        "vcpu": 8,
+        "memoryGiB": 192,
+        "monthly": 981,
+        "category": "memory",
         "arch": "x86"
       },
       {
@@ -29780,24 +29852,8 @@
         "name": "38xCPU-192GB",
         "vcpu": 38,
         "memoryGiB": 192,
-        "monthly": 1106,
+        "monthly": 1195,
         "category": "general",
-        "arch": "x86"
-      },
-      {
-        "name": "HICPU-64xCPU-96GB",
-        "vcpu": 64,
-        "memoryGiB": 96,
-        "monthly": 1140,
-        "category": "compute",
-        "arch": "x86"
-      },
-      {
-        "name": "HIMEM-12xCPU-256GB",
-        "vcpu": 12,
-        "memoryGiB": 256,
-        "monthly": 1166,
-        "category": "memory",
         "arch": "x86"
       },
       {
@@ -29809,6 +29865,14 @@
         "arch": "x86"
       },
       {
+        "name": "HICPU-64xCPU-96GB",
+        "vcpu": 64,
+        "memoryGiB": 96,
+        "monthly": 1232,
+        "category": "compute",
+        "arch": "x86"
+      },
+      {
         "name": "PREMIUM-64xCPU-128GB",
         "vcpu": 64,
         "memoryGiB": 128,
@@ -29817,11 +29881,11 @@
         "arch": "x86"
       },
       {
-        "name": "HICPU-64xCPU-128GB",
-        "vcpu": 64,
-        "memoryGiB": 128,
-        "monthly": 1348,
-        "category": "compute",
+        "name": "HIMEM-12xCPU-256GB",
+        "vcpu": 12,
+        "memoryGiB": 256,
+        "monthly": 1260,
+        "category": "memory",
         "arch": "x86"
       },
       {
@@ -29841,10 +29905,18 @@
         "arch": "x86"
       },
       {
+        "name": "HICPU-64xCPU-128GB",
+        "vcpu": 64,
+        "memoryGiB": 128,
+        "monthly": 1456,
+        "category": "compute",
+        "arch": "x86"
+      },
+      {
         "name": "48xCPU-256GB",
         "vcpu": 48,
         "memoryGiB": 256,
-        "monthly": 1473,
+        "monthly": 1592,
         "category": "general",
         "arch": "x86"
       },
@@ -29860,7 +29932,7 @@
         "name": "HIMEM-16xCPU-384GB",
         "vcpu": 16,
         "memoryGiB": 384,
-        "monthly": 1814,
+        "monthly": 1960,
         "category": "memory",
         "arch": "x86"
       },
@@ -29876,7 +29948,7 @@
         "name": "64xCPU-384GB",
         "vcpu": 64,
         "memoryGiB": 384,
-        "monthly": 2152,
+        "monthly": 2325,
         "category": "general",
         "arch": "x86"
       },
@@ -29884,7 +29956,7 @@
         "name": "HIMEM-24xCPU-512GB",
         "vcpu": 24,
         "memoryGiB": 512,
-        "monthly": 2332,
+        "monthly": 2519,
         "category": "memory",
         "arch": "x86"
       },
@@ -29900,7 +29972,7 @@
         "name": "80xCPU-512GB",
         "vcpu": 80,
         "memoryGiB": 512,
-        "monthly": 2756,
+        "monthly": 2977,
         "category": "general",
         "arch": "x86"
       }
